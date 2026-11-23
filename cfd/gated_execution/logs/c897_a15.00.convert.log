@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _9a9aeb73-20260127 OPENFOAM=2312 patch=260127 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamFormatConvert -case scratch/c897_a15.00 -latestTime
+Date   : Nov 13 2026
+Time   : 15:26:42
+Host   : host
+PID    : 2371740
+I/O    : uncollated
+Case   : /path/to/project/v19_cfd/gated/work/scratch/c897_a15.00
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Time = constant
+        Reading labelList : owner
+        Writing owner
+        Reading labelList : neighbour
+        Writing neighbour
+        Reading faceList : faces
+        Writing faces
+        Reading vectorField : points
+        Writing points
+        Reading polyBoundaryMesh : boundary
+        Writing boundary
+        Create polyMesh for time = constant
+
+Time = 25000
+        Reading volScalarField : nut
+        Writing nut
+        Reading volScalarField : yPlus
+        Writing yPlus
+        Reading volVectorField : U
+        Writing U
+        Reading volScalarField : k
+        Writing k
+        Reading surfaceScalarField : phi
+        Writing phi
+        Reading volScalarField : p
+        Writing p
+        Reading volScalarField : omega
+        Writing omega
+
+End
+

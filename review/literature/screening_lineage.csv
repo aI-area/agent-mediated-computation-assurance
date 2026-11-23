@@ -1,0 +1,9 @@
+﻿stage,S1,S2,S3,S1_S2_origin,S3_origin,total,interpretation
+Globally deduplicated discovery corpus,,,,,,15728,input to prespecified deterministic concept rules
+Excluded by prespecified deterministic rules before author assessment,,,,,,14436,no manual recall audit was performed
+Candidate queue retained for author assessment,,,,919,373,1292,rules reduced the queue but did not assign final eligibility
+Analytical-stream assignment before author assessment,51,868,373,,,1292,S1/S2 origin split by originating search branch; targeted S3 retained as S3
+Records retained after author-led title/abstract assessment,43,176,85,,,304,eligibility assessment under fixed criteria
+Candidate reports after study-family reconciliation,43,168,79,,,290,14 duplicate or related reports consolidated
+Full texts assessed,42,165,77,,,284,four provisionally eligible reports not retrieved; two additional provisional candidates resolved as ineligible from available abstract-level information at retrieval closure
+Included studies,40,134,63,,,237,47 exclusions: 46 initial full-text exclusions and one retracted publication excluded from the analytical corpus

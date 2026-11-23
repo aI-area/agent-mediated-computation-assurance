@@ -1,0 +1,24 @@
+2026-11-13T05:04:10Z setup: verified working copy of tools and case template
+2026-11-13T05:04:10Z setup: cases from TMR grids
+2026-11-13T05:05:48Z started n0012_225-65_a00.00 np=1 iters=10000 init=freestream
+2026-11-13T05:05:48Z started n0012_225-65_a02.15 np=1 iters=10000 init=freestream
+2026-11-13T05:05:48Z started n0012_225-65_a10.00 np=1 iters=10000 init=freestream
+2026-11-13T05:05:48Z started n0012_225-65_a15.00 np=1 iters=10000 init=freestream
+2026-11-13T05:12:55Z finished grid n0012_225-65
+2026-11-13T05:12:55Z started n0012_449-129_a00.00 np=2 iters=15000 init=runs/n0012_225-65_a00.00
+2026-11-13T05:12:55Z started n0012_449-129_a02.15 np=2 iters=15000 init=runs/n0012_225-65_a02.15
+2026-11-13T05:12:55Z started n0012_449-129_a10.00 np=2 iters=15000 init=runs/n0012_225-65_a10.00
+2026-11-13T05:12:55Z started n0012_449-129_a15.00 np=2 iters=15000 init=runs/n0012_225-65_a15.00
+2026-11-13T05:37:17Z finished grid n0012_449-129
+2026-11-13T05:37:17Z started n0012_897-257_a00.00 np=4 iters=25000 init=runs/n0012_449-129_a00.00
+2026-11-13T05:37:17Z started n0012_897-257_a02.15 np=4 iters=25000 init=runs/n0012_449-129_a02.15
+2026-11-13T05:37:17Z started n0012_897-257_a10.00 np=4 iters=25000 init=runs/n0012_449-129_a10.00
+2026-11-13T05:37:17Z started n0012_897-257_a15.00 np=4 iters=25000 init=runs/n0012_449-129_a15.00
+2026-11-13T07:26:05Z finished grid n0012_897-257
+2026-11-13T07:26:53Z 1793 cases initialised by nested-grid injection from converged 897 solutions
+2026-11-13T07:26:53Z started n0012_1793-513_a00.00 np=6 iters=30000 init=inject
+2026-11-13T07:26:53Z started n0012_1793-513_a02.15 np=6 iters=30000 init=inject
+2026-11-13T07:26:53Z started n0012_1793-513_a10.00 np=6 iters=30000 init=inject
+2026-11-13T07:26:53Z started n0012_1793-513_a15.00 np=6 iters=30000 init=inject
+2026-11-13T15:48:11Z finished grid n0012_1793-513
+2026-11-13T15:48:27Z analysis written to results/dispositions.json

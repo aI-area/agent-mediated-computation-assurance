@@ -1,0 +1,22 @@
+arxiv_id,published,title
+2611.16082v1,2026-11-11,Gradient-Aware AI Agents for Autonomous Turbulence Model Discovery via Differentiable CFD
+2611.14949v1,2026-11-11,RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving
+2611.13344v1,2026-11-09,PneuGen: Task-Driven Agentic Co-Design of Soft Pneumatic Robots
+2611.06409v1,2026-11-04,Zero-Shot Coordination among LLM Agents
+2611.05171v1,2026-11-03,AgentAM: An AI Agent for Spatter- and Defect-Aware Process Optimization in Laser Powder Bed Fusion
+2611.04356v1,2026-11-03,CloakFEM: Agentic FEM Code Generation for Red-Teaming Computational Resource Exhaustion
+2611.00803v1,2026-10-31,Agent4FreeFem: A Verification-Guided Framework for Autonomous Topology Optimization
+2610.39003v1,2026-10-28,Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics
+2610.38672v1,2026-10-28,Differentiable Schwarz-Coupled Solvers for Thin Boundary Layer Transport: Inverse Modeling via Agentic AI Optimization
+2610.35349v1,2026-10-26,MarkovSim: an LLM Agent Harness with Bounded Context for Long-Horizon Computational Simulation
+2610.32026v1,2026-10-23,RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training
+2610.32001v1,2026-10-22,QuantumMatterExplorer: An Autonomous Agent for the Discovery of Quantum Many-Body Phases of Matter
+2610.29850v1,2026-10-21,Automated Discovery of Physically Interpretable Subgrid Length Scales for Detached Eddy Simulation via Agentic AI
+2610.15615v3,2026-10-11,Brilliance for adaptive computational research in accelerator physics
+2610.14104v1,2026-10-08,CFD Forge: A Physics-Constrained Agentic Framework for Autonomous CFD
+2610.12325v1,2026-10-08,Prior or Feedback? What an LLM Uses When Adapting Neural Operators
+2610.10320v1,2026-10-07,"LLM-Assisted Generation of Transparent, Open-Source Multiphysics Models of Electrochemical Devices"
+2610.06044v2,2026-10-05,RocketAgent: A Long-Horizon Engineering Agent for Multidisciplinary Design of Liquid-Rocket Thrust Chambers
+2610.00313v1,2026-09-29,Rules to Tools: Executable Checks for LLM Agents in Scientific Computing
+2611.14525v1,2026-09-27,EasyFoam: Skill-Oriented OpenFOAM Agents with Evidence-Driven Evolution
+2609.32245v1,2026-09-26,AutoPDEBench: Benchmarking LLM Auto-Research for Neural PDE Solver Design

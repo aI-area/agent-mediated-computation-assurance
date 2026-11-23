@@ -1,0 +1,14 @@
+field_or_code,scope,definition,quantitative_use
+EXPLICIT,relevance,"The study directly defines, evaluates, or discusses the obligation.",Counted separately as direct treatment; not interpreted as obligation satisfaction.
+IMPLICIT,relevance,"A related concept or procedure is present, but the obligation is not directly formulated.",Counted separately as indirect treatment; included only in explicit-plus-implicit sensitivity totals.
+NONE,relevance,"No identifiable treatment of the obligation was found.",Not relevant for the obligation.
+UNCLEAR,relevance,"Available information was insufficient for a relevance decision.",Excluded from the primary count and tested only in an ambiguity sensitivity bound.
+NA,reporting state,"The item was not assessed or was not applicable in the reviewed study.",Not affirmative evidence.
+NR,reporting state,"The study indicates an assessment but does not report the result or evidence locator.",Not affirmative evidence.
+NE,legacy extraction state,"The extraction item was not evaluated in the original frozen record.",Not used as a manuscript relevance category.
+U,normalized reporting state,"The assessment remains unresolved from the available information.",Not affirmative evidence.
+S,assurance obligation,Specification fidelity.,Reported as relevance only in the literature map.
+A,assurance obligation,Effect authorization.,Reported as relevance only in the literature map.
+N,assurance obligation,Numerical verification.,Reported as relevance only in the literature map.
+V,assurance obligation,Conditional physical validation.,Reported as relevance only in the literature map.
+B,assurance obligation,Evidence binding.,Reported as relevance only in the literature map.

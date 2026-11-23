@@ -1,0 +1,817 @@
+record_id,source_set,decision,streams
+CEN-001,S1 census,EXCLUDE,
+CEN-002,S1 census,EXCLUDE,
+CEN-003,S1 census,INCLUDE,S1
+CEN-004,S1 census,UNCERTAIN,S1
+CEN-005,S1 census,INCLUDE,S1
+CEN-006,S1 census,INCLUDE,S1
+CEN-007,S1 census,INCLUDE,S1
+CEN-008,S1 census,EXCLUDE,
+CEN-009,S1 census,EXCLUDE,
+CEN-010,S1 census,EXCLUDE,
+CEN-011,S1 census,INCLUDE,S1
+CEN-012,S1 census,EXCLUDE,
+CEN-013,S1 census,EXCLUDE,
+CEN-014,S1 census,INCLUDE,S1
+CEN-015,S1 census,EXCLUDE,
+CEN-016,S1 census,UNCERTAIN,S1
+CEN-017,S1 census,EXCLUDE,
+CEN-018,S1 census,UNCERTAIN,S2
+CEN-019,S1 census,EXCLUDE,
+CEN-020,S1 census,INCLUDE,S1
+CEN-021,S1 census,EXCLUDE,
+CEN-022,S1 census,INCLUDE,S1
+CEN-023,S1 census,INCLUDE,S1
+CEN-024,S1 census,EXCLUDE,
+CEN-025,S1 census,EXCLUDE,
+CEN-026,S1 census,UNCERTAIN,S3
+CEN-027,S1 census,EXCLUDE,
+CEN-028,S1 census,UNCERTAIN,S3
+CEN-029,S1 census,EXCLUDE,
+CEN-030,S1 census,INCLUDE,S1
+CEN-031,S1 census,EXCLUDE,
+CEN-032,S1 census,EXCLUDE,
+CEN-033,S1 census,EXCLUDE,
+CEN-034,S1 census,INCLUDE,S1
+CEN-035,S1 census,EXCLUDE,
+CEN-036,S1 census,INCLUDE,S1
+CEN-037,S1 census,UNCERTAIN,S1
+CEN-038,S1 census,INCLUDE,S1
+CEN-039,S1 census,EXCLUDE,
+CEN-040,S1 census,UNCERTAIN,S1
+CEN-041,S1 census,EXCLUDE,
+CEN-042,S1 census,INCLUDE,S1
+CEN-043,S1 census,INCLUDE,S1
+CEN-044,S1 census,UNCERTAIN,S2
+CEN-045,S1 census,EXCLUDE,
+CEN-046,S1 census,UNCERTAIN,S1
+CEN-047,S1 census,EXCLUDE,
+CEN-048,S1 census,EXCLUDE,
+CEN-049,S1 census,EXCLUDE,
+CEN-050,S1 census,EXCLUDE,
+CEN-051,S1 census,INCLUDE,S1
+CEN-052,S1 census,INCLUDE,S1
+CEN-053,S1 census,EXCLUDE,
+CEN-054,S1 census,EXCLUDE,
+CEN-055,S1 census,UNCERTAIN,S1
+CEN-056,S1 census,UNCERTAIN,S1
+CEN-057,S1 census,EXCLUDE,
+CEN-058,S1 census,INCLUDE,S1
+CEN-059,S1 census,INCLUDE,S1
+CEN-060,S1 census,INCLUDE,S1
+CEN-061,S1 census,EXCLUDE,
+CEN-062,S1 census,UNCERTAIN,S1
+CEN-063,S1 census,INCLUDE,S1
+CEN-064,S1 census,UNCERTAIN,S1
+CEN-065,S1 census,EXCLUDE,
+CEN-066,S1 census,EXCLUDE,
+CEN-067,S1 census,EXCLUDE,
+CEN-068,S1 census,INCLUDE,S1
+CEN-069,S1 census,UNCERTAIN,S1
+CEN-070,S1 census,UNCERTAIN,S3
+CEN-071,S1 census,INCLUDE,S1
+CEN-072,S1 census,INCLUDE,S1
+S2R-001,S2 random sample,EXCLUDE,
+S2R-002,S2 random sample,UNCERTAIN,S2
+S2R-003,S2 random sample,UNCERTAIN,S2
+S2R-004,S2 random sample,EXCLUDE,
+S2R-005,S2 random sample,EXCLUDE,
+S2R-006,S2 random sample,UNCERTAIN,S2
+S2R-007,S2 random sample,EXCLUDE,
+S2R-008,S2 random sample,EXCLUDE,
+S2R-009,S2 random sample,EXCLUDE,
+S2R-010,S2 random sample,UNCERTAIN,S1
+S2R-011,S2 random sample,EXCLUDE,
+S2R-012,S2 random sample,INCLUDE,S2
+S2R-013,S2 random sample,EXCLUDE,
+S2R-014,S2 random sample,EXCLUDE,
+S2R-015,S2 random sample,EXCLUDE,
+S2R-016,S2 random sample,EXCLUDE,
+S2R-017,S2 random sample,EXCLUDE,
+S2R-018,S2 random sample,UNCERTAIN,S2
+S2R-019,S2 random sample,EXCLUDE,
+S2R-020,S2 random sample,EXCLUDE,
+S2R-021,S2 random sample,EXCLUDE,
+S2R-022,S2 random sample,EXCLUDE,
+S2R-023,S2 random sample,UNCERTAIN,S1
+S2R-024,S2 random sample,EXCLUDE,
+S2R-025,S2 random sample,EXCLUDE,
+S2R-026,S2 random sample,EXCLUDE,
+S2R-027,S2 random sample,EXCLUDE,
+S2R-028,S2 random sample,EXCLUDE,
+S2R-029,S2 random sample,EXCLUDE,
+S2R-030,S2 random sample,EXCLUDE,
+S2R-031,S2 random sample,EXCLUDE,
+S2R-032,S2 random sample,EXCLUDE,
+S2R-033,S2 random sample,EXCLUDE,
+S2R-034,S2 random sample,UNCERTAIN,S1
+S2R-035,S2 random sample,EXCLUDE,
+S2R-036,S2 random sample,INCLUDE,S2
+S2R-037,S2 random sample,EXCLUDE,
+S2R-038,S2 random sample,EXCLUDE,
+S2R-039,S2 random sample,EXCLUDE,
+S2R-040,S2 random sample,EXCLUDE,
+S2R-041,S2 random sample,EXCLUDE,
+S2R-042,S2 random sample,UNCERTAIN,S3
+S2R-043,S2 random sample,EXCLUDE,
+S2R-044,S2 random sample,EXCLUDE,
+S2R-045,S2 random sample,EXCLUDE,
+S2R-046,S2 random sample,EXCLUDE,
+S2R-047,S2 random sample,EXCLUDE,
+S2R-048,S2 random sample,EXCLUDE,
+S2R-049,S2 random sample,EXCLUDE,
+S2R-050,S2 random sample,INCLUDE,S2
+S2R-051,S2 random sample,EXCLUDE,
+S2R-052,S2 random sample,EXCLUDE,
+S2R-053,S2 random sample,EXCLUDE,
+S2R-054,S2 random sample,EXCLUDE,
+S2R-055,S2 random sample,EXCLUDE,
+S2R-056,S2 random sample,EXCLUDE,
+S2R-057,S2 random sample,EXCLUDE,
+S2R-058,S2 random sample,EXCLUDE,
+S2R-059,S2 random sample,EXCLUDE,
+S2R-060,S2 random sample,INCLUDE,S2
+S2R-061,S2 random sample,EXCLUDE,
+S2R-062,S2 random sample,EXCLUDE,
+S2R-063,S2 random sample,EXCLUDE,
+S2R-064,S2 random sample,UNCERTAIN,S2
+S2R-065,S2 random sample,EXCLUDE,
+S2R-066,S2 random sample,EXCLUDE,
+S2R-067,S2 random sample,EXCLUDE,
+S2R-068,S2 random sample,EXCLUDE,
+S2R-069,S2 random sample,EXCLUDE,
+S2R-070,S2 random sample,EXCLUDE,
+S2R-071,S2 random sample,EXCLUDE,
+S2R-072,S2 random sample,EXCLUDE,
+S2R-073,S2 random sample,EXCLUDE,
+S2R-074,S2 random sample,EXCLUDE,
+S2R-075,S2 random sample,EXCLUDE,
+S2R-076,S2 random sample,EXCLUDE,
+S2R-077,S2 random sample,EXCLUDE,
+S2R-078,S2 random sample,EXCLUDE,
+S2R-079,S2 random sample,EXCLUDE,
+S2R-080,S2 random sample,EXCLUDE,
+S2R-081,S2 random sample,EXCLUDE,
+S2R-082,S2 random sample,INCLUDE,S2
+S2R-083,S2 random sample,EXCLUDE,
+S2R-084,S2 random sample,EXCLUDE,
+S2R-085,S2 random sample,EXCLUDE,
+S2R-086,S2 random sample,UNCERTAIN,S2
+S2R-087,S2 random sample,EXCLUDE,
+S2R-088,S2 random sample,EXCLUDE,
+S2R-089,S2 random sample,INCLUDE,S2
+S2R-090,S2 random sample,EXCLUDE,
+S2R-091,S2 random sample,EXCLUDE,
+S2R-092,S2 random sample,EXCLUDE,
+S2R-093,S2 random sample,EXCLUDE,
+S2R-094,S2 random sample,EXCLUDE,
+S2R-095,S2 random sample,EXCLUDE,
+S2R-096,S2 random sample,EXCLUDE,
+S2R-097,S2 random sample,EXCLUDE,
+S2R-098,S2 random sample,EXCLUDE,
+S2R-099,S2 random sample,UNCERTAIN,S1
+S2R-100,S2 random sample,EXCLUDE,
+S2R-101,S2 random sample,EXCLUDE,
+S2R-102,S2 random sample,EXCLUDE,
+S2R-103,S2 random sample,UNCERTAIN,S1
+S2R-104,S2 random sample,EXCLUDE,
+S2R-105,S2 random sample,INCLUDE,S1
+S2R-106,S2 random sample,EXCLUDE,
+S2R-107,S2 random sample,EXCLUDE,
+S2R-108,S2 random sample,INCLUDE,S1
+S2R-109,S2 random sample,EXCLUDE,
+S2R-110,S2 random sample,EXCLUDE,
+S2R-111,S2 random sample,EXCLUDE,
+S2R-112,S2 random sample,EXCLUDE,
+S2R-113,S2 random sample,EXCLUDE,
+S2R-114,S2 random sample,EXCLUDE,
+S2R-115,S2 random sample,EXCLUDE,
+S2R-116,S2 random sample,EXCLUDE,
+S2R-117,S2 random sample,EXCLUDE,
+S2R-118,S2 random sample,EXCLUDE,
+S2R-119,S2 random sample,EXCLUDE,
+S2R-120,S2 random sample,EXCLUDE,
+S2R-121,S2 random sample,EXCLUDE,
+S2R-122,S2 random sample,EXCLUDE,
+S2R-123,S2 random sample,UNCERTAIN,S2
+S2R-124,S2 random sample,UNCERTAIN,S2
+S2R-125,S2 random sample,EXCLUDE,
+S2R-126,S2 random sample,EXCLUDE,
+S2R-127,S2 random sample,EXCLUDE,
+S2R-128,S2 random sample,UNCERTAIN,S3
+S2R-129,S2 random sample,EXCLUDE,
+S2R-130,S2 random sample,EXCLUDE,
+S2R-131,S2 random sample,EXCLUDE,
+S2R-132,S2 random sample,EXCLUDE,
+S2R-133,S2 random sample,EXCLUDE,
+S2R-134,S2 random sample,EXCLUDE,
+S2R-135,S2 random sample,EXCLUDE,
+S2R-136,S2 random sample,EXCLUDE,
+S2R-137,S2 random sample,EXCLUDE,
+S2R-138,S2 random sample,EXCLUDE,
+S2R-139,S2 random sample,EXCLUDE,
+S2R-140,S2 random sample,UNCERTAIN,S1
+S2R-141,S2 random sample,EXCLUDE,
+S2R-142,S2 random sample,EXCLUDE,
+S2R-143,S2 random sample,EXCLUDE,
+S2R-144,S2 random sample,EXCLUDE,
+S2R-145,S2 random sample,EXCLUDE,
+S2R-146,S2 random sample,EXCLUDE,
+S2R-147,S2 random sample,EXCLUDE,
+S2R-148,S2 random sample,EXCLUDE,
+S2R-149,S2 random sample,INCLUDE,S2
+S2R-150,S2 random sample,EXCLUDE,
+S2R-151,S2 random sample,EXCLUDE,
+S2R-152,S2 random sample,EXCLUDE,
+S2R-153,S2 random sample,EXCLUDE,
+S2R-154,S2 random sample,EXCLUDE,
+S2R-155,S2 random sample,EXCLUDE,
+S2R-156,S2 random sample,EXCLUDE,
+S2R-157,S2 random sample,EXCLUDE,
+S2R-158,S2 random sample,EXCLUDE,
+S2R-159,S2 random sample,UNCERTAIN,S2
+S2R-160,S2 random sample,EXCLUDE,
+S2R-161,S2 random sample,EXCLUDE,
+S2R-162,S2 random sample,EXCLUDE,
+S2R-163,S2 random sample,EXCLUDE,
+S2R-164,S2 random sample,EXCLUDE,
+S2R-165,S2 random sample,EXCLUDE,
+S2R-166,S2 random sample,EXCLUDE,
+S2R-167,S2 random sample,EXCLUDE,
+S2R-168,S2 random sample,EXCLUDE,
+S2R-169,S2 random sample,EXCLUDE,
+S2R-170,S2 random sample,EXCLUDE,
+S2R-171,S2 random sample,EXCLUDE,
+S2R-172,S2 random sample,EXCLUDE,
+S2R-173,S2 random sample,EXCLUDE,
+S2R-174,S2 random sample,EXCLUDE,
+S2R-175,S2 random sample,EXCLUDE,
+S2R-176,S2 random sample,EXCLUDE,
+S2R-177,S2 random sample,EXCLUDE,
+S2R-178,S2 random sample,EXCLUDE,
+S2R-179,S2 random sample,EXCLUDE,
+S2R-180,S2 random sample,EXCLUDE,
+S2R-181,S2 random sample,EXCLUDE,
+S2R-182,S2 random sample,EXCLUDE,
+S2R-183,S2 random sample,EXCLUDE,
+S2R-184,S2 random sample,EXCLUDE,
+S2R-185,S2 random sample,EXCLUDE,
+S2R-186,S2 random sample,EXCLUDE,
+S2R-187,S2 random sample,UNCERTAIN,S3
+S2R-188,S2 random sample,EXCLUDE,
+S2R-189,S2 random sample,EXCLUDE,
+S2R-190,S2 random sample,EXCLUDE,
+S2R-191,S2 random sample,EXCLUDE,
+S2R-192,S2 random sample,EXCLUDE,
+S2R-193,S2 random sample,UNCERTAIN,S1
+S2R-194,S2 random sample,EXCLUDE,
+S2R-195,S2 random sample,UNCERTAIN,S2
+S2R-196,S2 random sample,EXCLUDE,
+S2R-197,S2 random sample,EXCLUDE,
+S2R-198,S2 random sample,EXCLUDE,
+S2R-199,S2 random sample,EXCLUDE,
+S2R-200,S2 random sample,EXCLUDE,
+S3R-001,S3 random sample,EXCLUDE,
+S3R-002,S3 random sample,EXCLUDE,
+S3R-003,S3 random sample,INCLUDE,S3
+S3R-004,S3 random sample,INCLUDE,S3
+S3R-005,S3 random sample,EXCLUDE,
+S3R-006,S3 random sample,EXCLUDE,
+S3R-007,S3 random sample,INCLUDE,S3
+S3R-008,S3 random sample,INCLUDE,S3
+S3R-009,S3 random sample,UNCERTAIN,S3
+S3R-010,S3 random sample,EXCLUDE,
+S3R-011,S3 random sample,UNCERTAIN,S3
+S3R-012,S3 random sample,INCLUDE,S3
+S3R-013,S3 random sample,UNCERTAIN,S3
+S3R-014,S3 random sample,INCLUDE,S3
+S3R-015,S3 random sample,EXCLUDE,
+S3R-016,S3 random sample,UNCERTAIN,S3
+S3R-017,S3 random sample,EXCLUDE,
+S3R-018,S3 random sample,UNCERTAIN,S3
+S3R-019,S3 random sample,UNCERTAIN,S3
+S3R-020,S3 random sample,EXCLUDE,
+S3R-021,S3 random sample,EXCLUDE,
+S3R-022,S3 random sample,EXCLUDE,
+S3R-023,S3 random sample,EXCLUDE,
+S3R-024,S3 random sample,EXCLUDE,
+S3R-025,S3 random sample,EXCLUDE,
+S3R-026,S3 random sample,UNCERTAIN,S3
+S3R-027,S3 random sample,INCLUDE,S3
+S3R-028,S3 random sample,EXCLUDE,
+S3R-029,S3 random sample,INCLUDE,S3
+S3R-030,S3 random sample,EXCLUDE,
+S3R-031,S3 random sample,EXCLUDE,
+S3R-032,S3 random sample,INCLUDE,S3
+S3R-033,S3 random sample,UNCERTAIN,S3
+S3R-034,S3 random sample,INCLUDE,S3
+S3R-035,S3 random sample,EXCLUDE,
+S3R-036,S3 random sample,INCLUDE,S3
+S3R-037,S3 random sample,UNCERTAIN,S3
+S3R-038,S3 random sample,EXCLUDE,
+S3R-039,S3 random sample,INCLUDE,S3
+S3R-040,S3 random sample,INCLUDE,S3
+S3R-041,S3 random sample,INCLUDE,S3
+S3R-042,S3 random sample,EXCLUDE,
+S3R-043,S3 random sample,INCLUDE,S3
+S3R-044,S3 random sample,INCLUDE,S3
+S3R-045,S3 random sample,UNCERTAIN,S3
+S3R-046,S3 random sample,INCLUDE,S3
+S3R-047,S3 random sample,UNCERTAIN,S3
+S3R-048,S3 random sample,INCLUDE,S3
+S3R-049,S3 random sample,EXCLUDE,
+S3R-050,S3 random sample,INCLUDE,S3
+S3R-051,S3 random sample,EXCLUDE,
+S3R-052,S3 random sample,INCLUDE,S3
+S3R-053,S3 random sample,EXCLUDE,
+S3R-054,S3 random sample,EXCLUDE,
+S3R-055,S3 random sample,UNCERTAIN,S3
+S3R-056,S3 random sample,UNCERTAIN,S3
+S3R-057,S3 random sample,EXCLUDE,
+S3R-058,S3 random sample,EXCLUDE,S3
+S3R-059,S3 random sample,INCLUDE,S3
+S3R-060,S3 random sample,EXCLUDE,
+S3R-061,S3 random sample,EXCLUDE,
+S3R-062,S3 random sample,EXCLUDE,S3
+S3R-063,S3 random sample,INCLUDE,S3
+S3R-064,S3 random sample,INCLUDE,S3
+S3R-065,S3 random sample,EXCLUDE,
+S3R-066,S3 random sample,EXCLUDE,
+S3R-067,S3 random sample,EXCLUDE,
+S3R-068,S3 random sample,INCLUDE,S3
+S3R-069,S3 random sample,UNCERTAIN,S3
+S3R-070,S3 random sample,INCLUDE,S3
+S3R-071,S3 random sample,INCLUDE,S3
+S3R-072,S3 random sample,EXCLUDE,
+S3R-073,S3 random sample,EXCLUDE,
+S3R-074,S3 random sample,INCLUDE,S3
+S3R-075,S3 random sample,UNCERTAIN,S3
+S3R-076,S3 random sample,EXCLUDE,
+S3R-077,S3 random sample,EXCLUDE,
+S3R-078,S3 random sample,UNCERTAIN,S3
+S3R-079,S3 random sample,EXCLUDE,
+S3R-080,S3 random sample,EXCLUDE,
+S3R-081,S3 random sample,UNCERTAIN,S3
+S3R-082,S3 random sample,INCLUDE,S3
+S3R-083,S3 random sample,EXCLUDE,
+S3R-084,S3 random sample,INCLUDE,S3
+S3R-085,S3 random sample,INCLUDE,S3
+S3R-086,S3 random sample,EXCLUDE,
+S3R-087,S3 random sample,EXCLUDE,
+S3R-088,S3 random sample,UNCERTAIN,S3
+S3R-089,S3 random sample,EXCLUDE,
+S3R-090,S3 random sample,UNCERTAIN,S3
+S3R-091,S3 random sample,INCLUDE,S3
+S3R-092,S3 random sample,EXCLUDE,
+S3R-093,S3 random sample,EXCLUDE,
+S3R-094,S3 random sample,EXCLUDE,
+S3R-095,S3 random sample,INCLUDE,S3
+S3R-096,S3 random sample,INCLUDE,S3
+S3R-097,S3 random sample,EXCLUDE,
+S3R-098,S3 random sample,EXCLUDE,
+S3R-099,S3 random sample,EXCLUDE,
+S3R-100,S3 random sample,EXCLUDE,
+S3R-101,S3 random sample,EXCLUDE,
+S3R-102,S3 random sample,EXCLUDE,
+S3R-103,S3 random sample,EXCLUDE,
+S3R-104,S3 random sample,EXCLUDE,
+S3R-105,S3 random sample,EXCLUDE,
+S3R-106,S3 random sample,EXCLUDE,
+S3R-107,S3 random sample,UNCERTAIN,S3
+S3R-108,S3 random sample,EXCLUDE,
+S3R-109,S3 random sample,INCLUDE,S3
+S3R-110,S3 random sample,EXCLUDE,
+S3R-111,S3 random sample,EXCLUDE,
+S3R-112,S3 random sample,EXCLUDE,
+S3R-113,S3 random sample,INCLUDE,S3
+S3R-114,S3 random sample,EXCLUDE,S3
+S3R-115,S3 random sample,EXCLUDE,
+S3R-116,S3 random sample,EXCLUDE,
+S3R-117,S3 random sample,EXCLUDE,
+S3R-118,S3 random sample,UNCERTAIN,S3
+S3R-119,S3 random sample,INCLUDE,S3
+S3R-120,S3 random sample,EXCLUDE,S3
+S3R-121,S3 random sample,EXCLUDE,
+S3R-122,S3 random sample,EXCLUDE,
+S3R-123,S3 random sample,UNCERTAIN,S3
+S3R-124,S3 random sample,EXCLUDE,
+S3R-125,S3 random sample,EXCLUDE,
+S3R-126,S3 random sample,EXCLUDE,
+S3R-127,S3 random sample,EXCLUDE,
+S3R-128,S3 random sample,INCLUDE,S3
+S3R-129,S3 random sample,EXCLUDE,
+S3R-130,S3 random sample,EXCLUDE,S3
+S3R-131,S3 random sample,UNCERTAIN,S3
+S3R-132,S3 random sample,EXCLUDE,
+S3R-133,S3 random sample,EXCLUDE,
+S3R-134,S3 random sample,INCLUDE,S3
+S3R-135,S3 random sample,EXCLUDE,
+S3R-136,S3 random sample,EXCLUDE,
+S3R-137,S3 random sample,EXCLUDE,
+S3R-138,S3 random sample,UNCERTAIN,S3
+S3R-139,S3 random sample,EXCLUDE,
+S3R-140,S3 random sample,EXCLUDE,
+S3R-141,S3 random sample,UNCERTAIN,S3
+S3R-142,S3 random sample,INCLUDE,S3
+S3R-143,S3 random sample,EXCLUDE,
+S3R-144,S3 random sample,INCLUDE,S3
+S3R-145,S3 random sample,EXCLUDE,
+S3R-146,S3 random sample,EXCLUDE,
+S3R-147,S3 random sample,EXCLUDE,
+S3R-148,S3 random sample,UNCERTAIN,S3
+S3R-149,S3 random sample,UNCERTAIN,S3
+S3R-150,S3 random sample,INCLUDE,S3
+S3R-151,S3 random sample,EXCLUDE,
+S3R-152,S3 random sample,EXCLUDE,S3
+S3R-153,S3 random sample,EXCLUDE,
+S3R-154,S3 random sample,EXCLUDE,
+S3R-155,S3 random sample,EXCLUDE,
+S3R-156,S3 random sample,EXCLUDE,
+S3R-157,S3 random sample,EXCLUDE,
+S3R-158,S3 random sample,EXCLUDE,
+S3R-159,S3 random sample,INCLUDE,S3
+S3R-160,S3 random sample,INCLUDE,S3
+S3R-161,S3 random sample,EXCLUDE,
+S3R-162,S3 random sample,EXCLUDE,S3
+S3R-163,S3 random sample,EXCLUDE,
+S3R-164,S3 random sample,EXCLUDE,
+S3R-165,S3 random sample,INCLUDE,S3
+S3R-166,S3 random sample,INCLUDE,S3
+S3R-167,S3 random sample,EXCLUDE,
+S3R-168,S3 random sample,UNCERTAIN,S3
+S3R-169,S3 random sample,INCLUDE,S3
+S3R-170,S3 random sample,EXCLUDE,
+S3R-171,S3 random sample,EXCLUDE,
+S3R-172,S3 random sample,INCLUDE,S3
+S3R-173,S3 random sample,INCLUDE,S3
+S3R-174,S3 random sample,EXCLUDE,
+S3R-175,S3 random sample,EXCLUDE,
+S3R-176,S3 random sample,INCLUDE,S3
+S3R-177,S3 random sample,EXCLUDE,
+S3R-178,S3 random sample,UNCERTAIN,S3
+S3R-179,S3 random sample,INCLUDE,S3
+S3R-180,S3 random sample,EXCLUDE,
+S3R-181,S3 random sample,EXCLUDE,S3
+S3R-182,S3 random sample,INCLUDE,S3
+S3R-183,S3 random sample,EXCLUDE,
+S3R-184,S3 random sample,EXCLUDE,
+S3R-185,S3 random sample,EXCLUDE,S3
+S3R-186,S3 random sample,EXCLUDE,
+S3R-187,S3 random sample,EXCLUDE,
+S3R-188,S3 random sample,EXCLUDE,
+S3R-189,S3 random sample,EXCLUDE,
+S3R-190,S3 random sample,INCLUDE,S3
+S3R-191,S3 random sample,EXCLUDE,
+S3R-192,S3 random sample,EXCLUDE,
+S3R-193,S3 random sample,UNCERTAIN,S3
+S3R-194,S3 random sample,EXCLUDE,
+S3R-195,S3 random sample,EXCLUDE,S3
+S3R-196,S3 random sample,UNCERTAIN,S3
+S3R-197,S3 random sample,UNCERTAIN,S3
+S3R-198,S3 random sample,EXCLUDE,
+S3R-199,S3 random sample,UNCERTAIN,S3
+S3R-200,S3 random sample,EXCLUDE,
+KWR-001,keyword rescue,INCLUDE,S1
+KWR-002,keyword rescue,EXCLUDE,
+KWR-003,keyword rescue,EXCLUDE,
+KWR-004,keyword rescue,EXCLUDE,
+KWR-005,keyword rescue,EXCLUDE,
+KWR-006,keyword rescue,EXCLUDE,
+KWR-007,keyword rescue,EXCLUDE,
+KWR-008,keyword rescue,EXCLUDE,
+KWR-009,keyword rescue,INCLUDE,S1
+KWR-010,keyword rescue,INCLUDE,S1
+KWR-011,keyword rescue,EXCLUDE,
+KWR-012,keyword rescue,EXCLUDE,
+KWR-013,keyword rescue,INCLUDE,S1
+KWR-014,keyword rescue,EXCLUDE,
+KWR-015,keyword rescue,EXCLUDE,
+KWR-016,keyword rescue,EXCLUDE,
+KWR-017,keyword rescue,EXCLUDE,
+KWR-018,keyword rescue,UNCERTAIN,S1
+KWR-019,keyword rescue,INCLUDE,S2
+KWR-020,keyword rescue,EXCLUDE,
+KWR-021,keyword rescue,UNCERTAIN,S1
+KWR-022,keyword rescue,EXCLUDE,
+KWR-023,keyword rescue,EXCLUDE,
+KWR-024,keyword rescue,UNCERTAIN,S1
+KWR-025,keyword rescue,UNCERTAIN,S1
+KWR-026,keyword rescue,EXCLUDE,
+KWR-027,keyword rescue,EXCLUDE,
+KWR-028,keyword rescue,INCLUDE,S1
+KWR-029,keyword rescue,INCLUDE,S1
+KWR-030,keyword rescue,EXCLUDE,
+KWR-031,keyword rescue,EXCLUDE,
+KWR-032,keyword rescue,EXCLUDE,
+KWR-033,keyword rescue,EXCLUDE,
+KWR-034,keyword rescue,EXCLUDE,
+KWR-035,keyword rescue,EXCLUDE,
+KWR-036,keyword rescue,EXCLUDE,
+KWR-037,keyword rescue,EXCLUDE,
+KWR-038,keyword rescue,EXCLUDE,
+KWR-039,keyword rescue,EXCLUDE,
+KWR-040,keyword rescue,INCLUDE,S1
+KWR-041,keyword rescue,EXCLUDE,
+KWR-042,keyword rescue,EXCLUDE,
+KWR-043,keyword rescue,EXCLUDE,
+KWR-044,keyword rescue,EXCLUDE,
+KWR-045,keyword rescue,INCLUDE,S2
+KWR-046,keyword rescue,EXCLUDE,
+KWR-047,keyword rescue,EXCLUDE,
+KWR-048,keyword rescue,EXCLUDE,
+KWR-049,keyword rescue,EXCLUDE,
+KWR-050,keyword rescue,INCLUDE,S1
+KWR-051,keyword rescue,EXCLUDE,
+KWR-052,keyword rescue,EXCLUDE,
+KWR-053,keyword rescue,EXCLUDE,
+KWR-054,keyword rescue,EXCLUDE,
+KWR-055,keyword rescue,EXCLUDE,
+KWR-056,keyword rescue,EXCLUDE,
+KWR-058,keyword rescue,EXCLUDE,
+KWR-059,keyword rescue,INCLUDE,S1
+KWR-060,keyword rescue,EXCLUDE,
+KWR-061,keyword rescue,UNCERTAIN,S1
+KWR-062,keyword rescue,UNCERTAIN,S2
+KWR-063,keyword rescue,UNCERTAIN,S2
+KWR-064,keyword rescue,EXCLUDE,
+KWR-065,keyword rescue,UNCERTAIN,S2
+KWR-066,keyword rescue,EXCLUDE,
+KWR-067,keyword rescue,EXCLUDE,
+KWR-068,keyword rescue,EXCLUDE,
+KWR-069,keyword rescue,EXCLUDE,
+KWR-070,keyword rescue,INCLUDE,S2
+KWR-071,keyword rescue,EXCLUDE,
+KWR-072,keyword rescue,EXCLUDE,
+KWR-073,keyword rescue,EXCLUDE,
+KWR-074,keyword rescue,EXCLUDE,
+KWR-075,keyword rescue,EXCLUDE,
+KWR-076,keyword rescue,INCLUDE,S1
+KWR-077,keyword rescue,EXCLUDE,
+KWR-078,keyword rescue,INCLUDE,S2
+KWR-079,keyword rescue,EXCLUDE,
+KWR-080,keyword rescue,EXCLUDE,
+KWR-081,keyword rescue,EXCLUDE,
+KWR-082,keyword rescue,EXCLUDE,
+KWR-083,keyword rescue,EXCLUDE,
+KWR-084,keyword rescue,INCLUDE,S1
+KWR-085,keyword rescue,INCLUDE,S1
+KWR-086,keyword rescue,INCLUDE,S1
+KWR-087,keyword rescue,EXCLUDE,
+KWR-089,keyword rescue,EXCLUDE,
+KWR-090,keyword rescue,UNCERTAIN,S1
+KWR-091,keyword rescue,EXCLUDE,
+KWR-092,keyword rescue,UNCERTAIN,S1
+KWR-093,keyword rescue,EXCLUDE,
+KWR-094,keyword rescue,EXCLUDE,
+KWR-095,keyword rescue,EXCLUDE,
+KWR-096,keyword rescue,EXCLUDE,
+KWR-097,keyword rescue,EXCLUDE,
+KWR-098,keyword rescue,EXCLUDE,
+KWR-099,keyword rescue,EXCLUDE,
+KWR-100,keyword rescue,EXCLUDE,
+KWR-101,keyword rescue,EXCLUDE,
+KWR-102,keyword rescue,EXCLUDE,
+KWR-103,keyword rescue,EXCLUDE,
+KWR-104,keyword rescue,EXCLUDE,
+KWR-105,keyword rescue,EXCLUDE,
+KWR-106,keyword rescue,EXCLUDE,
+KWR-107,keyword rescue,EXCLUDE,S1
+KWR-108,keyword rescue,INCLUDE,S1
+KWR-109,keyword rescue,EXCLUDE,
+KWR-110,keyword rescue,EXCLUDE,
+KWR-111,keyword rescue,INCLUDE,S1
+KWR-112,keyword rescue,EXCLUDE,
+KWR-113,keyword rescue,EXCLUDE,
+KWR-114,keyword rescue,EXCLUDE,
+KWR-115,keyword rescue,EXCLUDE,
+KWR-116,keyword rescue,EXCLUDE,
+KWR-117,keyword rescue,EXCLUDE,
+KWR-118,keyword rescue,EXCLUDE,
+KWR-119,keyword rescue,INCLUDE,S1
+KWR-120,keyword rescue,EXCLUDE,
+KWR-121,keyword rescue,EXCLUDE,
+KWR-122,keyword rescue,EXCLUDE,
+KWR-123,keyword rescue,EXCLUDE,
+KWR-124,keyword rescue,EXCLUDE,
+KWR-125,keyword rescue,EXCLUDE,
+KWR-126,keyword rescue,EXCLUDE,
+KWR-127,keyword rescue,EXCLUDE,
+KWR-128,keyword rescue,EXCLUDE,
+KWR-129,keyword rescue,EXCLUDE,
+KWR-130,keyword rescue,EXCLUDE,
+KWR-131,keyword rescue,EXCLUDE,
+KWR-132,keyword rescue,INCLUDE,S1
+KWR-133,keyword rescue,EXCLUDE,
+KWR-134,keyword rescue,UNCERTAIN,S1
+KWR-135,keyword rescue,INCLUDE,S1
+KWR-136,keyword rescue,EXCLUDE,
+KWR-137,keyword rescue,EXCLUDE,
+KWR-138,keyword rescue,INCLUDE,S1
+KWR-140,keyword rescue,EXCLUDE,
+KWR-141,keyword rescue,EXCLUDE,
+KWR-142,keyword rescue,EXCLUDE,
+KWR-143,keyword rescue,EXCLUDE,
+KWR-144,keyword rescue,EXCLUDE,
+KWR-145,keyword rescue,EXCLUDE,
+KWR-146,keyword rescue,EXCLUDE,
+KWR-147,keyword rescue,UNCERTAIN,S1
+KWR-148,keyword rescue,EXCLUDE,
+KWR-149,keyword rescue,EXCLUDE,
+KWR-150,keyword rescue,EXCLUDE,
+KWR-151,keyword rescue,EXCLUDE,
+KWR-152,keyword rescue,EXCLUDE,
+KWR-153,keyword rescue,EXCLUDE,
+KWR-154,keyword rescue,EXCLUDE,
+KWR-155,keyword rescue,EXCLUDE,
+KWR-156,keyword rescue,EXCLUDE,
+KWR-157,keyword rescue,UNCERTAIN,S1
+KWR-158,keyword rescue,EXCLUDE,
+KWR-159,keyword rescue,EXCLUDE,
+KWR-160,keyword rescue,INCLUDE,S1
+KWR-161,keyword rescue,EXCLUDE,
+KWR-162,keyword rescue,UNCERTAIN,S1
+KWR-163,keyword rescue,EXCLUDE,
+KWR-164,keyword rescue,EXCLUDE,
+KWR-165,keyword rescue,EXCLUDE,
+KWR-166,keyword rescue,EXCLUDE,
+KWR-167,keyword rescue,EXCLUDE,
+KWR-168,keyword rescue,EXCLUDE,
+KWR-169,keyword rescue,EXCLUDE,
+KWR-170,keyword rescue,EXCLUDE,
+KWR-171,keyword rescue,EXCLUDE,
+KWR-172,keyword rescue,EXCLUDE,
+KWR-173,keyword rescue,EXCLUDE,
+KWR-174,keyword rescue,EXCLUDE,
+KWR-175,keyword rescue,EXCLUDE,
+KWR-176,keyword rescue,EXCLUDE,
+KWR-177,keyword rescue,EXCLUDE,
+KWR-178,keyword rescue,EXCLUDE,
+KWR-179,keyword rescue,EXCLUDE,
+KWR-180,keyword rescue,EXCLUDE,
+KWR-181,keyword rescue,EXCLUDE,
+KWR-182,keyword rescue,EXCLUDE,
+KWR-183,keyword rescue,EXCLUDE,
+KWR-184,keyword rescue,EXCLUDE,
+KWR-185,keyword rescue,EXCLUDE,
+KWR-186,keyword rescue,EXCLUDE,
+KWR-187,keyword rescue,EXCLUDE,
+KWR-188,keyword rescue,EXCLUDE,
+KWR-189,keyword rescue,EXCLUDE,
+KWR-190,keyword rescue,EXCLUDE,
+KWR-191,keyword rescue,EXCLUDE,
+KWR-192,keyword rescue,EXCLUDE,
+KWR-193,keyword rescue,EXCLUDE,
+KWR-194,keyword rescue,INCLUDE,S2
+KWR-195,keyword rescue,UNCERTAIN,S2
+KWR-197,keyword rescue,EXCLUDE,
+KWR-198,keyword rescue,EXCLUDE,
+KWR-199,keyword rescue,EXCLUDE,
+KWR-200,keyword rescue,EXCLUDE,
+KWR-201,keyword rescue,EXCLUDE,
+KWR-202,keyword rescue,EXCLUDE,
+KWR-203,keyword rescue,EXCLUDE,
+KWR-204,keyword rescue,EXCLUDE,
+KWR-205,keyword rescue,EXCLUDE,
+KWR-206,keyword rescue,EXCLUDE,
+KWR-207,keyword rescue,EXCLUDE,
+KWR-208,keyword rescue,INCLUDE,S1
+KWR-209,keyword rescue,EXCLUDE,
+KWR-210,keyword rescue,EXCLUDE,
+KWR-211,keyword rescue,EXCLUDE,
+KWR-212,keyword rescue,EXCLUDE,
+KWR-213,keyword rescue,INCLUDE,S1
+KWR-214,keyword rescue,UNCERTAIN,S1
+KWR-215,keyword rescue,EXCLUDE,
+KWR-216,keyword rescue,EXCLUDE,
+KWR-217,keyword rescue,EXCLUDE,
+KWR-218,keyword rescue,EXCLUDE,
+KWR-219,keyword rescue,EXCLUDE,
+KWR-220,keyword rescue,EXCLUDE,
+KWR-221,keyword rescue,EXCLUDE,
+KWR-222,keyword rescue,EXCLUDE,
+KWR-223,keyword rescue,EXCLUDE,
+KWR-224,keyword rescue,EXCLUDE,
+KWR-225,keyword rescue,INCLUDE,S1
+KWR-226,keyword rescue,EXCLUDE,
+KWR-227,keyword rescue,EXCLUDE,
+KWR-228,keyword rescue,EXCLUDE,
+KWR-229,keyword rescue,EXCLUDE,
+KWR-230,keyword rescue,EXCLUDE,
+KWR-231,keyword rescue,INCLUDE,S1
+KWR-232,keyword rescue,UNCERTAIN,S1
+KWR-233,keyword rescue,EXCLUDE,
+KWR-234,keyword rescue,EXCLUDE,S1
+KWR-235,keyword rescue,EXCLUDE,
+KWR-236,keyword rescue,EXCLUDE,
+KWR-237,keyword rescue,EXCLUDE,
+KWR-238,keyword rescue,EXCLUDE,
+KWR-239,keyword rescue,EXCLUDE,
+KWR-240,keyword rescue,EXCLUDE,
+KWR-241,keyword rescue,EXCLUDE,
+KWR-242,keyword rescue,EXCLUDE,
+KWR-243,keyword rescue,EXCLUDE,S2
+KWR-244,keyword rescue,EXCLUDE,
+KWR-245,keyword rescue,UNCERTAIN,S2
+KWR-246,keyword rescue,EXCLUDE,
+KWR-247,keyword rescue,EXCLUDE,
+KWR-248,keyword rescue,UNCERTAIN,S2
+KWR-249,keyword rescue,EXCLUDE,
+KWR-250,keyword rescue,EXCLUDE,
+KWR-251,keyword rescue,EXCLUDE,
+KWR-252,keyword rescue,EXCLUDE,
+KWR-253,keyword rescue,EXCLUDE,
+KWR-254,keyword rescue,EXCLUDE,
+KWR-255,keyword rescue,EXCLUDE,
+KWR-256,keyword rescue,EXCLUDE,
+KWR-257,keyword rescue,EXCLUDE,
+KWR-258,keyword rescue,EXCLUDE,
+KWR-259,keyword rescue,EXCLUDE,
+ARX-2311.08166,arXiv S1 query,INCLUDE,S1
+ARX-2403.18778,arXiv S1 query,EXCLUDE,
+ARX-2404.17525,arXiv S1 query,INCLUDE,S1
+ARX-2407.19338,arXiv S1 query,EXCLUDE,
+ARX-2407.21320,arXiv S1 query,INCLUDE,S1
+ARX-2408.13406,arXiv S1 query,INCLUDE,S1
+ARX-2412.17146,arXiv S1 query,INCLUDE,S1
+ARX-2501.06327,arXiv S1 query,INCLUDE,S1
+ARX-2502.18138,arXiv S1 query,EXCLUDE,
+ARX-2503.23315,arXiv S1 query,INCLUDE,S1
+ARX-2504.06260,arXiv S1 query,INCLUDE,S1
+ARX-2504.08621,arXiv S1 query,INCLUDE,S1
+ARX-2504.09602,arXiv S1 query,INCLUDE,S1
+ARX-2504.19338,arXiv S1 query,INCLUDE,S1
+ARX-2505.04997,arXiv S1 query,INCLUDE,S1
+ARX-2505.05047,arXiv S1 query,EXCLUDE,
+ARX-2505.08783,arXiv S1 query,INCLUDE,S1
+ARX-2506.02019,arXiv S1 query,INCLUDE,S1
+ARX-2507.02689,arXiv S1 query,EXCLUDE,
+ARX-2507.23693,arXiv S1 query,INCLUDE,S1
+ARX-2508.03370,arXiv S1 query,INCLUDE,S1
+ARX-2509.25194,arXiv S1 query,INCLUDE,S1
+ARX-2508.20729,arXiv S1 query,INCLUDE,S1
+ARX-2509.11447,arXiv S1 query,INCLUDE,S1
+ARX-2509.18405,arXiv S1 query,EXCLUDE,
+ARX-2510.05158,arXiv S1 query,INCLUDE,S1
+ARX-2511.17511,arXiv S1 query,INCLUDE,S1
+ARX-2510.05414,arXiv S1 query,INCLUDE,S1
+ARX-2510.21993,arXiv S1 query,INCLUDE,S1
+ARX-2511.00122,arXiv S1 query,INCLUDE,S1
+ARX-2511.18270,arXiv S1 query,EXCLUDE,
+ARX-2511.19423,arXiv S1 query,UNCERTAIN,S1
+ARX-2512.07917,arXiv S1 query,INCLUDE,S1
+ARX-2512.16214,arXiv S1 query,INCLUDE,S1
+ARX-2601.01357,arXiv S1 query,INCLUDE,S1
+ARX-2603.21011,arXiv S1 query,INCLUDE,S1
+ARX-2601.07252,arXiv S1 query,INCLUDE,S1
+ARX-2601.14523,arXiv S1 query,UNCERTAIN,S1
+ARX-2601.18381,arXiv S1 query,INCLUDE,S1
+ARX-2601.21977,arXiv S1 query,UNCERTAIN,S1
+ARX-2602.01493,arXiv S1 query,INCLUDE,S1
+ARX-2603.19241,arXiv S1 query,INCLUDE,S1
+ARX-2602.11666,arXiv S1 query,INCLUDE,S1
+ARX-2602.17607,arXiv S1 query,INCLUDE,S1
+ARX-2604.09584,arXiv S1 query,INCLUDE,S1
+ARX-2603.04756,arXiv S1 query,INCLUDE,S1
+ARX-2603.15797,arXiv S1 query,UNCERTAIN,S1
+ARX-2603.20986,arXiv S1 query,INCLUDE,S1
+ARX-2603.27646,arXiv S1 query,INCLUDE,S1
+ARX-2604.04324,arXiv S1 query,INCLUDE,S1
+ARX-2605.02911,arXiv S1 query,EXCLUDE,
+ARX-2604.06747,arXiv S1 query,INCLUDE,S1
+ARX-2604.06788,arXiv S1 query,INCLUDE,S1
+ARX-2604.09866,arXiv S1 query,INCLUDE,S1
+ARX-2604.11945,arXiv S1 query,UNCERTAIN,S1
+ARX-2604.16687,arXiv S1 query,INCLUDE,S1
+ARX-2605.06607,arXiv S1 query,INCLUDE,S1
+ARX-2605.09636,arXiv S1 query,INCLUDE,S1
+ARX-2605.09708,arXiv S1 query,UNCERTAIN,S1
+ARX-2605.11269,arXiv S1 query,INCLUDE,S1
+ARX-2605.15218,arXiv S1 query,INCLUDE,S1
+ARX-2605.12916,arXiv S1 query,INCLUDE,S1
+ARX-2605.18630,arXiv S1 query,UNCERTAIN,S1
+ARX-2608.00003,arXiv S1 query,INCLUDE,S1
+ARX-2605.28978,arXiv S1 query,INCLUDE,S1
+ARX-2606.00138,arXiv S1 query,INCLUDE,S1
+ARX-2606.00915,arXiv S1 query,INCLUDE,S1
+ARX-2606.07850,arXiv S1 query,INCLUDE,S1
+ARX-2606.08729,arXiv S1 query,EXCLUDE,
+ARX-2606.09037,arXiv S1 query,INCLUDE,S1
+ARX-2606.09084,arXiv S1 query,INCLUDE,S2
+ARX-2606.10752,arXiv S1 query,INCLUDE,S1
+ARX-2606.10928,arXiv S1 query,INCLUDE,S1
+ARX-2606.22493,arXiv S1 query,INCLUDE,S1
+ARX-2607.01812,arXiv S1 query,INCLUDE,S1
+ARX-2607.12122,arXiv S1 query,UNCERTAIN,S1
+ARX-2607.14158,arXiv S1 query,INCLUDE,S1
+ARX-2609.11941,arXiv S1 query,INCLUDE,S1
+ARX-2607.14582,arXiv S1 query,EXCLUDE,
+ARX-2607.17363,arXiv S1 query,INCLUDE,S1
+ARX-2607.20346,arXiv S1 query,INCLUDE,S1
+ARX-2607.26490,arXiv S1 query,INCLUDE,S1
+ARX-2608.03600,arXiv S1 query,INCLUDE,S1
+ARX-2608.04384,arXiv S1 query,UNCERTAIN,S1
+ARX-2608.27475,arXiv S1 query,UNCERTAIN,S1
+ARX-2608.27869,arXiv S1 query,UNCERTAIN,S1
+ARX-2609.03718,arXiv S1 query,INCLUDE,S1
+ARX-2610.00056,arXiv S1 query,EXCLUDE,
+ARX-2609.07362,arXiv S1 query,INCLUDE,S1

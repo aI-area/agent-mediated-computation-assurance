@@ -1,0 +1,64 @@
+{
+  "policy_id": "naca0012-c1-gated-execution",
+  "claim": "c1 (PREREGISTRATION.md): steady 2-D incompressible NACA 0012, k-omega SST, Re = 6e6, alpha in {0, 2.15, 10, 15} deg",
+  "principle": "The executing agent holds only an SSH key whose forced command is gate.sh; every effect on the server is an action listed here, executed with fixed arguments, logged in a hash-chained effect log, and checked against the protected-input manifest before and after.",
+  "root": "/path/to/project/v19_cfd",
+  "writable": [
+    "gated/work",
+    "gated/log"
+  ],
+  "protected": [
+    "PREREGISTRATION.md",
+    "reference_values.csv",
+    "reference_data",
+    "tools",
+    "case_template",
+    "grids",
+    "env.sh",
+    "runs",
+    "results",
+    "gated/policy.json",
+    "gated/gate.py",
+    "gated/gate.sh",
+    "gated/pipeline.sh"
+  ],
+  "max_mpi_ranks_total": 24,
+  "actions": {
+    "status": {
+      "effect": "read-only",
+      "description": "report progress of the gated execution"
+    },
+    "verify": {
+      "effect": "read-only",
+      "description": "recompute the protected-input manifest and compare it with the frozen manifest"
+    },
+    "run_pipeline": {
+      "effect": "writes gated/work only",
+      "argv": [
+        "/bin/bash",
+        "{root}/gated/pipeline.sh"
+      ],
+      "description": "set up the 16 cases from the TMR grids, run the four grids with the frozen solver settings and initialisation sequence, and apply the frozen analysis"
+    },
+    "export_results": {
+      "effect": "read-only",
+      "description": "stream dispositions, force and wall-resolution records, logs and the effect log to the caller as a tar archive"
+    },
+    "probe_protected_writes": {
+      "effect": "test",
+      "description": "attempt to append to PREREGISTRATION.md, reference_values.csv and the policy, and to create a file in the original evidence directory; every attempt must fail and the manifest must be unchanged"
+    },
+    "reset_work": {
+      "effect": "removes gated/work only",
+      "description": "remove the writable work area, for example after a failed launch"
+    }
+  },
+  "denied_by_default": "Any request that is not exactly one of the action names above is refused before execution and logged.",
+  "approval": {
+    "approved_by": "the first author (first author, claim owner)",
+    "approved_at_utc": "2026-11-13T04:58:07Z",
+    "statement": "Approved in writing before any gated effect under this version. The approver installs the forced-command key and disables all other keys for the duration of the gated execution."
+  },
+  "policy_version": 2,
+  "version_note": "Version 2: the pipeline runs setup and analysis from a working copy of tools/, case_template/ and PREREGISTRATION.md verified file by file against the frozen manifest (version 1 failed at case setup because the read-only template permissions were copied); adds reset_work."
+}

@@ -1,0 +1,23 @@
+source,alpha_deg,qoi,value,uncertainty,note
+TMR_CFL3D_SST,0.0,CD,0.00809,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_FUN3D_SST,0.0,CD,0.00808,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_NTS_SST,0.0,CD,0.00809,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_CFL3D_SST,10.0,CL,1.0778,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_FUN3D_SST,10.0,CL,1.084,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_NTS_SST,10.0,CL,1.0765,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_CFL3D_SST,10.0,CD,0.01236,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_FUN3D_SST,10.0,CD,0.01253,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_NTS_SST,10.0,CD,0.01251,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_CFL3D_SST,15.0,CL,1.5068,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_FUN3D_SST,15.0,CL,1.5109,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_NTS_SST,15.0,CL,1.51,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_CFL3D_SST,15.0,CD,0.02219,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_FUN3D_SST,15.0,CD,0.02275,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+TMR_NTS_SST,15.0,CD,0.02187,,tmbwg.github.io/turbmodels/naca0012_val_sst.html 897x257
+LADSON_120GRIT,0.0,CD,0.008075,0.000242,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.000010; floor 0.000242
+LADSON_120GRIT,2.15,CL,0.2236,0.00673,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.006730; floor 0.002236
+LADSON_120GRIT,2.15,CD,0.00823,0.000247,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.000045; floor 0.000247
+LADSON_120GRIT,10.0,CL,1.067233,0.010672,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.004312; floor 0.010672
+LADSON_120GRIT,10.0,CD,0.011661,0.00035,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.000208; floor 0.000350
+LADSON_120GRIT,15.0,CL,1.508265,0.015083,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.007232; floor 0.015083
+LADSON_120GRIT,15.0,CD,0.017449,0.000523,TM-4074 tripped Re=6e6 M=0.15; grit half-range 0.000432; floor 0.000523

@@ -1,0 +1,17 @@
+code,category,scope,applies_to_streams,definition,stage_allowed
+E01,Static predictive ML,STREAM,1,"Static predictive, surrogate, PINN, or data-driven model without agent control or audit of simulation artifacts",title_or_later
+E02,Social agent-based simulation,STREAM,1,"Agent-based social, economic, ecological, or behavioral simulation unrelated to LLM-controlled computational engineering",title_or_later
+E03,Generic robotics actuation,STREAM,"1;2","Robotics, autonomous driving, or embodied control without a material tool-using-agent assurance or computational-engineering workflow contribution",title_or_later
+E04,Broad AI ethics,STREAM,2,"Ethics, governance, or responsible-AI discussion without a direct contribution to an S/A/N/V/B obligation",abstract_or_later
+E05,No actionable agent relevance,STREAM,"1;2","Classical or symbolic agent work, chatbot work, or language-model work with no material tool use, workflow action, or applicable assurance mechanism",abstract_or_later
+E06,No computational engineering relevance,STREAM,1,"Agent work does not formulate, alter, execute, inspect, verify, postprocess, or release a numerical engineering simulation artifact or claim",abstract_or_later
+E07,Generic cybersecurity,STREAM,2,"Security work has no material applicability to tool-using LLM agents, their context, actions, memory, tools, evidence, or authorization",abstract_or_later
+E08,No credibility relevance,STREAM,3,"Modeling or simulation work does not contribute to verification, validation, uncertainty, discrepancy, assurance, assumptions, provenance, or claim credibility",abstract_or_later
+E09,Ineligible source type,GLOBAL,ALL,"Promotional, opinion, news, unsourced general-web, slide-only, or otherwise non-scholarly source without an eligible authoritative role",full_text
+E10,Insufficient source information,GLOBAL,ALL,"Bibliographic identity or source text is insufficient to establish eligibility after reasonable checking",full_text
+E11,Duplicate record,GLOBAL,ALL,"Duplicate bibliographic record; retained under the surviving study-family identifier",deduplication
+E12,Outside date boundary,STREAM,"1;2;3","Streams 1-2: publication before 2017-01-01 or after 2026-09-15; Stream 3: publication after 2026-09-15 with no lower restriction; unresolved year-only or conflicting dates remain UNCERTAIN_DATE until precedence checking",metadata
+E13,Retracted,GLOBAL_POSITIVE_EVIDENCE,ALL,"Retracted work cannot support positive evidence; linked status record retained when relevant",metadata_or_later
+E14,Language unavailable,GLOBAL,ALL,"No English full text or auditable English translation is available for claim-level extraction",full_text
+E15,Full text unavailable,GLOBAL,ALL,"The intended claim cannot be checked because adequate source text remains unavailable after reasonable retrieval",full_text
+E16,No substantive publication,GLOBAL,ALL,"Abstract-only announcement, poster-only record, table of contents, index entry, or duplicate supplementary file with no independently extractable contribution",full_text

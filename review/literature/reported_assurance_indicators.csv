@@ -1,0 +1,15 @@
+stream,indicator,field,count,denominator
+S1,Numerical check,numerical_verification_check,35,40
+S1,Physical validation,physical_validation_check,5,40
+S1,Provenance binding,provenance_binding,26,40
+S1,Artifact/code,artifact_or_code_available,10,40
+S2,Authorization mechanism,authorization_mechanism,121,134
+S2,Runtime enforcement,runtime_policy_enforcement,125,134
+S2,Trace integrity,provenance_or_trace_integrity,120,134
+S2,Artifact/code,artifact_or_code_available,40,134
+S3,Code verification,code_verification,53,63
+S3,Solution verification,solution_verification,62,63
+S3,Discretization error,discretization_error,56,63
+S3,Iterative error,iterative_error,38,63
+S3,Validation,validation,24,63
+S3,Context of use,context_of_use,33,63

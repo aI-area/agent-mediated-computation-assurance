@@ -1,0 +1,96 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _9a9aeb73-20260127 OPENFOAM=2312 patch=260127 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : checkMesh -case runs/n0012_449-129_a00.00
+Date   : Nov 13 2026
+Time   : 13:12:55
+Host   : host
+PID    : 1487260
+I/O    : uncollated
+Case   : /path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a00.00
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Check mesh...
+
+Time = 0
+
+Mesh stats 
+    points:           115648
+    internal points:  0
+    faces:            229856
+    internal faces:   114208
+    cells:            57344
+    faces per cell:   6
+    boundary patches: 3
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     57344
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points     Surface topology
+    airfoil             256      512      ok (non-closed singly connected)  
+    farfield            704      1408     ok (non-closed singly connected)  
+    frontAndBack        114688   115648   ok (non-closed singly connected)  
+    ".*"                115648   115648   ok (closed singly connected)      
+
+
+Checking faceZone topology for multiply connected surfaces...
+    No faceZones found.
+
+Checking basic cellZone addressing...
+    No cellZones found.
+
+Checking basic pointZone addressing...
+    No pointZones found.
+
+Checking geometry...
+    Overall domain bounding box (-484.456616748 -507.806081051 0) (501.000007802 507.806080758 1)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+    Boundary openness (2.59168237341e-19 3.23960296677e-19 -2.07334589873e-18) OK.
+ ***High aspect ratio cells found, Max aspect ratio: 29899837.3268, number of cells 7320
+  <<Writing 7320 cells with high aspect ratio to set highAspectRatioCells
+    Minimum face area = 5.18207199832e-10. Maximum face area = 3181.85092921.  Face area magnitudes OK.
+    Min volume = 5.18207199832e-10. Max volume = 3181.85092921.  Total volume = 875554.974925.  Cell volumes OK.
+    Mesh non-orthogonality Max: 52.3474532788 average: 5.03399908555
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.341413081342 OK.
+    Coupled point location match (average 0) OK.
+
+Failed 1 mesh checks.
+
+End
+

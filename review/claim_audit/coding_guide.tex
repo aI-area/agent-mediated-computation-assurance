@@ -1,0 +1,108 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{lmodern,booktabs,array,tabularx,enumitem,xcolor,hyperref,microtype}
+\hypersetup{hidelinks}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist{itemsep=1pt,topsep=2pt}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcommand{\keybox}[1]{\fcolorbox{gray}{gray!8}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{#1}}}
+\begin{document}
+{\Large\bfseries Human coding guide}\\[2pt]
+Claim-level re-audit and title/abstract screening for the ACME C2CA review. Version 1, 4 November 2026.
+
+\keybox{\textbf{The three rules that make this valid.}
+(1) Work \emph{independently}: no discussion of individual studies with the other coder until both workbooks are returned.
+(2) Stay \emph{blind}: do not open any file in \texttt{ACME artifacts} or any earlier coding (pass A, pass B, adjudicated, summary). Your workbook contains no AI labels.
+(3) Decide from the \emph{source}: every decision cites a page. If the paper does not report something, it is not there.}
+
+\section{What you are judging}
+Imagine that the computational results a study reports for its \emph{headline claim} were submitted to release that claim as an engineering result. Using \textbf{only what the publication (and artifacts it points to) reports}, decide which of five obligations are supported. You are judging reported evidence, not the quality of the study or whether its engineering is correct. ``Not reported'' means \texttt{UNR} (unresolved), never \texttt{REF}.
+
+\section{Workflow for one study (20--30 minutes)}
+\begin{enumerate}[leftmargin=*]
+\item Open the PDF from the \texttt{full\_text} link. Read the abstract and conclusions, then the evaluation/results section.
+\item \textbf{Eligibility} (Section 3). If \texttt{EXCLUDE}, choose the exclusion code and go to the next study.
+\item \textbf{Headline claim}: quote the single main computational claim from the abstract or conclusions, with its page.
+\item \textbf{V required?} (Section 4).
+\item \textbf{S, A, N, V, B} with page and short quote for each (Section 5). Code V as \texttt{NR} if V is not required.
+\item \textbf{ETF} primary and optional secondary (Section 6), \textbf{evidence tier} (Section 7), the 16 \textbf{ARCS} items (Section 8).
+\item Record the minutes spent.
+\end{enumerate}
+
+\section{Eligibility at full text (stream S1)}
+\textbf{Include} if the study describes or evaluates an LLM or agentic system that can formulate, alter, execute, inspect, verify, postprocess or release artifacts or claims in a computational-engineering or numerical-simulation workflow (rule I-S1), \emph{and} reports some evaluation. Published 1 Jan 2017 -- 15 Sep 2026. Preprints are eligible.\\
+\textbf{Exclude} with the code that applies first: E01 static ML or surrogate with no agent control of simulation artifacts; E05 no material tool use or workflow action (chat only); E06 the agent touches no numerical engineering simulation artifact or claim; E09 opinion, position or non-scholarly source with no evaluation; E10/E15 the text is insufficient to judge (wrong or missing PDF: say so in notes); E11 duplicate; E16 no substantive publication. Reinforcement-learning ``agents'' without a language model fail I-S1 (code E05). Use \texttt{UNCERTAIN} only if you truly cannot decide; explain in notes.
+
+\section{Is physical validation (V) required?}
+\texttt{V\_required = Y} when the headline claim asserts \emph{any} of: physical performance of a design or product; agreement with physical observations; or a predictive or design decision about a physical system. Otherwise \texttt{N} --- e.g.\ claims about numerical accuracy against an analytical solution, software or code generation, or benchmark pass rates.
+
+\section{Dispositions}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{0.04\textwidth} L L L}
+\toprule
+ & \texttt{SUP} supported & \texttt{REF} refuted & \texttt{UNR} unresolved (default) \\
+\midrule
+S & The executed model, input or code is compared with what was asked (the specification) and matches, for the runs behind the claim. Agreement of the result with a reference solution of the \emph{intended} problem counts (rule R1). & A reported mismatch between what was run and what was asked, in the evidence behind the claim. & A specification is only declared, or a checking procedure is named without its outcome. \\
+\addlinespace
+A & The agent's power to change things was bounded \emph{before} it acted: an approval gate, a sandbox, or confinement to deterministic typed tools, and the executed effects are stated (R4). & A reported out-of-scope effect. & Otherwise. User acceptance \emph{after} the run, or a control that is asserted but not shown, is not enough. \\
+\addlinespace
+N & A QoI-level numerical result: error against an analytical, manufactured or reference solution; a mesh/time-step refinement study; bounded iterative and discretization error. For a surrogate, agreement with reference FE/CFD of the same problem (R1). & Reported numerical evidence contradicts the asserted accuracy. & Only execution, compilation, residual reduction, a single mesh, or ``converged''. \\
+\addlinespace
+V & A matched physical comparison or test in the claimed regime. Only possible if N is \texttt{SUP} (R2). & A reported physical comparison contradicts the claim. & Otherwise, or N not supported. \texttt{NR} if V is not required. \\
+\addlinespace
+B & Code, data, logs or models are released (link), or retained and explicitly tied to the reported runs (R5). & Results are reported for a configuration that was not actually run. & Otherwise. ``Available on request'' is not enough. \\
+\bottomrule
+\end{tabularx}
+
+\section{Evidence-transfer failure (ETF)}
+Which substitution does the headline claim rely on? Pick one primary code, optionally one secondary; choose \texttt{none} if the claim stays within its evidence.
+
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{0.05\textwidth} L}
+E1 & Execution, compilation or task completion used as evidence that the right problem was solved (S). \\
+E2 & Execution, convergence, residual or mesh-quality proxy used as evidence of numerical accuracy (N). \\
+E3 & Numerical or benchmark agreement used as evidence of physical validity (V). \\
+E4 & Provenance or traceability used as evidence that results are correct or reproducible. \\
+E5 & Success on a canonical or benchmark case generalized to a different or general application. \\
+E6 & An authorization, guard or constraint check used as evidence of engineering correctness. \\
+\end{tabularx}
+
+\section{Evidence tier}
+\textbf{T1}: native QoI-level numerical or physical evidence (error against reference/manufactured solutions, refinement or GCI, matched experiment). \textbf{T2}: agreement with a benchmark, reference code or literature values, without an error bound. \textbf{T3}: execution, task-success or code metrics only. Code the strongest evidence reported for the headline claim.
+
+\section{ARCS checklist (Y / N / NA)}
+\begin{tabularx}{\textwidth}{p{0.03\textwidth} L p{0.03\textwidth} L}
+1 & Headline claim states a QoI and an intended use & 9 & Discretization-uncertainty estimate (GCI or equivalent) \\
+2 & Approved specification given (geometry, BCs, materials, operating point) & 10 & $y^+$ (CFD) or element quality (FE) reported; NA if neither applies \\
+3 & Executed model or input compared with the specification & 11 & Validation data with an uncertainty; NA if V not required \\
+4 & Agent effects (files or settings changed) logged or reported & 12 & Validation conditions match the claim regime; NA if V not required \\
+5 & Human approval or authorization gate described & 13 & Failed or discarded agent attempts reported \\
+6 & Solver, version and numerical schemes reported & 14 & Run or artifact identities link results to runs \\
+7 & Iterative convergence evidenced on the QoI, not only residuals & 15 & Code, prompts or case files released \\
+8 & Mesh or time-step refinement study reported & 16 & Limitations of the claim stated \\
+\end{tabularx}
+
+\section{Title/abstract screening}
+Decide from title and abstract (click the DOI if there is no abstract). \textbf{INCLUDE} if at least one stream criterion holds; give the stream(s):
+\begin{itemize}[leftmargin=*]
+\item \textbf{S1} (2017 -- 15 Sep 2026): rule I-S1 above.
+\item \textbf{S2} (2017 -- 15 Sep 2026): describes, evaluates, surveys or formalizes an attack, control, trust mechanism, authorization model, provenance or trace mechanism, or assurance method materially applicable to tool-using LLM agents.
+\item \textbf{S3} (any date up to 15 Sep 2026): defines, evaluates, applies, standardizes or critically reviews a method needed to judge whether a computational model, numerical result, workflow artifact or simulation-supported claim is credible for an intended use (verification, validation, uncertainty, credibility, provenance, assurance cases).
+\end{itemize}
+\textbf{EXCLUDE} only when the record clearly fails every stream; give the first applicable code E01--E16 (sheet \texttt{Codes}). \textbf{UNCERTAIN} whenever you cannot decide --- it sends the record to full text. Title-only exclusion is allowed only for an unmistakable scope failure.
+
+\section{Three practice vignettes (hypothetical)}
+\textbf{(a)} ``Our agent sets up OpenFOAM cases from text and reaches 90\% task success on 20 benchmark cases.'' No comparison with reference solutions; code on GitHub. $\Rightarrow$ V\_required N; S \texttt{UNR}, A \texttt{UNR} unless a gate/sandbox is described, N \texttt{UNR}, V \texttt{NR}, B \texttt{SUP}; ETF E1 (secondary E2); T3.\\
+\textbf{(b)} ``The agent designs a heat sink that lowers peak temperature by 12\%.'' Mesh study reported; no experiment. $\Rightarrow$ V\_required Y; N \texttt{SUP}; V \texttt{UNR}; ETF E3; T1.\\
+\textbf{(c)} ``Agent-generated FEniCS solvers reach second-order convergence against manufactured solutions; the LLM can only fill a validated JSON schema executed by fixed templates.'' $\Rightarrow$ S \texttt{SUP} (R1), A \texttt{SUP} (typed-tool confinement), N \texttt{SUP}; V \texttt{NR}; ETF none; T1.
+
+\section{Calibration, adjudication and return}
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Calibration (together, before anything else).} Code the 5 green rows jointly, agree, and write any clarification of this guide in the notes of the first calibration row. Clarifications apply to all later coding and will be reported. Calibration rows are excluded from agreement statistics.
+\item \textbf{Independent coding.} Each coder completes the remaining 164 records alone.
+\item \textbf{Return.} Save as \texttt{Coder1\_<name>\_DONE.xlsx} / \texttt{Coder2\_<name>\_DONE.xlsx} (and the screening files likewise) and send them to the first author. Agreement ($\kappa$) is computed before anyone sees the other's codes.
+\item \textbf{Adjudication.} You will receive a sheet listing only the disagreements with both codes and evidence. The adjudicator (or both coders in a consensus meeting) decides each from the PDF and writes the reason. Only after that are the earlier AI codings unblinded and compared.
+\end{enumerate}
+Questions about the \emph{guide} (not about a specific study's code) can be raised with the first author at any time; answers are added to a shared Q\&A list for both coders.
+\end{document}

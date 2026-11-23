@@ -1,0 +1,260 @@
+record_id,field,change
+ARX-2407.21320,S,"SUP -> UNR: p9-11: pass@1 85% defined as executability score 4 (case runs to endTime, meets requirements); task success only, no reference-solution comparison (Guide example a)."
+ARX-2407.21320,primary_ETF,"none -> E1: p11: ""average pass rate (pass@1) of 85% ... demonstrate the outstanding performance"" - capability claim rests on execution/pass rate."
+ARX-2407.21320,evidence_tier,T2 -> T3: p9-11: only executability score and pass@1 reported.
+ARX-2408.13406,primary_ETF,"none -> none: p15: paper itself reports ""high execution success masking semantic or scientific inaccuracies""; claim stays within evidence."
+ARX-2412.17146,A,"SUP -> UNR: p10: human approval ""included ... during testing"" but robust human feedback ""was not achieved""; p7 sandbox only ""strongly recommend[ed]""; no bound on executed effects shown."
+ARX-2412.17146,primary_ETF,none -> none: p10: proof-of-concept claim limited to low-complexity tasks; drop in success with complexity is reported.
+ARX-2504.08621,B,"SUP -> SUP: p1-2: ""code ... has been open-sourced and is available at https://github.com/taozhan18/MooseAgent""."
+ARX-2504.19338,A,"SUP -> UNR: p4: OpenFOAM v2406 Docker container is ""a standardized, reproducible runtime"", not a bound on the agent's authority."
+ARX-2504.19338,evidence_tier,"T2 -> T3: p1/p11: headline is ""100% success and reproducibility across over 450 simulations"" (execution); analytical Poiseuille comparison (p5) is outside the headline."
+ARX-2506.02019,S,"SUP -> SUP: p1: 68.12% ""physical fidelity"" scores whether a runnable case is scientifically meaningful against the specified flows (R1)."
+ARX-2506.02019,B,"SUP -> SUP: p1: ""The code for ChatCFD is available at https://github.com/ConMoo/ChatCFD""."
+ARX-2506.02019,primary_ETF,"none -> none: p1/p19: claims limited to benchmark outperformance (82.1% execution, 68.12% fidelity); paper exposes the LLM fidelity gap."
+ARX-2506.02019,evidence_tier,"T2 -> T2: p1: physical-fidelity metric against reference outcomes, no error bound."
+ARX-2508.20729,N,SUP -> SUP: Appendix B: errors against reference solutions for six PDE benchmarks (QoI-level error).
+ARX-2508.20729,primary_ETF,none -> none: Claim restricted to the benchmark PDEs evaluated.
+ARX-2508.20729,evidence_tier,T1 -> T1: Appendix B: error against reference solutions.
+ARX-2510.05158,S,SUP -> SUP: p5: generated PDEs checked for symbolic equivalence with the ground-truth PDE of each task (specification check).
+ARX-2510.05158,N,UNR -> SUP: Table 1 (p18): MSE on 14 PINNacle benchmark PDEs; reference agreement counts for a surrogate/PINN (R1).
+ARX-2510.05158,primary_ETF,E2 -> none: Claims limited to benchmark comparison against baselines.
+ARX-2510.05158,evidence_tier,"T3 -> T2: Benchmark MSE comparison with baselines, no error bound."
+ARX-2510.05414,S,SUP -> SUP: Generated OpenSeesPy frame models checked against reference results of the benchmark problems (R1).
+ARX-2510.05414,primary_ETF,none -> none: Claim limited to the 2D frame benchmark problems.
+ARX-2510.05414,evidence_tier,"T2 -> T2: Agreement with benchmark reference results, no error bound."
+ARX-2510.21993,primary_ETF,E2 -> E1: Headline is end-to-end FEA automation shown by successful execution of generated cases.
+ARX-2511.00122,A,"SUP -> UNR: p5/p8: containers and precomputed expressions are a security remark and scheduling design, not a bound on agent authority."
+ARX-2601.01357,S,SUP -> UNR: p1: success rate 0.438 on a public benchmark is task success; no check of executed setups against the specification (Guide example a).
+ARX-2601.01357,evidence_tier,"T2 -> T2: p4: MILD case ""markedly improved agreement with experimental measurements"" is qualitative; benchmark scores are task-level."
+ARX-2601.18381,primary_ETF,"none -> E1: Validation framework (static analysis + G-Eval) measures code correctness, used to support correctness of the translation."
+ARX-2602.01493,primary_ETF,none -> E5: Claims a generalizable parametric PDE solver from success on a limited set of PDE families.
+ARX-2602.11666,A,"SUP -> SUP: p2-3: Symbolic Knowledge Engine ""acts as a deterministic guardrail ... validating the agent's plan against physical constraints before execution""."
+ARX-2602.11666,primary_ETF,"none -> E6: Guardrail/constraint check is used as evidence of physical and numerical correctness (p2-3, p6)."
+ARX-2602.11666,evidence_tier,T2 -> T3: Benchmark accuracy is task-level success (p2); no error against reference.
+ARX-2602.17607,primary_ETF,"none -> E5: Title claims a ""PDE-agnostic"" pipeline from a limited benchmark set."
+ARX-2603.04756,S,SUP -> SUP: p1/p3: all ten MMS inputs satisfy the semantic-alignment criterion (10/10) against the stated specification.
+ARX-2603.04756,A,SUP -> SUP: p2/p34: harness uses controlled artifact revision and bounded repair; acceptance gates before execution.
+ARX-2603.04756,N,"SUP -> SUP: p1/p3: eight of ten MMS cases pass the prescribed numerical-accuracy criterion (error against manufactured solution, single mesh)."
+ARX-2603.04756,B,"SUP -> SUP: p2/p5/p34: diagnostic and execution evidence ""bound to the exact input revision examined"" (R5); code not yet public."
+ARX-2603.04756,primary_ETF,none -> none: p1/p3: 5% to 89.5% executable success is reported alongside an MMS benchmark that goes beyond executability.
+ARX-2603.04756,evidence_tier,T1 -> T1: p1/p3: MMS error-against-manufactured-solution checks are part of the headline.
+ARX-2603.15797,exclusion_code,E06 -> E05: Multimodal reasoning over flow/weather fields only: no material tool use or workflow action on a simulation (E05 applies before E06).
+ARX-2603.20986,A,SUP -> SUP: p12: tools split into read-only and execution classes; agents act only through ten structured MCP simulation tools.
+ARX-2603.20986,primary_ETF,none -> none: Abstract: prospectively specified 25-task validation; claims limited to the two phase-field domains.
+ARX-2604.04324,primary_ETF,none -> none: Claim limited to recovered simulations on the benchmark (40.7%).
+ARX-2604.06747,A,"UNR -> UNR: p21: only the post-processing script is generated ""upon confirmation""; no pre-action bound on simulation actions."
+ARX-2604.06747,N,"SUP -> SUP: Surrogate performance predictions checked against CFX simulations of the generated blades (R1); p29 R2>0.91, nRMSE<8%."
+ARX-2604.06747,evidence_tier,"T2 -> T2: p29: agreement with reference CFX, R2 and nRMSE, but no discretization-error bound."
+ARX-2604.06788,N,SUP -> UNR: p1/p5: one mesh-sensitivity variant is reported; no refinement/convergence result on the QoI.
+ARX-2604.06788,evidence_tier,T1 -> T3: Framework demonstration on one L-bracket; code-compliance outcome only.
+ARX-2604.09584,V_required,"Y -> N: Headline concerns surrogate-driven exploration of a PDE parameter space, not a physical-performance or design claim."
+ARX-2604.09584,N,"SUP -> SUP: p13: latent-model fields compared with simulation on held-out cases; tool computes error metrics (surrogate vs reference simulation, R1)."
+ARX-2604.09584,V,UNR -> NR: V not required.
+ARX-2604.16687,A,"SUP -> SUP: p1,p7: agents run only human-validated tools built offline (typed-tool confinement)."
+ARX-2605.06607,V_required,"Y -> N: Headline compares closure corrections with DNS (numerical reference), not observation or a physical design decision."
+ARX-2605.06607,N,"SUP -> SUP: p2,p5: mesh-independence study (26.9k-38.1k cells) and Cf RMSE against DNS reported."
+ARX-2605.06607,V,UNR -> NR: V not required.
+ARX-2605.06607,primary_ETF,E3 -> none: Claims stay within the DNS/benchmark evidence reported.
+ARX-2605.06607,evidence_tier,T1 -> T1: p5: error against DNS reference and mesh-independence study.
+ARX-2605.09636,B,"SUP -> SUP: p1: ""Dataset, scripts, codes ... are publicly released at https://github.com/YusanX/pde-agent-bench""."
+ARX-2605.09636,primary_ETF,none -> none: Benchmark paper; claim limited to the benchmark.
+ARX-2605.15218,A,"SUP -> UNR: p3,p5: registered-module routing is architecture; no stated bound on what the agent may change."
+ARX-2606.00138,B,"SUP -> SUP: p1: ""The code is available at https://github.com/LIRAM-LIN/AbaqusAgent""."
+ARX-2606.00138,primary_ETF,"none -> E1: Abstract: 86% success on 50 problems ""successfully validated"" - success used as validity."
+ARX-2606.07850,A,"SUP -> UNR: p2,p4,p7: Docker Compose is deployment/reproducibility, not an agent bound."
+ARX-2606.07850,primary_ETF,none -> none: Claims limited to the six cases and the KG experiment.
+ARX-2606.10752,primary_ETF,none -> none: Claim limited to evaluated PDE tasks.
+ARX-2606.22493,N,SUP -> SUP: p3: eigenmode-designed coupling compared with independent FDTD over 160-235 nm gaps; residual explained.
+ARX-2606.22493,B,"SUP -> SUP: p5: Code and Data Availability - wrappers, notebooks and result files are open."
+ARX-2607.01812,primary_ETF,none -> none: Abstract: reproduces standard benchmark results; claim stays in evidence.
+ARX-2607.26490,primary_ETF,none -> none: Claim limited to evaluated PDE benchmarks.
+ARX-2607.26490,evidence_tier,T1 -> T2: PINN solver compared against reference on benchmarks without error bound.
+ARX-2608.00003,A,"SUP -> SUP: p2: LLM called only for prompt refinement, parameter extraction and retry; ""deterministic execution boundaries"", templates and solver selection."
+ARX-2609.03718,primary_ETF,none -> none: Paper analyses harness needs; claim stays within its evidence.
+ARX-2609.07362,primary_ETF,none -> none: Claim limited to constraint-triggered revisits evaluated on blueprints.
+ARX-2609.11941,A,SUP -> SUP: p2-4: Replay runs only reviewed cases across approved variants with fixed procedures; human review gates the batch.
+ARX-2609.11941,primary_ETF,none -> none: Claim limited to the injector-screening case bundle.
+FT-0001,V_required,N -> Y: Design framework: headline asserts performance of generated stretchable designs (design decision on a physical system).
+FT-0001,V,NR -> UNR: No physical test reported.
+FT-0001,primary_ETF,none -> E3: Simulation agreement used to support physical design performance.
+FT-0003,S,UNR -> UNR: p10: no comparison with analytical/reference solutions found; solutions judged plausible by inspection.
+FT-0003,B,SUP -> SUP: p4: complete conversations and modeling scripts in Supplementary Material (R5).
+FT-0003,primary_ETF,"E1 -> E5: A handful of mechanics problems generalised to ""solve mechanics problems"" in general."
+FT-0003,evidence_tier,T3 -> T3: Execution/plausibility only; no reference comparison.
+FT-0005,S,SUP -> SUP: p16: output labelled correct if relative L2 error is below threshold against the reference solution (R1).
+FT-0005,primary_ETF,none -> none: Claim limited to the 39-problem benchmark with error-based labels.
+FT-0005,evidence_tier,T2 -> T1: p16: relative L2 error against reference solution.
+FT-0006,S,SUP -> SUP: p8: extracted design parameters checked against verifiable ground truth.
+FT-0009,primary_ETF,none -> none: Claim limited to evaluated PDE tasks.
+FT-0010,S,SUP -> SUP: Agent-built solvers compared with exact solutions of the specified problems (R1).
+FT-0010,N,"SUP -> SUP: Eq. 18, Fig. 8: relative L2 error convergence against exact solutions."
+FT-0010,primary_ETF,none -> none: Claim limited to the solved problems.
+FT-0010,evidence_tier,T1 -> T1: Relative L2 error against exact solutions with convergence study.
+FT-0015,S,SUP -> SUP: p1: computed sphere drag compared with literature reference values (R1).
+FT-0015,A,SUP -> SUP: p5: agent asks the user to confirm settings before initiating the simulation (pre-action gate).
+FT-0015,N,"UNR -> UNR: p4: mesh convergence cited from earlier solver studies, not shown for these runs."
+FT-0015,evidence_tier,"T2 -> T2: Agreement with literature drag values, no error bound."
+FT-0017,N,"SUP -> SUP: p1,p8: Zienkiewicz-Zhu discretization-error estimates reported for generated meshes."
+FT-0017,B,"SUP -> SUP: p1: ""complete dataset, all prompts, and related code ... publicly available at https://github.com/2002Pan/PAMF""."
+FT-0017,primary_ETF,none -> E2: Predicted ZZ error (a mesh-quality proxy) used as evidence of accuracy.
+FT-0017,evidence_tier,"T1 -> T2: ZZ error estimate for generated meshes, not a QoI-level error against a reference."
+FT-0018,B,"SUP -> SUP: p3: ""code repository: https://github.com/Terry-cyx/MetaOpenFOAM""."
+FT-0019,V_required,Y -> Y: Design optimisation result for a physical component.
+FT-0019,N,SUP -> SUP: p5-6: relative error of cantilever and two-section bar results against analytical values.
+FT-0019,V,UNR -> UNR: No physical test.
+FT-0019,primary_ETF,E3 -> E3: Numerical agreement used to support physical design performance.
+FT-0019,evidence_tier,T1 -> T1: Relative error against analytical values.
+FT-0021,V_required,N -> Y: Mechanical design decision about a physical component.
+FT-0021,V,NR -> UNR: No physical test.
+FT-0021,primary_ETF,none -> E3: Simulation agreement used to support physical design performance.
+FT-0022,primary_ETF,E2 -> E1: Early-stage design evaluation judged on workflow completion.
+FT-0024,V_required,N -> Y: Aerodynamic design performance claim.
+FT-0024,V,NR -> UNR: No physical test.
+FT-0024,primary_ETF,E5 -> E3: CFD results used as evidence of real aerodynamic performance.
+FT-0025,V_required,N -> Y: Pavement design decision.
+FT-0025,V,NR -> UNR: No physical test.
+FT-0025,primary_ETF,none -> E3: Simulated performance used as evidence of physical validity.
+FT-0027,V_required,N -> Y: Headline includes agreement with experimental data for the specified cases.
+FT-0027,S,SUP -> SUP: p6: agent-generated simulations compared with reference and experimental data of the specified cases (R1).
+FT-0027,V,"NR -> UNR: p6: compared with experiment but N not SUP, so V cannot be SUP (R2)."
+FT-0027,B,"SUP -> SUP: p2: ""Our code and fine-tuned model have been deposited at https://github.com/YYgroup/AutoCFD""."
+FT-0027,primary_ETF,none -> none: Claim stays with the compared reference/experimental data.
+FT-0027,evidence_tier,T1 -> T2: Agreement with reference and experiment without error bound.
+FT-0028,primary_ETF,none -> none: Tool-integration paper; claim limited to demonstrated cases.
+FT-0030,V_required,N -> Y: Conceptual UAV design decision.
+FT-0030,V,NR -> UNR: No physical test.
+FT-0030,primary_ETF,none -> E3: Preliminary CFD used to support physical design validity.
+FT-0031,primary_ETF,E5 -> E5: Wind-tunnel validation of one configuration generalised to vortex transitions across the studied regime.
+FT-0032,primary_ETF,none -> E1: Headline is end-to-end FEA automation shown by successful execution.
+FT-0034,B,"SUP -> SUP: p1: ""code and fine-tuned model deposited at https://github.com/YYgroup/AutoCFD""."
+FT-0034,primary_ETF,none -> none: Claim limited to the evaluated benchmark.
+FT-0036,A,"UNR -> UNR: p3: schema validation and runtime-restricted fields, but p6 the Reviewer may change BCs/mesh/discretization freely; no bound on effects."
+FT-0036,B,"SUP -> SUP: Code availability: code base, prompts, run configurations and execution logs public."
+FT-0037,primary_ETF,none -> none: Claim limited to the optimisation case.
+FT-0038,B,"SUP -> SUP: p3: ""The full source code ... is freely available at GitHub""."
+FT-0042,V_required,Y -> Y: High-frequency EM simulation counted as numerical engineering simulation; design claim about a physical package.
+FT-0042,V,UNR -> UNR: No measured hardware.
+FT-0042,primary_ETF,E3 -> E3: Simulation agreement used to support physical validity.
+OA-105015856975,V_required,Y -> Y: Analog/RF circuit simulation counted as numerical engineering simulation; design performance claim.
+OA-105015856975,S,UNR -> SUP: p4: testbench simulation checks the executed design against the performance specification.
+OA-105015856975,V,UNR -> UNR: No fabricated-circuit measurement.
+OA-105015856975,primary_ETF,E3 -> E3: Circuit-simulation success used as evidence of physical circuit performance.
+OA-105017846456,primary_ETF,E5 -> E3: Simulated design performance asserted as physical performance.
+OA-105017846456,evidence_tier,T2 -> T2: Simulation results compared with design targets; no error bound.
+OA-105022128587,S,UNR -> SUP: p16: agent designs re-simulated and compared with the target response.
+OA-105022128587,N,SUP -> SUP: p16: re-simulation error against numerical ground truth (R1).
+OA-105023424345,S,SUP -> SUP: p5: ACOPF results compared directly with a reference solver on IEEE cases (R1).
+OA-105023424345,A,"SUP -> SUP: p1,p3: agent acts only through typed tool calls to deterministic engineering solvers."
+OA-105023424345,N,"SUP -> SUP: p3: convergence flag, power-balance mismatch < 1e-4 p.u., plus reference-solver agreement."
+OA-105023424345,primary_ETF,none -> none: Claim limited to the evaluated IEEE cases.
+OA-105023424345,evidence_tier,T2 -> T2: Agreement with reference solver without error bound.
+OA-105024361196,S,REF -> REF: p12: low requirement coverage and physics-incorrect scripts are reported for the runs behind the claim.
+OA-105024361196,primary_ETF,none -> none: Paper reports the shortfalls it found.
+OA-105030704736,primary_ETF,none -> none: Claim limited to the evaluated structural cases.
+OA-105033976237,A,UNR -> UNR: p1: MCP tools exist but agents generate inputs and submit jobs freely; no pre-action bound shown.
+OA-105033976237,B,SUP -> SUP: p6: VASPilot source code publicly available on GitHub.
+OA-105033976237,primary_ETF,none -> none: Claim limited to evaluated VASP tasks.
+OA-105034270761,V_required,"Y -> Y: Modulation design claim about a physical converter, with oscilloscope data."
+OA-105034270761,V,"UNR -> UNR: p5: oscilloscope data used but N not supported, so V cannot be SUP (R2)."
+OA-105034270761,primary_ETF,none -> none: Claim limited to evaluated cases.
+OA-105034270761,evidence_tier,T1 -> T2: Agreement with hardware/reference data without error bound.
+OA-105038704931,primary_ETF,E5 -> E5: Handful of process-simulation cases generalised to user-friendly process simulation; economic figures not validated (p14).
+OA-105041279980,B,"SUP -> SUP: p19: parser, scripts and transcripts released (GitHub / nanoHUB)."
+OA-105041279980,primary_ETF,none -> none: Claim limited to evaluated DSL code generation.
+OA-105042967207,V_required,N -> Y: Process design decision.
+OA-105042967207,V,NR -> UNR: No physical comparison.
+OA-105042967207,primary_ETF,E1 -> E1: Execution of generated process models used as evidence of correct design.
+OA-105049541058,S,UNR -> SUP: p1: designs checked against quantitative acceptance criteria by simulation.
+OA-105049541058,B,"SUP -> SUP: p3,p11: public reference implementation on GitHub."
+OA-708553818993,S,UNR -> SUP: Benchmark specs checked by circuit simulation of the executed design.
+OA-803383783054,N,UNR -> SUP: Table 2 (p7): MSE against benchmark reference on 14 PDEs (R1 for surrogates).
+OA-803383783054,evidence_tier,T3 -> T2: Benchmark comparison against baselines without error bound.
+PW-105004644878,S,"SUP -> SUP: p2,p11: LLM-written solvers compared with reference solutions of the specified problems (R1)."
+PW-105004644878,N,SUP -> SUP: p11: relative L2 error below 2% against reference; p3 grid resolution effects.
+PW-105004644878,primary_ETF,none -> none: Claim limited to evaluated CFD problems.
+PW-105004644878,evidence_tier,T1 -> T1: Relative L2 error against reference with grid-resolution effects.
+PW-105005960380,S,UNR -> SUP: Constraint satisfaction checked by circuit simulation of the executed design.
+PW-105009600092,primary_ETF,E5 -> E1: Short paper; success of generated controller used as evidence of correct design.
+PW-105015762032,S,SUP -> SUP: p3: derived schemes and code checked by expert against the specified formulas; error rates reported.
+PW-105015762032,primary_ETF,none -> none: Claim limited to the derivations tested.
+PW-105015762032,evidence_tier,T2 -> T3: Expert check of derivations and code; no numerical reference.
+PW-105021257567,primary_ETF,E5 -> E5: Agent driving a surrogate trained on atomistic data generalised to alloy design.
+PW-105023443107,primary_ETF,none -> none: Claim limited to the demonstrated workflows.
+PW-105023667091,A,SUP -> SUP: p1: MCP converts prompts into structured solver commands (typed-tool confinement).
+PW-105023667091,N,"SUP -> SUP: p7: relative errors of drifts, displacements, base shear and periods against ETABS."
+PW-105023667091,primary_ETF,none -> none: Dataset paper; claim limited to the dataset.
+PW-105024922018,N,SUP -> SUP: p7: percent error against human-expert reference simulations (R1).
+PW-105024922018,primary_ETF,none -> none: Claim limited to evaluated tasks.
+PW-105033068101,S,SUP -> SUP: p7: generated models and solutions scored against benchmark reference solutions.
+PW-105033068101,N,SUP -> SUP: p7: numerical solutions compared with analytical reference solutions.
+PW-105033068101,B,SUP -> SUP: p5: scripts and CSV files on GitHub.
+PW-105033068101,primary_ETF,none -> none: Claim limited to the benchmark.
+PW-105033068101,evidence_tier,T1 -> T1: Errors against analytical reference solutions.
+PW-105039574322,S,SUP -> SUP: p11: extracted parameters checked against queries across repeated runs.
+PW-105039574322,primary_ETF,E1 -> E5: Multi-task claim generalised from a small set of materials tasks.
+PW-105042399260,V_required,N -> Y: Steel design decision about a physical structure.
+PW-105042399260,V,NR -> UNR: No physical test.
+PW-105042399260,B,SUP -> SUP: p10: source code on GitHub (EngineerWithData/LLM-steel-design).
+PW-105042650930,V_required,"Y -> N: Benchmark of RAG performance, not a physical-performance claim."
+PW-105042650930,V,UNR -> NR: V not required.
+PW-105042650930,primary_ETF,E3 -> E5: Benchmark score generalised to professional engineering competence.
+PW-105043714320,evidence_tier,T2 -> T2: Agreement with reference/literature without error bound.
+PW-105043736922,primary_ETF,E2 -> E5: ROM-based digital-twin result generalised to robust control.
+PW-105044409296,primary_ETF,none -> none: Claim limited to evaluated structural software tasks.
+PW-105044419103,N,SUP -> SUP: p32: surrogate predictions within 4% mean bias of high-fidelity stochastic simulations (R1).
+PW-105044419103,primary_ETF,E3 -> E3: Simulation agreement used to support seismic design validity.
+PW-105044419103,evidence_tier,"T2 -> T2: Agreement with high-fidelity simulation, no error bound."
+PW-105044492176,V_required,Y -> Y: Reliability of a physical structure is asserted.
+PW-105044492176,N,SUP -> SUP: p5: surrogate accuracy checked against FE samples to a convergence threshold (R1).
+PW-105044492176,V,UNR -> UNR: No field or laboratory comparison.
+PW-105044492176,primary_ETF,E3 -> E3: FE agreement used as evidence of real structural reliability.
+PW-105044492176,evidence_tier,"T2 -> T2: Agreement with FE samples, no error bound."
+PW-105045858090,V_required,N -> Y: Thermal-management performance claim for a physical battery system.
+PW-105045858090,V,NR -> UNR: No physical test.
+PW-105045858090,primary_ETF,none -> E3: Simulated thermal performance used as evidence of real performance.
+PW-442563812593,primary_ETF,none -> E1: Runnable EnergyPlus models used as evidence of correct HVAC simulation.
+PW-442563812593,evidence_tier,T2 -> T3: Execution/task success only.
+PW-708553819007,S,SUP -> SUP: p10: agent answers about simulated 3D fields scored against ground-truth options.
+PW-708553819007,B,SUP -> SUP: p1: code on GitHub.
+PW-708553819007,primary_ETF,none -> none: Claim limited to the benchmark questions.
+PW-708553819007,evidence_tier,"T2 -> T2: Scored against ground-truth options, no numerical error."
+PW-EConferences,primary_ETF,E5 -> E1: Short paper; generated CAD API code judged by execution.
+PW-IEEEJournals,V_required,N -> Y: Package S-parameters compared with measurement; RF/EM counts as simulation.
+PW-IEEEJournals,S,SUP -> SUP: p7: simulated S-parameters compared with measured S-parameters (R1).
+PW-IEEEJournals,V,"NR -> UNR: p7: measured comparison present but N not SUP, so V cannot be SUP (R2)."
+PW-IEEEJournals,primary_ETF,none -> none: Claim stays within the measured comparison reported.
+CEN-004,record,added from full-text follow-up of human screening (joint coding)
+CEN-037,record,added from full-text follow-up of human screening (joint coding)
+CEN-055,record,added from full-text follow-up of human screening (joint coding)
+CEN-056,record,added from full-text follow-up of human screening (joint coding)
+CEN-058,record,added from full-text follow-up of human screening (joint coding)
+CEN-062,record,added from full-text follow-up of human screening (joint coding)
+CEN-069,record,added from full-text follow-up of human screening (joint coding)
+S2R-010,record,added from full-text follow-up of human screening (joint coding)
+S2R-023,record,added from full-text follow-up of human screening (joint coding)
+S2R-034,record,added from full-text follow-up of human screening (joint coding)
+S2R-099,record,added from full-text follow-up of human screening (joint coding)
+S2R-103,record,added from full-text follow-up of human screening (joint coding)
+S2R-105,record,added from full-text follow-up of human screening (joint coding)
+S2R-108,record,added from full-text follow-up of human screening (joint coding)
+S2R-140,record,added from full-text follow-up of human screening (joint coding)
+S2R-193,record,added from full-text follow-up of human screening (joint coding)
+KWR-010,record,added from full-text follow-up of human screening (joint coding)
+KWR-025,record,added from full-text follow-up of human screening (joint coding)
+KWR-028,record,added from full-text follow-up of human screening (joint coding)
+KWR-061,record,added from full-text follow-up of human screening (joint coding)
+KWR-092,record,added from full-text follow-up of human screening (joint coding)
+KWR-134,record,added from full-text follow-up of human screening (joint coding)
+KWR-147,record,added from full-text follow-up of human screening (joint coding)
+KWR-162,record,added from full-text follow-up of human screening (joint coding)
+KWR-213,record,added from full-text follow-up of human screening (joint coding)
+KWR-232,record,added from full-text follow-up of human screening (joint coding)
+ARX-2511.19423,record,added from full-text follow-up of human screening (joint coding)
+ARX-2601.14523,record,added from full-text follow-up of human screening (joint coding)
+ARX-2601.21977,record,added from full-text follow-up of human screening (joint coding)
+ARX-2605.09708,record,added from full-text follow-up of human screening (joint coding)
+OA-105015856975,S,SUP -> UNR: R1 consistency check; design targets met in simulation are not a reference-solution comparison and the executed model was not compared with the specification
+OA-105022128587,S,SUP -> UNR: R1 consistency check; design targets met in simulation are not a reference-solution comparison and the executed model was not compared with the specification
+OA-105049541058,S,SUP -> UNR: R1 consistency check; design targets met in simulation are not a reference-solution comparison and the executed model was not compared with the specification
+OA-708553818993,S,SUP -> UNR: R1 consistency check; design targets met in simulation are not a reference-solution comparison and the executed model was not compared with the specification
+PW-105005960380,S,SUP -> UNR: R1 consistency check; design targets met in simulation are not a reference-solution comparison and the executed model was not compared with the specification

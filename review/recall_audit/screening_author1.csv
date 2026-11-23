@@ -1,0 +1,817 @@
+record_id,decision,stream(s) if INCLUDE/UNCERTAIN,exclusion_code if EXCLUDE,note
+CEN-068,EXCLUDE,,E11, Duplicate of CEN-020.
+S2R-041,EXCLUDE,,E05,
+S3R-020,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-015,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-137,EXCLUDE,,E05,
+S2R-156,EXCLUDE,,E03,
+CEN-017,EXCLUDE,,E03, Title only; game/robotics task assignment.
+S3R-159,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-147,EXCLUDE,,E06,
+S3R-166,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-067,EXCLUDE,,E03,
+S3R-123,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-119,EXCLUDE,,E03,
+ARX-2510.05414,INCLUDE,S1,,
+KWR-016,EXCLUDE,,E03,
+ARX-2403.18778,EXCLUDE,,E03,
+S2R-019,EXCLUDE,,E06,
+S2R-131,EXCLUDE,,E02,
+S3R-160,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-197,EXCLUDE,,E05,
+KWR-037,EXCLUDE,,E05,
+KWR-233,EXCLUDE,,E02,
+S3R-070,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-040,INCLUDE,S1,,
+S2R-085,EXCLUDE,,E06,
+S2R-045,EXCLUDE,,E03,
+S2R-024,EXCLUDE,,E02,
+KWR-133,EXCLUDE,,E06,
+S3R-097,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-111,INCLUDE,S1,,
+S2R-011,EXCLUDE,,E05,
+S3R-161,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-140,EXCLUDE,,E06,
+KWR-217,EXCLUDE,,E02,
+KWR-126,EXCLUDE,,E06,
+KWR-185,EXCLUDE,,E03,
+ARX-2606.10752,INCLUDE,S1,,
+S2R-003,UNCERTAIN,S2,, Title only; LLM multi-agent payment system.
+ARX-2509.18405,EXCLUDE,,E06, Check-fraud detection.
+KWR-048,EXCLUDE,,E06, Generic MCP-tool agent; no stream criterion.
+KWR-024,UNCERTAIN,S1,, 'Agentic AI' for SHM; language-model role unclear.
+S3R-078,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-157,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2502.18138,EXCLUDE,,E02,
+KWR-049,EXCLUDE,,E06,
+KWR-255,EXCLUDE,,E06,
+CEN-012,EXCLUDE,,E05, Reinforcement learning without a language model.
+S2R-107,EXCLUDE,,E05,
+S2R-077,EXCLUDE,,E06,
+CEN-072,INCLUDE,S1,,
+KWR-201,EXCLUDE,,E02,
+S3R-057,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-134,UNCERTAIN,S1,, Physics-informed agent for oilfield production; simulation role unclear.
+CEN-046,UNCERTAIN,S1,, LLM agents with optimization solvers; engineering-simulation role unclear.
+S2R-014,EXCLUDE,,E06,
+ARX-2607.14158,INCLUDE,S1,, Position paper; evaluation to be checked at full text.
+S3R-058,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-249,EXCLUDE,,E02,
+S3R-023,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-185,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-078,UNCERTAIN,S2,, Risk propagation in agentic AI networks.
+KWR-204,EXCLUDE,,E06,
+S2R-145,EXCLUDE,,E09,
+ARX-2407.21320,INCLUDE,S1,,
+KWR-073,EXCLUDE,,E06, Digital chip verification (EDA rule).
+KWR-207,EXCLUDE,,E11, Duplicate of KWR-012.
+S3R-067,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-179,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-197,EXCLUDE,,E06,
+S3R-006,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-121,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-209,EXCLUDE,,E06,
+CEN-069,UNCERTAIN,S1,, LLM translation of HPC repositories; agentic and numerical-simulation role unclear.
+KWR-005,EXCLUDE,,E03,
+ARX-2602.17607,INCLUDE,S1,,
+KWR-165,EXCLUDE,,E05,
+CEN-049,EXCLUDE,,E03,
+KWR-052,EXCLUDE,,E06,
+KWR-145,EXCLUDE,,E06,
+CEN-052,INCLUDE,S1,,
+S3R-119,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-133,EXCLUDE,,E06,
+S3R-003,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-004,EXCLUDE,,E06,
+S3R-151,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-169,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-075,EXCLUDE,,E05,
+KWR-034,EXCLUDE,,E06,
+ARX-2511.17511,INCLUDE,S1,,
+S3R-133,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-051,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-146,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-060,INCLUDE,S2,,
+S3R-061,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-120,EXCLUDE,,E06,
+S3R-092,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-168,EXCLUDE,,E03,
+CEN-020,INCLUDE,S1,,
+CEN-035,EXCLUDE,,E03,
+KWR-121,EXCLUDE,,E02,
+S2R-008,EXCLUDE,,E06,
+S3R-080,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-004,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-149,UNCERTAIN,S2,, AI agent attackers/defenders; may be generic cybersecurity (E07).
+S3R-077,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-108,INCLUDE,S1,, ParaView-MCP agent with direct tool use on visualization/postprocessing.
+ARX-2505.08783,INCLUDE,S1,,
+CEN-058,INCLUDE,S1,,
+S3R-162,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-069,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-167,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-017,EXCLUDE,,E05,
+ARX-2504.19338,INCLUDE,S1,,
+KWR-110,EXCLUDE,,E06,
+S2R-189,EXCLUDE,,E06,
+KWR-099,EXCLUDE,,E06,
+S3R-018,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-172,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-104,EXCLUDE,,E03,
+S2R-012,INCLUDE,S2,, Sabotage evaluations of agents in automated AI R&D.
+KWR-006,EXCLUDE,,E02, LLM agents in construction-process (operational) simulation.
+S2R-058,EXCLUDE,,E06,
+ARX-2601.07252,INCLUDE,S1,,
+S2R-181,EXCLUDE,,E03,
+S2R-026,EXCLUDE,,E06, Digital SoC floorplanning (EDA rule).
+KWR-206,EXCLUDE,,E06,
+KWR-072,EXCLUDE,,E06,
+S3R-173,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-021,INCLUDE,S1,, Conceptual framework; evaluation to check at full text.
+KWR-163,EXCLUDE,,E06,
+S3R-197,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-027,EXCLUDE,,E05,
+S3R-115,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-026,UNCERTAIN,S3,, AI-supported wind-tunnel and CFD correlation ecosystem; credibility contribution unclear.
+KWR-077,EXCLUDE,,E05,
+CEN-045,EXCLUDE,,E01,
+KWR-213,UNCERTAIN,S1,, LLM agent for SUMO traffic simulation.
+S3R-083,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-195,UNCERTAIN,S2,, Title only; book on agentic architecture patterns.
+S3R-047,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-020,EXCLUDE,,E05,
+ARX-2407.19338,EXCLUDE,,E05,
+S2R-034,EXCLUDE,,E06,
+S3R-084,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-148,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-221,EXCLUDE,,E02,
+KWR-187,EXCLUDE,,E05,
+KWR-234,EXCLUDE,,E02,
+KWR-184,EXCLUDE,,E03,
+KWR-098,EXCLUDE,,E09,
+KWR-030,EXCLUDE,,E06, Digital EDA physical design (EDA rule).
+KWR-203,EXCLUDE,,E06,
+S3R-096,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-066,EXCLUDE,,E05,
+S2R-095,EXCLUDE,,E05,
+CEN-038,INCLUDE,S1,, Title only.
+S2R-104,EXCLUDE,,E06,
+KWR-118,EXCLUDE,,E06,
+KWR-238,EXCLUDE,,E06,
+KWR-225,EXCLUDE,,E03,
+ARX-2607.01812,INCLUDE,S1,,
+CEN-031,EXCLUDE,,E06,
+CEN-042,INCLUDE,S1,,
+S3R-193,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-092,UNCERTAIN,S1,, Review of intelligent design in the agentic era.
+S2R-191,EXCLUDE,,E06,
+CEN-071,INCLUDE,S1,, Title only.
+KWR-018,INCLUDE,S1,,
+S2R-037,EXCLUDE,,E06,
+ARX-2603.21011,INCLUDE,S1,,
+KWR-190,EXCLUDE,,E02,
+S2R-187,INCLUDE,S3,, Parameter sensitivity analysis of a multiscale computational model.
+KWR-226,EXCLUDE,,E06,
+S2R-074,EXCLUDE,,E06,
+KWR-082,EXCLUDE,,E09,
+KWR-186,EXCLUDE,,E05,
+S3R-031,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-013,EXCLUDE,,E03,
+S3R-130,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-179,EXCLUDE,,E05,
+ARX-2605.11269,INCLUDE,S1,,
+S3R-196,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-232,UNCERTAIN,S1,, LLM occupants coupled to a physics-based building simulation.
+S2R-036,INCLUDE,S2,, Identity for autonomous AI agents.
+S3R-044,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+ARX-2504.08621,INCLUDE,S1,,
+S2R-102,EXCLUDE,,E06,
+KWR-239,EXCLUDE,,E02,
+KWR-177,EXCLUDE,,E05,
+S2R-180,EXCLUDE,,E06,
+KWR-140,EXCLUDE,,E06,
+KWR-151,EXCLUDE,,E03,
+KWR-130,EXCLUDE,,E05,
+S3R-034,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-024,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-144,EXCLUDE,,E06,
+S3R-064,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-200,EXCLUDE,,E05,
+S3R-066,EXCLUDE,,E06,
+KWR-250,EXCLUDE,,E06,
+S2R-163,EXCLUDE,,E06,
+KWR-009,INCLUDE,S1,,
+ARX-2608.03600,UNCERTAIN,S1,, Review of LLM-assisted PDE workflows.
+S2R-134,EXCLUDE,,E06,
+CEN-048,EXCLUDE,,E01,
+S2R-173,EXCLUDE,,E05,
+ARX-2311.08166,INCLUDE,S1,,
+S2R-186,EXCLUDE,,E05,
+S2R-072,EXCLUDE,,E02,
+KWR-102,EXCLUDE,,E06, VLSI placement (EDA rule).
+S2R-169,EXCLUDE,,E06,
+CEN-067,EXCLUDE,,E05, MD performance study; no agent.
+S3R-014,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+CEN-001,EXCLUDE,,E01, AI for garment FE simulation; no agent.
+ARX-2504.09602,INCLUDE,S1,,
+KWR-173,EXCLUDE,,E06,
+KWR-008,EXCLUDE,,E05,
+KWR-208,INCLUDE,S1,,
+S2R-083,EXCLUDE,,E05,
+KWR-007,EXCLUDE,,E05,
+S3R-116,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-058,EXCLUDE,,E09, Keynote.
+KWR-157,INCLUDE,S1,,
+S2R-182,EXCLUDE,,E05,
+CEN-018,UNCERTAIN,S2,, Title only; broad survey of intelligent agents.
+KWR-029,INCLUDE,S1,,
+KWR-148,EXCLUDE,,E06,
+S3R-150,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-160,INCLUDE,S1,,
+CEN-070,UNCERTAIN,S3,, LLM-assisted differential testing of numerical array frameworks; possible code-verification relevance.
+ARX-2605.18630,UNCERTAIN,S1,, Clarification benchmark for computational-science task formulation; tool use unclear.
+CEN-008,EXCLUDE,,E01,
+S3R-035,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-114,EXCLUDE,,E05,
+KWR-093,EXCLUDE,,E06,
+KWR-172,EXCLUDE,,E03,
+S2R-184,EXCLUDE,,E06,
+KWR-086,INCLUDE,S1,,
+KWR-074,EXCLUDE,,E06,
+KWR-158,EXCLUDE,,E05,
+S2R-175,EXCLUDE,,E06,
+S2R-069,EXCLUDE,,E03,
+KWR-115,EXCLUDE,,E02,
+S3R-029,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-108,INCLUDE,S1,,
+KWR-147,UNCERTAIN,S1,, Agentic AI embedded in oilfield engineering and optimization workflows; simulation role unclear.
+KWR-035,EXCLUDE,,E06,
+ARX-2605.02911,EXCLUDE,,E06, 6G networking.
+KWR-127,EXCLUDE,,E06,
+S2R-196,EXCLUDE,,E05,
+S3R-180,EXCLUDE,,E06,
+CEN-060,INCLUDE,S1,,
+ARX-2512.07917,INCLUDE,S1,,
+ARX-2607.14582,EXCLUDE,,E06, Mathematical theorem proving.
+S3R-073,EXCLUDE,,E06,
+S3R-017,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-057,EXCLUDE,,E02,
+S2R-057,EXCLUDE,,E02,
+S2R-025,EXCLUDE,,E02,
+ARX-2605.09636,INCLUDE,S1,,
+S2R-096,EXCLUDE,,E06,
+S3R-043,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-218,EXCLUDE,,E06,
+ARX-2603.15797,UNCERTAIN,S1,, Multimodal agent reasoning over PDE flow fields; tool action unclear.
+S2R-022,EXCLUDE,,E04,
+S3R-109,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-241,EXCLUDE,,E05,
+S2R-030,EXCLUDE,,E05,
+KWR-166,EXCLUDE,,E03,
+S3R-075,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2603.20986,INCLUDE,S1,,
+S2R-150,EXCLUDE,,E03,
+KWR-231,INCLUDE,S1,,
+KWR-109,EXCLUDE,,E06,
+KWR-114,EXCLUDE,,E05,
+S2R-023,UNCERTAIN,S1,, Graph-RAG LLM agent services for engineering critical analysis.
+S3R-138,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-127,EXCLUDE,,E06,
+KWR-222,EXCLUDE,,E06,
+S2R-105,INCLUDE,S1,, AI agents orchestrating physics simulation tools in computational design.
+KWR-236,EXCLUDE,,E06,
+S3R-054,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-220,EXCLUDE,,E06,
+ARX-2503.23315,INCLUDE,S1,,
+ARX-2608.00003,INCLUDE,S1,,
+S3R-022,EXCLUDE,,E06,
+KWR-161,EXCLUDE,,E06,
+S3R-001,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-132,INCLUDE,S1,,
+S2R-129,EXCLUDE,,E06,
+KWR-031,EXCLUDE,,E06,
+KWR-125,EXCLUDE,,E05,
+S3R-072,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-135,EXCLUDE,,E06,
+S2R-082,INCLUDE,S2,, Trust frameworks for agentic ecosystems.
+ARX-2603.19241,INCLUDE,S1,,
+S3R-134,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+CEN-065,EXCLUDE,,E03, Title only.
+KWR-089,EXCLUDE,,E06, HLS directive optimization (EDA rule).
+KWR-014,EXCLUDE,,E06,
+S3R-038,EXCLUDE,,E06,
+S2R-021,EXCLUDE,,E05,
+S2R-027,EXCLUDE,,E06,
+CEN-004,UNCERTAIN,S1,, FE slope analysis with an 'AI agent model'; whether an LLM agent acts on the FE workflow is unclear.
+KWR-123,EXCLUDE,,E06,
+S2R-005,EXCLUDE,,E06,
+S2R-138,EXCLUDE,,E05,
+S3R-081,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-073,EXCLUDE,,E03,
+KWR-044,EXCLUDE,,E02, LLM agents simulating occupant behaviour (agent-based model).
+S2R-185,EXCLUDE,,E06,
+KWR-171,EXCLUDE,,E05,
+KWR-175,EXCLUDE,,E05,
+S3R-131,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-188,EXCLUDE,,E06,
+KWR-174,EXCLUDE,,E02,
+KWR-033,EXCLUDE,,E02,
+KWR-103,EXCLUDE,,E06,
+S2R-087,EXCLUDE,,E04,
+S3R-021,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-081,EXCLUDE,,E06,
+S3R-152,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2412.17146,INCLUDE,S1,,
+KWR-138,INCLUDE,S1,,
+KWR-258,EXCLUDE,,E06,
+KWR-107,UNCERTAIN,S1,, Agentic HPC code autotuning.
+KWR-096,EXCLUDE,,E06,
+S2R-059,EXCLUDE,,E05,
+KWR-216,EXCLUDE,,E06,
+KWR-242,EXCLUDE,,E05,
+S3R-191,EXCLUDE,,E06,
+S2R-165,EXCLUDE,,E06,
+S2R-084,EXCLUDE,,E05,
+KWR-122,EXCLUDE,,E06,
+S3R-107,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-160,EXCLUDE,,E06,
+KWR-169,EXCLUDE,,E05,
+ARX-2601.01357,INCLUDE,S1,,
+S2R-049,EXCLUDE,,E05,
+S3R-063,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-120,EXCLUDE,,E05,
+S3R-108,EXCLUDE,,E16, Proceedings front matter or empty record.
+S3R-046,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-148,EXCLUDE,,E05,
+S2R-092,EXCLUDE,,E09,
+KWR-003,EXCLUDE,,E06,
+ARX-2607.26490,INCLUDE,S1,,
+CEN-023,INCLUDE,S1,, Title only.
+S2R-168,EXCLUDE,,E06,
+ARX-2605.09708,UNCERTAIN,S1,," LLM kernel search for scientific compute kernels (MD, PDE)."
+KWR-051,EXCLUDE,,E06,
+KWR-228,EXCLUDE,,E06,
+S2R-103,UNCERTAIN,S1,, Title only; agentic scientific workflows.
+S3R-186,EXCLUDE,,E16, Proceedings front matter or empty record.
+S3R-128,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-059,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-251,EXCLUDE,,E06,
+S3R-145,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-132,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-141,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-149,EXCLUDE,,E06,
+KWR-076,INCLUDE,S1,,
+S2R-050,INCLUDE,S2,," Title only; reliability, safety and governance of deployed AI agents."
+S2R-158,EXCLUDE,,E03,
+KWR-066,EXCLUDE,,E06,
+KWR-191,EXCLUDE,,E03,
+KWR-248,UNCERTAIN,S2,, Transparency of multi-agent decision processes; possible trace mechanism.
+ARX-2610.00056,EXCLUDE,,E12, arXiv October 2026.
+S2R-183,EXCLUDE,,E06,
+ARX-2510.21993,INCLUDE,S1,,
+KWR-097,EXCLUDE,,E03,
+S3R-009,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-044,EXCLUDE,,E06,
+KWR-019,INCLUDE,S2,,
+S3R-158,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2602.11666,INCLUDE,S1,,
+S2R-046,EXCLUDE,,E06,
+KWR-061,EXCLUDE,,E02, LLM agents inside agent-based traffic simulation.
+S2R-198,EXCLUDE,,E09,
+KWR-131,EXCLUDE,,E06,
+KWR-002,EXCLUDE,,E06,
+ARX-2505.05047,EXCLUDE,,E05,
+S2R-161,EXCLUDE,,E06,
+ARX-2608.27869,INCLUDE,S1,,
+S3R-105,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2604.11945,INCLUDE,S1,,
+ARX-2606.08729,EXCLUDE,,E03,
+S3R-042,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2601.18381,INCLUDE,S1,,
+S2R-122,EXCLUDE,,E02,
+KWR-142,EXCLUDE,,E06,
+S2R-002,UNCERTAIN,S2,, Title only; trustworthy collaborative agents for IIoT.
+S3R-113,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-022,EXCLUDE,,E06,
+S2R-098,EXCLUDE,,E08,
+S3R-195,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2604.04324,INCLUDE,S1,,
+KWR-015,EXCLUDE,,E06,
+S3R-100,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-018,UNCERTAIN,S2,, Title only; data lineage and governance for agentic systems.
+KWR-229,EXCLUDE,,E06,
+S3R-174,EXCLUDE,,E06,
+KWR-180,EXCLUDE,,E02,
+S2R-016,EXCLUDE,,E06,
+S2R-176,EXCLUDE,,E05,
+S2R-061,EXCLUDE,,E05,
+S2R-064,UNCERTAIN,S2,, Avoiding negative side effects of autonomous agents; applicability to LLM agents unclear.
+S2R-009,EXCLUDE,,E07,
+CEN-024,EXCLUDE,,E03, Title only.
+ARX-2606.22493,INCLUDE,S1,,
+KWR-198,EXCLUDE,,E06,
+S3R-129,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-099,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2609.03718,INCLUDE,S1,,
+S3R-126,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-143,EXCLUDE,,E03,
+S3R-164,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-124,EXCLUDE,,E06,
+S3R-106,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-132,EXCLUDE,,E06,
+KWR-155,EXCLUDE,,E06,
+S3R-183,EXCLUDE,,E06,
+S3R-002,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-192,EXCLUDE,,E05,
+S2R-088,EXCLUDE,,E06,
+S3R-111,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-032,EXCLUDE,,E03,
+KWR-036,EXCLUDE,,E09, Tutorial.
+CEN-028,UNCERTAIN,S3,, Perspective on simulation science; abstract appears mismatched.
+CEN-061,EXCLUDE,,E08,
+KWR-094,EXCLUDE,,E02,
+S2R-093,EXCLUDE,,E06,
+KWR-053,EXCLUDE,,E02,
+KWR-084,INCLUDE,S1,,
+KWR-054,EXCLUDE,,E06,
+S3R-171,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-130,EXCLUDE,,E06,
+S2R-194,EXCLUDE,,E06,
+ARX-2509.11447,INCLUDE,S1,,
+KWR-215,EXCLUDE,,E06,
+S2R-113,EXCLUDE,,E03,
+KWR-085,INCLUDE,S1,,
+KWR-235,EXCLUDE,,E02,
+KWR-210,EXCLUDE,,E06,
+S3R-188,EXCLUDE,,E06,
+S3R-085,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-060,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-119,INCLUDE,S1,,
+KWR-071,EXCLUDE,,E06,
+S2R-123,UNCERTAIN,S2,, Survey of LLM agent benchmarking; assurance relevance unclear.
+KWR-068,EXCLUDE,,E07," Security validation of microservices, not of agents."
+S2R-054,EXCLUDE,,E06,
+S2R-076,EXCLUDE,,E07,
+S2R-167,EXCLUDE,,E09,
+S3R-102,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-167,EXCLUDE,,E03,
+KWR-194,INCLUDE,S2,, Assurance case for agentic GenAI (title only).
+KWR-176,EXCLUDE,,E05, Multi-agent RL for mesh refinement; no language model.
+S3R-008,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+ARX-2504.06260,INCLUDE,S1,,
+S2R-051,EXCLUDE,,E05,
+S2R-075,EXCLUDE,,E06, Beamline experiment orchestration; no numerical simulation.
+ARX-2605.28978,INCLUDE,S1,,
+S2R-146,EXCLUDE,,E06,
+KWR-247,EXCLUDE,,E06,
+KWR-079,EXCLUDE,,E06,
+KWR-214,INCLUDE,S1,,
+S2R-091,EXCLUDE,,E06,
+S3R-137,EXCLUDE,,E06,
+S3R-005,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-021,EXCLUDE,,E03,
+ARX-2601.21977,UNCERTAIN,S1,, Generative models predicting spatial-simulation states; agent role unclear.
+S3R-055,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-202,EXCLUDE,,E06,
+S2R-053,EXCLUDE,,E02,
+ARX-2604.06788,INCLUDE,S1,,
+S2R-193,UNCERTAIN,S1,, Title only; agentic orchestration of catastrophe-model workflow.
+S3R-025,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-069,EXCLUDE,,E05,
+CEN-047,EXCLUDE,,E08, FEM digital twin for refractory operation; no agent or credibility method.
+S3R-048,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+CEN-002,EXCLUDE,,E03,
+ARX-2510.05158,INCLUDE,S1,,
+S3R-087,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-055,EXCLUDE,,E06,
+S2R-010,UNCERTAIN,S1,, Agentic crystal-structure generation; simulation role unclear.
+S3R-114,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-056,UNCERTAIN,S1,, Title only.
+CEN-063,EXCLUDE,,E11, Duplicate of CEN-038.
+KWR-020,EXCLUDE,,E06,
+ARX-2606.09037,INCLUDE,S1,,
+KWR-182,EXCLUDE,,E02,
+CEN-059,INCLUDE,S1,,
+KWR-144,EXCLUDE,,E06,
+KWR-240,EXCLUDE,,E06,
+S3R-118,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-152,EXCLUDE,,E06,
+S3R-184,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-041,EXCLUDE,,E05,
+S2R-094,EXCLUDE,,E03,
+S3R-175,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-051,INCLUDE,S1,,
+S2R-033,EXCLUDE,,E06, Laboratory instrument automation; no numerical simulation.
+KWR-112,EXCLUDE,,E06,
+ARX-2608.27475,INCLUDE,S1,,
+KWR-193,EXCLUDE,,E02,
+KWR-083,EXCLUDE,,E06,
+CEN-054,EXCLUDE,,E05, HPC task scheduler; no LLM agent.
+KWR-129,EXCLUDE,,E06,
+ARX-2604.16687,INCLUDE,S1,,
+KWR-259,EXCLUDE,,E06,
+S2R-157,EXCLUDE,,E09,
+S3R-182,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-039,EXCLUDE,,E05,
+KWR-062,UNCERTAIN,S2,, Observability architecture for agentic decision systems.
+ARX-2505.04997,INCLUDE,S1,,
+S2R-007,EXCLUDE,,E09,
+S2R-115,EXCLUDE,,E05,
+S3R-079,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2509.25194,INCLUDE,S1,,
+S2R-035,EXCLUDE,,E05,
+S2R-164,EXCLUDE,,E06,
+ARX-2609.11941,INCLUDE,S1,,
+KWR-189,EXCLUDE,,E03,
+S3R-026,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2607.20346,INCLUDE,S1,,
+KWR-090,INCLUDE,S1,,
+ARX-2508.03370,INCLUDE,S1,,
+S2R-106,EXCLUDE,,E05,
+S2R-090,EXCLUDE,,E06,
+KWR-170,EXCLUDE,,E05,
+S3R-194,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-154,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-076,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-137,EXCLUDE,,E05,
+S2R-070,EXCLUDE,,E05,
+KWR-025,UNCERTAIN,S1,, LLM-driven Unity3D logistics simulation via MCP.
+S3R-019,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-094,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-033,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-237,EXCLUDE,,E05,
+KWR-256,EXCLUDE,,E06,
+KWR-141,EXCLUDE,,E02,
+S2R-078,EXCLUDE,,E03,
+S3R-090,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-146,EXCLUDE,,E06,
+KWR-178,EXCLUDE,,E05,
+S2R-177,EXCLUDE,,E05,
+S2R-143,EXCLUDE,,E06,
+S3R-095,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-151,EXCLUDE,,E06,
+S3R-125,EXCLUDE,,E06,
+CEN-050,EXCLUDE,,E01,
+ARX-2512.16214,INCLUDE,S1,,
+CEN-006,INCLUDE,S1,,
+S3R-028,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2606.10928,INCLUDE,S1,,
+S2R-166,EXCLUDE,,E05,
+KWR-199,EXCLUDE,,E06,
+S3R-068,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-118,EXCLUDE,,E05,
+ARX-2604.09866,INCLUDE,S1,,
+S2R-171,EXCLUDE,,E05,
+CEN-019,EXCLUDE,,E06, Storage-system tuning.
+ARX-2603.27646,INCLUDE,S1,,
+KWR-023,EXCLUDE,,E06,
+CEN-007,INCLUDE,S1,, Title only.
+S2R-067,EXCLUDE,,E02,
+CEN-016,UNCERTAIN,S1,, Federated agent middleware for science; engineering-simulation role unclear.
+S3R-027,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-170,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-032,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-040,EXCLUDE,,E06,
+S2R-110,EXCLUDE,,E05,
+S3R-052,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-091,EXCLUDE,,E05,
+CEN-034,INCLUDE,S1,, Title only.
+S2R-052,EXCLUDE,,E05,
+KWR-211,EXCLUDE,,E06,
+KWR-050,INCLUDE,S1,,
+S2R-017,EXCLUDE,,E05,
+S3R-037,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-015,EXCLUDE,,E06,
+ARX-2604.06747,INCLUDE,S1,,
+CEN-039,EXCLUDE,,E06,
+S3R-053,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-122,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-246,EXCLUDE,,E02,
+KWR-116,EXCLUDE,,E06,
+S2R-128,UNCERTAIN,S3,, Model risk management with agentic systems (finance).
+ARX-2507.02689,EXCLUDE,,E06, LLM optimizer for wireless network management.
+KWR-065,UNCERTAIN,S2,, MCP server runtime orchestration; possible isolation/control relevance.
+KWR-013,INCLUDE,S1,,
+KWR-135,INCLUDE,S1,,
+KWR-252,EXCLUDE,,E05,
+KWR-027,EXCLUDE,,E01,
+S2R-042,UNCERTAIN,S3,, Safety evaluation of agent-based CPS from operational data.
+S2R-101,EXCLUDE,,E03,
+KWR-162,UNCERTAIN,S1,, LLM multi-agent materials design; whether simulations are run is unclear.
+ARX-2501.06327,INCLUDE,S1,,
+S2R-159,UNCERTAIN,S2,, Computer-use agent survey; may cover security/control challenges.
+ARX-2608.04384,INCLUDE,S1,,
+S3R-091,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-065,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-153,EXCLUDE,,E03,
+S3R-039,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S2R-142,EXCLUDE,,E03,
+CEN-033,EXCLUDE,,E03,
+ARX-2404.17525,INCLUDE,S1,,
+KWR-243,EXCLUDE,,E07,
+S3R-101,EXCLUDE,,E06,
+ARX-2506.02019,INCLUDE,S1,,
+S3R-030,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-066,EXCLUDE,,E01, Title only; ML-in-materials review.
+S2R-140,UNCERTAIN,S1,, Review of agentic materials science; may describe simulation tool use.
+KWR-038,EXCLUDE,,E02,
+KWR-001,INCLUDE,S1,,
+S2R-111,EXCLUDE,,E06,
+KWR-011,EXCLUDE,,E06,
+S3R-112,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-079,EXCLUDE,,E04,
+S2R-124,UNCERTAIN,S2,, FAIR/provenance principles for agent-consumable research outputs.
+S2R-147,EXCLUDE,,E06,
+KWR-219,EXCLUDE,,E02,
+S2R-199,EXCLUDE,,E05,
+S2R-112,EXCLUDE,,E02,
+CEN-011,INCLUDE,S1,,
+KWR-059,INCLUDE,S1,,
+KWR-117,EXCLUDE,,E06,
+S2R-121,EXCLUDE,,E05,
+S2R-068,EXCLUDE,,E02,
+CEN-040,INCLUDE,S1,,
+S2R-031,EXCLUDE,,E05,
+KWR-012,EXCLUDE,,E06, Digital VLSI physical design (EDA rule).
+S3R-098,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-082,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-006,UNCERTAIN,S2,, Title only; AI-agent-accelerated cyber operations.
+KWR-136,EXCLUDE,,E06,
+KWR-105,EXCLUDE,,E06,
+CEN-032,EXCLUDE,,E05, Deep RL with drift-diffusion simulator; no language model.
+S2R-080,EXCLUDE,,E02,
+S3R-153,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-043,EXCLUDE,,E06,
+KWR-150,EXCLUDE,,E03,
+S3R-016,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-128,EXCLUDE,,E02,
+S3R-045,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-040,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-195,UNCERTAIN,S2,, Title only; reliability of LLM agent evaluation.
+CEN-055,UNCERTAIN,S1,, Title only; LLM agent for computer-aided process planning.
+S3R-143,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-038,EXCLUDE,,E06,
+KWR-047,EXCLUDE,,E06,
+KWR-087,EXCLUDE,,E02,
+S2R-048,EXCLUDE,,E06,
+S3R-062,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2606.07850,INCLUDE,S1,,
+S3R-144,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-097,EXCLUDE,,E03,
+S3R-086,EXCLUDE,,E06,
+S3R-074,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+KWR-055,EXCLUDE,,E03,
+ARX-2605.15218,INCLUDE,S1,,
+S2R-056,EXCLUDE,,E06,
+CEN-037,UNCERTAIN,S1,, Title only; may be static ML.
+S2R-174,EXCLUDE,,E05,
+S2R-127,EXCLUDE,,E05," 2017 software agents, not language models."
+KWR-257,EXCLUDE,,E05,
+S2R-063,EXCLUDE,,E06,
+S2R-109,EXCLUDE,,E05,
+S3R-135,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2606.00915,INCLUDE,S1,,
+KWR-095,EXCLUDE,,E07,
+ARX-2609.07362,INCLUDE,S1,,
+S3R-142,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-192,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-025,EXCLUDE,,E05, MARL networking.
+ARX-2606.00138,INCLUDE,S1,,
+KWR-154,EXCLUDE,,E03,
+S3R-093,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-156,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-060,EXCLUDE,,E02,
+ARX-2607.12122,INCLUDE,S1,,
+KWR-028,INCLUDE,S1,,
+S2R-100,EXCLUDE,,E06,
+CEN-041,EXCLUDE,,E01,
+KWR-159,EXCLUDE,,E06,
+CEN-013,EXCLUDE,,E06,
+S3R-120,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-183,EXCLUDE,,E02,
+S2R-139,EXCLUDE,,E03,
+S3R-168,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-152,EXCLUDE,,E02,
+KWR-244,EXCLUDE,,E06,
+S2R-086,UNCERTAIN,S2,, Title only; action-centric language-model agents.
+KWR-181,EXCLUDE,,E05,
+KWR-100,EXCLUDE,,E03,
+S2R-062,EXCLUDE,,E05,
+ARX-2511.00122,INCLUDE,S1,,
+S3R-103,EXCLUDE,,E06,
+KWR-164,EXCLUDE,,E02,
+S2R-126,EXCLUDE,,E05,
+KWR-179,EXCLUDE,,E02,
+S3R-010,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2606.09084,INCLUDE,S2,,
+CEN-022,INCLUDE,S1,,
+KWR-224,EXCLUDE,,E06,
+S2R-117,EXCLUDE,,E06,
+S2R-155,EXCLUDE,,E06,
+KWR-046,EXCLUDE,,E06,
+S2R-081,EXCLUDE,,E06,
+CEN-030,INCLUDE,S1,,
+KWR-070,INCLUDE,S2,, Semantic guardrail validating agent requests.
+ARX-2511.18270,EXCLUDE,,E03,
+CEN-010,EXCLUDE,,E05,
+KWR-106,EXCLUDE,,E02,
+KWR-113,EXCLUDE,,E06,
+S3R-050,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S2R-071,EXCLUDE,,E05,
+CEN-036,INCLUDE,S1,,
+CEN-062,UNCERTAIN,S1,, No title or abstract in the record; sent to full text by default (stream assumed S1).
+CEN-043,INCLUDE,S1,,
+S3R-041,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+ARX-2605.06607,INCLUDE,S1,,
+S2R-047,EXCLUDE,,E03,
+S3R-071,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+ARX-2508.20729,INCLUDE,S1,,
+S2R-065,EXCLUDE,,E02,
+KWR-212,EXCLUDE,,E03,
+S2R-190,EXCLUDE,,E05,
+S2R-116,EXCLUDE,,E07,
+KWR-080,EXCLUDE,,E06,
+S3R-176,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-013,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2603.04756,INCLUDE,S1,,
+KWR-063,EXCLUDE,,E09, General overview.
+S2R-125,EXCLUDE,,E05,
+KWR-205,EXCLUDE,,E05,
+S3R-089,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-029,EXCLUDE,,E06,
+KWR-026,EXCLUDE,,E05,
+S3R-155,EXCLUDE,,E06,
+KWR-223,EXCLUDE,,E05,
+S3R-199,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+ARX-2602.01493,INCLUDE,S1,,
+S2R-172,EXCLUDE,,E05,
+KWR-064,EXCLUDE,,E06,
+S2R-039,EXCLUDE,,E05,
+S2R-136,EXCLUDE,,E06,
+CEN-053,EXCLUDE,,E05,
+KWR-045,INCLUDE,S2,,
+KWR-188,EXCLUDE,,E02,
+S2R-178,EXCLUDE,,E05,
+S2R-028,EXCLUDE,,E06, Digital ASIC flow (EDA rule).
+ARX-2408.13406,INCLUDE,S1,,
+KWR-056,EXCLUDE,,E06,
+S3R-181,EXCLUDE,,E08, Simulation study; V&V not the subject.
+CEN-009,EXCLUDE,,E05, Fuzzy-logic 'agent'.
+S3R-165,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+ARX-2601.14523,UNCERTAIN,S1,, LLM evolutionary optimization of scientific-computing GPU code.
+KWR-253,EXCLUDE,,E06,
+KWR-010,UNCERTAIN,S1,, LLM agent for SUMO traffic microsimulation.
+KWR-200,EXCLUDE,,E06,
+KWR-156,EXCLUDE,,E06,
+CEN-003,INCLUDE,S1,,
+KWR-245,UNCERTAIN,S2,, Title only; agent architecture framework.
+S2R-154,EXCLUDE,,E05,
+S2R-141,EXCLUDE,,E06,
+ARX-2607.17363,INCLUDE,S1,,
+S2R-192,EXCLUDE,,E03,
+S2R-029,EXCLUDE,,E05,
+KWR-101,EXCLUDE,,E06,
+CEN-014,INCLUDE,S1,,
+CEN-044,UNCERTAIN,S2,, Tool-isolation (Wasm plugins) for an agent offloading computation; security relevance unclear.
+S3R-088,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-190,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-036,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+CEN-015,EXCLUDE,,E05, General LLM review.
+S3R-187,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2507.23693,INCLUDE,S1,,
+CEN-064,UNCERTAIN,S1,, Agentic cure-optimization title; abstract text belongs to a different review.
+S3R-011,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-136,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-099,EXCLUDE,,E06,
+KWR-032,EXCLUDE,,E02,
+S3R-178,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-012,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+S3R-056,UNCERTAIN,S3,, Application study framed around model validation; check whether validation method is substantive.
+S3R-104,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-117,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-089,INCLUDE,S2,, Title only; trust system for agent-to-agent payment.
+S3R-149,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-110,EXCLUDE,,E06,
+S3R-139,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2511.19423,UNCERTAIN,S1,, Tool-augmented protein-design agent; whether it runs numerical simulation is unclear.
+ARX-2604.09584,INCLUDE,S1,,
+S3R-007,INCLUDE,S3,, V&V/UQ/credibility is the focus of the record.
+KWR-043,EXCLUDE,,E03,
+S2R-170,EXCLUDE,,E06,
+KWR-254,EXCLUDE,,E06,
+S3R-177,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-049,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-162,EXCLUDE,,E06,
+KWR-227,EXCLUDE,,E06,
+S3R-124,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S2R-001,EXCLUDE,,E06,
+KWR-004,EXCLUDE,,E06,
+S3R-189,EXCLUDE,,E08, Simulation study; V&V not the subject.
+KWR-230,EXCLUDE,,E03,
+S2R-153,EXCLUDE,,E06,
+CEN-005,INCLUDE,S1,,
+KWR-042,EXCLUDE,,E06,
+S3R-198,EXCLUDE,,E08, Simulation study; V&V not the subject.
+S3R-163,EXCLUDE,,E08, Simulation study; V&V not the subject.
+ARX-2605.12916,INCLUDE,S1,,
+S3R-200,EXCLUDE,,E08, Simulation study; V&V not the subject.

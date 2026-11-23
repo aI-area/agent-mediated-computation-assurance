@@ -1,0 +1,11 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+
+// Re = U*c/nu = 6e6 with U = 1 m/s, c = 1 m
+transportModel  Newtonian;
+nu              1.666666666667e-07;

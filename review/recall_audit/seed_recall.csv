@@ -1,0 +1,11 @@
+seed_id,title,identifier,in_discovery_corpus,in_included_corpus
+SEED-S1-01,"AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing",arXiv:2602.17607,False,False
+SEED-S1-02,"CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation",arXiv:2507.23693,True,True
+SEED-S1-03,AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents,arXiv:2605.06607,False,False
+SEED-S2-01,FAVA: Formal Authorization for Verified Agents with Evidence-Backed Permission Graphs,arXiv:2607.27267,False,False
+SEED-S2-02,"A Trace-Based Assurance Framework for Agentic AI Orchestration: Contracts, Testing, and Governance",arXiv:2603.18096,True,False
+SEED-S2-03,Defeating Prompt Injections by Design,arXiv:2503.18813,False,False
+SEED-S2-04,Progent: Securing AI Agents with Privilege Control,arXiv:2504.11703,False,False
+SEED-S3V-01,Code Verification by the Method of Manufactured Solutions,doi:10.1115/1.1436090,True,True
+SEED-S3P-01,"A Summary of Industrial Verification, Validation, and Uncertainty Quantification Procedures in Computational Fluid Dynamics",doi:10.6028/NIST.IR.8298,False,False
+SEED-S3A-01,Potential and Challenges of Assurance Cases for Simulation Validation,doi:10.1109/WSC63780.2024.10838818,False,False

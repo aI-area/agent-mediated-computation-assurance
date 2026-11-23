@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article and the archived release."
+title: "Reproduction package: Assurance of Agent-Mediated Computational-Engineering Claims"
+type: software
+authors:
+  - family-names: "Hussain"
+    given-names: "Musarat"
+    affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+  - family-names: "Hussain"
+    given-names: "Jamil"
+    affiliation: "Department of Artificial Intelligence and Data Science, Sejong University, Seoul, South Korea"
+  - family-names: "Abbas"
+    given-names: "Junaid"
+    affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+  - family-names: "Wu"
+    given-names: "Hongyan"
+    affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+keywords:
+  - computational engineering
+  - verification and validation
+  - LLM agents
+  - assurance cases
+  - CFD
+preferred-citation:
+  type: article
+  title: "Assurance of Agent-Mediated Computational-Engineering Claims: A Critical Review of Specification, Authorization, Verification, Validation, and Evidence Binding"
+  authors:
+    - family-names: "Hussain"
+      given-names: "Musarat"
+      affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+    - family-names: "Hussain"
+      given-names: "Jamil"
+      affiliation: "Department of Artificial Intelligence and Data Science, Sejong University, Seoul, South Korea"
+    - family-names: "Abbas"
+      given-names: "Junaid"
+      affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+    - family-names: "Wu"
+      given-names: "Hongyan"
+      affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+  journal: "Archives of Computational Methods in Engineering"
+  year: 2026

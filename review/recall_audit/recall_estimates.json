@@ -1,0 +1,58 @@
+{
+ "S1 census": {
+  "n": 72,
+  "EXCLUDE": 33,
+  "INCLUDE": 24,
+  "UNCERTAIN": 15
+ },
+ "keyword rescue": {
+  "n": 255,
+  "INCLUDE": 29,
+  "EXCLUDE": 207,
+  "UNCERTAIN": 19
+ },
+ "S2 random sample": {
+  "n": 200,
+  "EXCLUDE": 171,
+  "UNCERTAIN": 20,
+  "INCLUDE": 9,
+  "eligible": 7,
+  "uncertain": 10,
+  "rate": 0.035,
+  "ci95": [
+   0.014185525898419246,
+   0.0707809983509772
+  ],
+  "pool_estimate": 238,
+  "pool_ci": [
+   96,
+   481
+  ],
+  "S1_eligible_in_sample": 2
+ },
+ "S3 random sample": {
+  "n": 200,
+  "EXCLUDE": 115,
+  "INCLUDE": 52,
+  "UNCERTAIN": 33,
+  "eligible": 52,
+  "uncertain": 33,
+  "rate": 0.26,
+  "ci95": [
+   0.20068485487634063,
+   0.3265777536571397
+  ],
+  "pool_estimate": 1968,
+  "pool_ci": [
+   1519,
+   2472
+  ],
+  "S1_eligible_in_sample": 0
+ },
+ "arXiv S1 query": {
+  "n": 89,
+  "INCLUDE": 67,
+  "EXCLUDE": 11,
+  "UNCERTAIN": 11
+ }
+}

@@ -1,0 +1,129 @@
+protocol_version: "4.1.3"
+frozen_date: "2026-09-15"
+action_id: "A01-01"
+review_label: "reproducible state-of-the-art critical review"
+
+unit_of_inclusion: "study family, with version-level records retained"
+
+date_limits:
+  stream_1: ["2017-01-01", "2026-09-15"]
+  stream_2: ["2017-01-01", "2026-09-15"]
+  stream_3: [null, "2026-09-15"]
+  final_update: "advance upper date to actual pre-submission search date"
+
+date_precedence:
+  - rank: 1
+    field: "official electronic publication date"
+  - rank: 2
+    field: "issue publication date"
+  - rank: 3
+    field: "original repository submission date for preprints"
+  - rank: 4
+    field: "year-only metadata"
+    action: "UNCERTAIN_DATE when relation to exact cutoff cannot be resolved"
+
+date_rules:
+  year_only_database_filter: "Retrieve complete eligible year, preserve raw export, then post-filter to 2026-09-15."
+  online_first: "Use official electronic publication date while retaining later issue date."
+  arxiv_eligibility: "Original submitted timestamp."
+  arxiv_analysis_version: "Exact version retrieved, with later versions/publications linked in the study family."
+
+retrieval_filters_not_allowed:
+  - "citation count"
+  - "geography"
+  - "positive result"
+  - "open access"
+  - "full-text availability"
+  - "language"
+  - "topical NOT clauses"
+
+general_inclusion:
+  - id: I-GEN-01
+    rule: "Public bibliographic identity or authoritative issuing-body record is available."
+  - id: I-GEN-02
+    rule: "Publication date falls within the applicable stream boundary."
+  - id: I-GEN-03
+    rule: "At least one stream-specific criterion is satisfied; cross-stream coverage is not required."
+  - id: I-GEN-04
+    rule: "Source type is eligible for the assigned stream and evidence role."
+  - id: I-GEN-05
+    rule: "Enough source text is obtainable for the intended extraction; otherwise retain as UNCERTAIN during reasonable retrieval."
+
+stream_specific_inclusion:
+  stream_1:
+    id: I-S1
+    rule: "Describes or evaluates an LLM or agentic system that can formulate, alter, execute, inspect, verify, postprocess, or release artifacts or claims in a computational-engineering or numerical-simulation workflow."
+  stream_2:
+    id: I-S2
+    rule: "Describes, evaluates, surveys, or formalizes an attack, control, trust mechanism, authorization model, provenance or trace mechanism, or assurance method materially applicable to tool-using LLM agents."
+  stream_3:
+    id: I-S3
+    rule: "Defines, evaluates, applies, standardizes, or critically reviews a method needed to judge whether a computational model, numerical result, workflow artifact, or simulation-supported claim is credible for an intended use."
+
+source_type_by_stream:
+  stream_1:
+    - "peer-reviewed journal article"
+    - "peer-reviewed conference paper"
+    - "peer-reviewed review or survey"
+    - "preprint with visible version metadata"
+    - "scholarly book or book chapter when directly relevant"
+    - "official software documentation or repository, supplementary role only"
+  stream_2:
+    - "peer-reviewed journal article"
+    - "peer-reviewed conference paper"
+    - "peer-reviewed review or survey"
+    - "preprint with visible version metadata"
+    - "scholarly book or book chapter when directly relevant"
+    - "authoritative standard, guidance, or technical report when directly applicable"
+    - "official software documentation or repository, supplementary role only"
+  stream_3:
+    - "peer-reviewed journal article"
+    - "peer-reviewed conference paper"
+    - "peer-reviewed review or survey"
+    - "scholarly book or book chapter"
+    - "preprint with visible version metadata"
+    - "standard or authoritative guidance"
+    - "authoritative technical report"
+    - "official software documentation or repository, supplementary role only"
+
+evidence_roles:
+  R1_PEER_REVIEWED_PRIMARY: "Primary empirical, methodological, or formal evidence."
+  R2_PEER_REVIEWED_REVIEW: "Synthesis and citation-tracing evidence."
+  R3_PREPRINT: "Current non-peer-reviewed evidence; version and publication status explicit."
+  R4_STANDARD_GUIDANCE_BOOK_REPORT: "Normative, methodological, or foundational context; not agent-performance evidence."
+  R5_SOFTWARE_OFFICIAL_DOCUMENTATION: "Architecture, interface, or reproducibility evidence only; not sole support for performance or novelty."
+  R6_GENERAL_WEB: "Discovery or temporal context only; excluded from scholarly synthesis unless reclassified after verification."
+
+stream_3_subqueries:
+  S3V: "numerical verification"
+  S3P: "validation and uncertainty"
+  S3A: "assurance and evidence"
+
+special_rules:
+  global_exclusion: "A study is globally excluded only when it fails every potentially applicable stream or meets a GLOBAL rule."
+  static_ml: "Exclude from Stream 1 unless an agent controls or audits simulation-workflow artifacts; permit in Stream 3 only for a directly relevant credibility contribution."
+  preprint_publication: "Link as one study family; use most complete peer-reviewed version for primary extraction while retaining materially different version-level claims."
+  retraction: "Exclude as positive evidence but retain linked status record when relevant."
+  correction: "Link corrections and errata to the study family."
+  language: "Require English full text or auditable English translation for final claim extraction; screen after retrieval."
+  unavailable_full_text: "Retain as UNCERTAIN during reasonable retrieval; exclude with E15 only when intended claim cannot be checked."
+  multi_stream: "Assign every applicable stream label without duplicating the study family."
+  uncertainty: "Union all UNCERTAIN records from both automated consistency passes for source-text resolution."
+
+screening_decisions: ["INCLUDE", "EXCLUDE", "UNCERTAIN"]
+
+screening_integrity:
+  automation: "Two automated passes use the same frozen rules with different prompts/configurations; they are not independent human review."
+  author_primary_check: "One actual manuscript author confirms every final eligibility decision and substantive claim code from source text."
+  author_secondary_check: "The other actual manuscript author checks novelty-critical studies, every full-text exclusion, and every unresolved disagreement."
+  accountability: "Log the actual author identity and date for each confirmation; do not claim a check that did not occur."
+  title_only_exclusion: "Allowed only for unmistakable scope failure."
+
+seed_recall_gate:
+  registry: "seed_recall_v4_1_3.csv"
+  pass_rule: "Every seed retrieved by at least one prespecified core or authoritative source in its expected stream."
+  failure_rule: "Diagnose before bulk export; amend only for construct-level recall defect; preserve failed attempt."
+  semantic_only_result: "Does not pass the seed gate without core/authoritative retrieval."
+
+amendment_rule: "Prospective dated decision required before changing terms, fields, filters, dates, sources, eligibility, or seed controls; retain and rerun affected originals and amendments."
+

@@ -1,0 +1,13 @@
+2026-11-03T08:39:28Z started n0012_1793-513_a00.00 np=6 iters=30000 init=nested injection from 897x257
+2026-11-03T08:39:28Z started n0012_1793-513_a02.15 np=6 iters=30000 init=nested injection from 897x257
+2026-11-03T08:39:28Z started n0012_1793-513_a10.00 np=6 iters=30000 init=nested injection from 897x257
+2026-11-03T08:39:28Z started n0012_1793-513_a15.00 np=6 iters=30000 init=nested injection from 897x257
+2026-11-03T18:22:18Z finished grid n0012_1793-513
+alpha= 0.0 CD: N=SUPPORTED  V=SUPPORTED  GCI=0.004787 p=1.1142
+alpha=2.15 CL: N=SUPPORTED  V=SUPPORTED  GCI=0.001005 p=1.4017
+alpha=2.15 CD: N=SUPPORTED  V=SUPPORTED  GCI=0.006163 p=1.1428
+alpha=10.0 CL: N=SUPPORTED  V=SUPPORTED  GCI=0.001673 p=1.4734
+alpha=10.0 CD: N=SUPPORTED  V=SUPPORTED  GCI=0.008603 p=1.7560
+alpha=15.0 CL: N=REFUTED    V=UNRESOLVED GCI=0.004310 p=1.2329
+alpha=15.0 CD: N=SUPPORTED  V=REFUTED    GCI=0.018931 p=1.4353
+2026-11-03T18:22:33Z analysis written to results/dispositions.json

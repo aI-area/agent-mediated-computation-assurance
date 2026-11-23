@@ -1,0 +1,446 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _9a9aeb73-20260127 OPENFOAM=2312 patch=260127 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : mapFields runs/n0012_225-65_a00.00 -case runs/n0012_449-129_a00.00 -consistent -sourceTime latestTime
+Date   : Nov 13 2026
+Time   : 13:12:56
+Host   : host
+PID    : 1487387
+I/O    : uncollated
+Case   : /path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a00.00
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "/path/to/project/v19_cfd/gated/work/runs" "n0012_225-65_a00.00"
+Target: "/path/to/project/v19_cfd/gated/work/runs" "n0012_449-129_a00.00"
+
+Create databases as time
+
+Source time: 10000
+Target time: 0
+Create meshes
+
+Source mesh size: 14336	Target mesh size: 57344
+
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 496, 4(14977 14978 402 401), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 496, 4(14977 14978 402 401), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 494, 4(14975 14976 400 399), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 1, 4(175 174 14750 14751), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 496, 4(14977 14978 402 401), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 496, 4(14977 14978 402 401), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 2, 4(14752 14753 177 176), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 493, 4(14974 14975 399 398), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 5, 4(14753 14754 178 177), produces a valid tet decomposition.
+--> FOAM Warning : 
+    From Foam::triFace Foam::tetIndices::faceTriIs(const Foam::polyMesh&, bool) const
+    in file ./src/OpenFOAM/lnInclude/tetIndicesI.H at line 70
+    No base point for face 4, 4(174 173 14749 14750), produces a valid tet decomposition.
+--> FOAM Warning : Suppressing further warnings.
+
+Consistently creating and mapping fields for time 10000
+
+    interpolating k
+    interpolating nut
+    interpolating omega
+    interpolating p
+    interpolating yPlus
+    interpolating U
+
+End
+

@@ -1,0 +1,462 @@
+{
+  "preregistration_sha256": "d3161ae62001547589886725fbb9a2b218caa187cc0bd433bffe98fa931be264",
+  "results": [
+    {
+      "alpha_deg": 0.0,
+      "qoi": "CD",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 0.007953996062303363,
+          "e_it": 1.733269959997355e-07,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 0.008031935893560075,
+          "e_it": 7.163473699986489e-08,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 0.008067938076531006,
+          "e_it": 3.3202721000553936e-08,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 0.007897185500234489,
+          "e_it": 1.4520516049970622e-07,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 0.008067938076531006,
+        "f2": 0.008031935893560075,
+        "f3": 0.007953996062303363,
+        "e21": -3.600218297093033e-05,
+        "e32": -7.793983125671186e-05,
+        "R": 0.4619227728675634,
+        "p": 1.1142764218477912,
+        "Fs": 1.25,
+        "gci_fine": 0.004788517215950725,
+        "f_extrapolated": 0.00809884484483236,
+        "asymptotic_ratio": 1.0044823792729463,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 3.090676830135448e-05,
+      "N": "SUPPORTED",
+      "code_to_code": {
+        "tmr_mean": 0.008086666666666667,
+        "tmr_half_range": 4.999999999999796e-06,
+        "diff": -1.8728590135661666e-05,
+        "tolerance": 0.00011177343496802116,
+        "agrees": true
+      },
+      "N_reasons": [],
+      "validation": {
+        "S": 0.008067938076531006,
+        "D": 0.008075,
+        "E": -7.061923468994896e-06,
+        "u_num": 3.090676830135448e-05,
+        "u_D": 0.000242,
+        "u_val": 0.0002439656293965066
+      },
+      "V": "SUPPORTED"
+    },
+    {
+      "alpha_deg": 0.0,
+      "qoi": "CL_symmetry_check",
+      "value": -1.163940953857996e-05,
+      "pass": true
+    },
+    {
+      "alpha_deg": 2.15,
+      "qoi": "CL",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 0.2360827048974703,
+          "e_it": 2.486524499911713e-07,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 0.23525824356032174,
+          "e_it": 8.566940000453993e-08,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 0.23496571617643836,
+          "e_it": 9.408754999967739e-07,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 0.23888656599656719,
+          "e_it": 4.703504999925556e-07,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 0.23496571617643836,
+        "f2": 0.23525824356032174,
+        "f3": 0.2360827048974703,
+        "e21": 0.0002925273838833842,
+        "e32": 0.0008244613371485576,
+        "R": 0.35481031153638487,
+        "p": 1.4948801568768115,
+        "Fs": 1.25,
+        "gci_fine": 0.0008558168958789106,
+        "f_extrapolated": 0.23480484607255345,
+        "asymptotic_ratio": 0.9987565690389574,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 0.00016087010388486766,
+      "N": "SUPPORTED",
+      "N_reasons": [],
+      "validation": {
+        "S": 0.23496571617643836,
+        "D": 0.2236,
+        "E": 0.011365716176438362,
+        "u_num": 0.00016087010388486766,
+        "u_D": 0.00673,
+        "u_val": 0.006731922399309422
+      },
+      "V": "SUPPORTED"
+    },
+    {
+      "alpha_deg": 2.15,
+      "qoi": "CD",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 0.008074699773453656,
+          "e_it": 8.92860099995299e-08,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 0.008179171576459636,
+          "e_it": 5.221791099952605e-08,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 0.008221351541742947,
+          "e_it": 2.3852450499982358e-08,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 0.007920888694704411,
+          "e_it": 3.7938597000075625e-08,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 0.008221351541742947,
+        "f2": 0.008179171576459636,
+        "f3": 0.008074699773453656,
+        "e21": -4.2179965283311444e-05,
+        "e32": -0.0001044718030059795,
+        "R": 0.40374497299426576,
+        "p": 1.3084837978830115,
+        "Fs": 1.25,
+        "gci_fine": 0.004342582586229737,
+        "f_extrapolated": 0.008249913060175305,
+        "asymptotic_ratio": 1.0051569972446488,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 2.856151843235674e-05,
+      "N": "SUPPORTED",
+      "N_reasons": [],
+      "validation": {
+        "S": 0.008221351541742947,
+        "D": 0.00823,
+        "E": -8.648458257052086e-06,
+        "u_num": 2.856151843235674e-05,
+        "u_D": 0.000247,
+        "u_val": 0.0002486458532434471
+      },
+      "V": "SUPPORTED"
+    },
+    {
+      "alpha_deg": 10.0,
+      "qoi": "CL",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 1.0729181227744884,
+          "e_it": 2.5611730000152377e-06,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 1.065895112918734,
+          "e_it": 5.53669999847628e-08,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 1.0633660543546588,
+          "e_it": 1.1363405000297533e-06,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 1.0925250187430147,
+          "e_it": 6.413635000868112e-07,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 1.0633660543546588,
+        "f2": 1.065895112918734,
+        "f3": 1.0729181227744884,
+        "e21": 0.0025290585640751484,
+        "e32": 0.007023009855754436,
+        "R": 0.36011035382542095,
+        "p": 1.473489014665339,
+        "Fs": 1.25,
+        "gci_fine": 0.0016730797089876523,
+        "f_extrapolated": 1.061942777419645,
+        "asymptotic_ratio": 0.9976272913409372,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 0.0014232769350136325,
+      "N": "SUPPORTED",
+      "code_to_code": {
+        "tmr_mean": 1.0794333333333335,
+        "tmr_half_range": 0.003750000000000031,
+        "diff": -0.01606727897867466,
+        "tolerance": 0.0182943333333334,
+        "agrees": true
+      },
+      "N_reasons": [],
+      "validation": {
+        "S": 1.0633660543546588,
+        "D": 1.067233,
+        "E": -0.003866945645341291,
+        "u_num": 0.0014232769350136325,
+        "u_D": 0.010672,
+        "u_val": 0.0107664897359233
+      },
+      "V": "SUPPORTED"
+    },
+    {
+      "alpha_deg": 10.0,
+      "qoi": "CD",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 0.01142312505936102,
+          "e_it": 2.245904399999013e-07,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 0.012103251933375614,
+          "e_it": 1.4485099994465678e-09,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 0.012304603538985296,
+          "e_it": 4.167316999988124e-08,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 0.009301489688731786,
+          "e_it": 3.35960750001002e-08,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 0.012304603538985296,
+        "f2": 0.012103251933375614,
+        "f3": 0.01142312505936102,
+        "e21": -0.00020135160560968285,
+        "e32": -0.000680126874014593,
+        "R": 0.2960500655137509,
+        "p": 1.7560869218687507,
+        "Fs": 1.25,
+        "gci_fine": 0.008602424579824183,
+        "f_extrapolated": 0.012389283078128302,
+        "asymptotic_ratio": 1.0166361575151914,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 8.467953914300699e-05,
+      "N": "SUPPORTED",
+      "code_to_code": {
+        "tmr_mean": 0.012466666666666668,
+        "tmr_half_range": 8.5e-05,
+        "diff": -0.00016206312768137117,
+        "tolerance": 0.0002946666666666667,
+        "agrees": true
+      },
+      "N_reasons": [],
+      "validation": {
+        "S": 0.012304603538985296,
+        "D": 0.011661,
+        "E": 0.0006436035389852969,
+        "u_num": 8.467953914300699e-05,
+        "u_D": 0.00035,
+        "u_val": 0.0003600980760146769
+      },
+      "V": "SUPPORTED"
+    },
+    {
+      "alpha_deg": 15.0,
+      "qoi": "CL",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 1.5109185002123031,
+          "e_it": 3.1033144999303985e-06,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 1.494636439069875,
+          "e_it": 5.82094999979077e-08,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 1.4877089964583565,
+          "e_it": 8.008950000970572e-07,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 1.5466885452835994,
+          "e_it": 5.041499995250831e-09,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 1.4877089964583565,
+        "f2": 1.494636439069875,
+        "f3": 1.5109185002123031,
+        "e21": 0.006927442611518453,
+        "e32": 0.01628206114242814,
+        "R": 0.425464721629547,
+        "p": 1.2328885823418596,
+        "Fs": 1.25,
+        "gci_fine": 0.004310342839975013,
+        "f_extrapolated": 1.482578967801676,
+        "asymptotic_ratio": 0.9953651319943535,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 0.005130028656680551,
+      "N": "REFUTED",
+      "code_to_code": {
+        "tmr_mean": 1.5092333333333332,
+        "tmr_half_range": 0.0020499999999999963,
+        "diff": -0.02152433687497668,
+        "tolerance": 0.020222361990013885,
+        "agrees": false
+      },
+      "N_reasons": [
+        "verified disagreement with TMR SST code-to-code values"
+      ],
+      "V": "UNRESOLVED",
+      "V_reason": "numerical prerequisite not supported"
+    },
+    {
+      "alpha_deg": 15.0,
+      "qoi": "CD",
+      "grids": {
+        "n0012_449-129": {
+          "mean": 0.019579340628780192,
+          "e_it": 3.8779317500063637e-07,
+          "iterations": 15000
+        },
+        "n0012_897-257": {
+          "mean": 0.021090734048400502,
+          "e_it": 1.4111449994635983e-09,
+          "iterations": 25000
+        },
+        "n0012_1793-513": {
+          "mean": 0.021649613073928695,
+          "e_it": 1.869011500080231e-08,
+          "iterations": 30000
+        },
+        "n0012_225-65": {
+          "mean": 0.015466067716795191,
+          "e_it": 6.740499998436622e-11,
+          "iterations": 10000
+        }
+      },
+      "gci": {
+        "f1": 0.021649613073928695,
+        "f2": 0.021090734048400502,
+        "f3": 0.019579340628780192,
+        "e21": -0.0005588790255281924,
+        "e32": -0.0015113934196203105,
+        "R": 0.36977733148301845,
+        "p": 1.4352713091918592,
+        "Fs": 1.25,
+        "gci_fine": 0.018933196785282606,
+        "f_extrapolated": 0.021977530181651835,
+        "asymptotic_ratio": 1.026498794411121,
+        "status": "OK",
+        "reason": null
+      },
+      "U_num": 0.0003279171077231352,
+      "N": "SUPPORTED",
+      "code_to_code": {
+        "tmr_mean": 0.02227,
+        "tmr_half_range": 0.0004399999999999994,
+        "diff": -0.000620386926071307,
+        "tolerance": 0.0011026999999999988,
+        "agrees": true
+      },
+      "N_reasons": [],
+      "validation": {
+        "S": 0.021649613073928695,
+        "D": 0.017449,
+        "E": 0.004200613073928695,
+        "u_num": 0.0003279171077231352,
+        "u_D": 0.000523,
+        "u_val": 0.0006172994650390573
+      },
+      "V": "REFUTED"
+    }
+  ],
+  "evidence_sha256": {
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a00.00/postProcessing/forceCoeffs/0/coefficient.dat": "4106a2056764f978c4bf04f9b2699ea389aa753fffe9839c091813749ca32153",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a00.00/simpleFoam.log": "d0ed7c57941129fb9ae2de050706707e308089fb64a121c28d52dccf61d955cd",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a00.00/constant/polyMesh/owner": "7414e37fa59820b55b7cb133b771992e566d82a194471e1199c26e14ac84b4a0",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a00.00/postProcessing/forceCoeffs/0/coefficient.dat": "d3e24288739b08f21aaa4669bff39079348d9199bf21c251eb01129e0bd19ccb",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a00.00/simpleFoam.log": "2a59012b23d8a92ae58a874a69b5619cf46f4be1d147ba43436470aa3796f2b3",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a00.00/constant/polyMesh/owner": "69156519be60df337720e65b01d1caefaa88cd3540b0bf99b770ca4eb0e17b19",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a00.00/postProcessing/forceCoeffs/0/coefficient.dat": "3f595c1eadf6a71c893dd63c2a959130a24488987869e8878682de2bd139f14a",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a00.00/simpleFoam.log": "ff8ea7395a394a568edeca33df25449fece14cf7855278e070ffff15aa1cd0d2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a00.00/constant/polyMesh/owner": "6fb67306608da022ec03ab119f52167d85d65744ac8f53fdea12e16d554174d2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a00.00/postProcessing/forceCoeffs/0/coefficient.dat": "ae0295fb7146796afe59cc3c8b06de7d74f44bf373fdf49e4a2d8d4406316150",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a00.00/simpleFoam.log": "c53d879294f0890e1f0c7ec6b96a460e7d124a2abe02bda9f12fdda5972b0824",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a00.00/constant/polyMesh/owner": "823e3a0e13e31af6553d4825705ecb65335c68fc71896dbf9a0d1144017af65e",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a02.15/postProcessing/forceCoeffs/0/coefficient.dat": "21b774578c02cfa25268079b46ddf692d1004452318f6d01dd6ffe1c6e64ed32",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a02.15/simpleFoam.log": "86fb4fa4ded3f289fc12bf9c2c9627296a200c2d464776b183ab1d4f2a4d1f82",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a02.15/constant/polyMesh/owner": "7414e37fa59820b55b7cb133b771992e566d82a194471e1199c26e14ac84b4a0",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a02.15/postProcessing/forceCoeffs/0/coefficient.dat": "62ec938bb887286823b3948b80d5c584893cb36fe832927e53573a4c9a0f628d",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a02.15/simpleFoam.log": "a2e7331ce0a0f5121c7291fe3edfeeeb6baab0ef4f1211cb79cb3ba4745b10cb",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a02.15/constant/polyMesh/owner": "69156519be60df337720e65b01d1caefaa88cd3540b0bf99b770ca4eb0e17b19",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a02.15/postProcessing/forceCoeffs/0/coefficient.dat": "c80a5f53a94c8110f83b3a12cb1094a6858bb68080eee049883b2fa8930720c9",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a02.15/simpleFoam.log": "575f5950648478a43204b6728c8d6ee8d04f5e5e8627182e9df17cfe2d5ac108",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a02.15/constant/polyMesh/owner": "6fb67306608da022ec03ab119f52167d85d65744ac8f53fdea12e16d554174d2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a02.15/postProcessing/forceCoeffs/0/coefficient.dat": "b46d3eba43ace0f7b464fe146c6c5b482124ca4a6cd19b6345d16fd18515bbc4",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a02.15/simpleFoam.log": "b5ee51a1c5530372f9ce2aa7865927eac3b5458aae55c640ca75d68bf29aafb6",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a02.15/constant/polyMesh/owner": "823e3a0e13e31af6553d4825705ecb65335c68fc71896dbf9a0d1144017af65e",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a10.00/postProcessing/forceCoeffs/0/coefficient.dat": "8528d9adf5f41de520a51874e1184fa229dec77ffa491dfff45532a7a92dadb2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a10.00/simpleFoam.log": "1568b95779d3997118bbf42706ced34d18506db29bfd36c4ded18d4da772c704",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a10.00/constant/polyMesh/owner": "7414e37fa59820b55b7cb133b771992e566d82a194471e1199c26e14ac84b4a0",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a10.00/postProcessing/forceCoeffs/0/coefficient.dat": "341b11aad5c2529abc37ca6013af45bbd8c563518dec5b450a77420f917a6768",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a10.00/simpleFoam.log": "107100e31d99267dee4c9e85e6bf9acff27e37e29749147ddc23f31902199350",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a10.00/constant/polyMesh/owner": "69156519be60df337720e65b01d1caefaa88cd3540b0bf99b770ca4eb0e17b19",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a10.00/postProcessing/forceCoeffs/0/coefficient.dat": "68740763768478a58c9a75a6e643537cf5d74f1394305f547c5f55134e6cf02f",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a10.00/simpleFoam.log": "a10c2b193b083d101069fc24582a178e6afaa2c41a6ffe496a214b077be46003",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a10.00/constant/polyMesh/owner": "6fb67306608da022ec03ab119f52167d85d65744ac8f53fdea12e16d554174d2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a10.00/postProcessing/forceCoeffs/0/coefficient.dat": "589ca638e6c87eb7f8727fb076083bd53654173c5ef4d3db48ca3f250a880504",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a10.00/simpleFoam.log": "156fd7ba6cbe63d358b1651c79da9652d7fe288ed92658071a7b3edbddf0e639",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a10.00/constant/polyMesh/owner": "823e3a0e13e31af6553d4825705ecb65335c68fc71896dbf9a0d1144017af65e",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a15.00/postProcessing/forceCoeffs/0/coefficient.dat": "9aa933832c26b2e3ae2d3feb77f1b0f2f07cbcbe32bcb1e1d93b7949853c4121",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a15.00/simpleFoam.log": "a1896d671b3746658c8ae66b117cca8fe3ddc2be6b90878fe452ce50329bff45",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_449-129_a15.00/constant/polyMesh/owner": "7414e37fa59820b55b7cb133b771992e566d82a194471e1199c26e14ac84b4a0",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a15.00/postProcessing/forceCoeffs/0/coefficient.dat": "52358684a1063cdc0520def2190bdae030e579de62890194bff8a4b9b437474d",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a15.00/simpleFoam.log": "96225605f797bd247d2cff6bbd4c025c55f8db63bb58232b1daebd46005dc0d5",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_897-257_a15.00/constant/polyMesh/owner": "69156519be60df337720e65b01d1caefaa88cd3540b0bf99b770ca4eb0e17b19",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a15.00/postProcessing/forceCoeffs/0/coefficient.dat": "9d05220773a3b62ff613b0a517dbc738c399a0d77f327266c834d7682ba6d3a7",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a15.00/simpleFoam.log": "fdf7da94efb5f02e75384981eb99333e289317092fa4ce8b8d9a755777b2fc14",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_1793-513_a15.00/constant/polyMesh/owner": "6fb67306608da022ec03ab119f52167d85d65744ac8f53fdea12e16d554174d2",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a15.00/postProcessing/forceCoeffs/0/coefficient.dat": "f9a5946309431078c403df01250549ddfcc94559b816719bce5c9bc92e1b37ff",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a15.00/simpleFoam.log": "699d0d7c9ffe6cb15f6126fe434f7c520c9c60afcc5f6432b96d6e2dfe538a2c",
+    "/path/to/project/v19_cfd/gated/work/runs/n0012_225-65_a15.00/constant/polyMesh/owner": "823e3a0e13e31af6553d4825705ecb65335c68fc71896dbf9a0d1144017af65e"
+  }
+}

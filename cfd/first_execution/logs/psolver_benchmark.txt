@@ -1,0 +1,5 @@
+2026-11-03 p-solver benchmark (150 its 897x257 a10 np6; 60 its 1793x513 a10 np16), no QoI examined:
+A GAMG/GaussSeidel relTol 0.01: 897: 32 s; 1793: 57 s, 80-270 GAMG cycles/iteration (700 observed at a0 in aborted run)
+B GAMG/DICGaussSeidel relTol 0.05 maxIter 100: 897: 24 s; 1793: 25 s, 5-16 cycles/iteration  <- adopted
+C PCG/DIC relTol 0.05: 897: 30 s
+Execution-level change only; acceptance rules in PREREGISTRATION.md unchanged. Grid sequencing via mapFields adopted (initial guess only).
