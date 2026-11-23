@@ -83,7 +83,7 @@ Licensed database exports (Scopus, Web of Science, IEEE Xplore, ACM Digital Libr
 
 ## Archive and citation
 
-Archived release with the full CFD records: [Zenodo DOI]. Please cite the article and the archived release (`CITATION.cff`).
+Archived release with the full CFD records: [https://doi.org/10.5281/zenodo.24461521](https://doi.org/10.5281/zenodo.24461521). Please cite the article and the archived release (`CITATION.cff`).
 
 ## Licence
 
