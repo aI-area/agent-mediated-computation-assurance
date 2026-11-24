@@ -1,6 +1,6 @@
-"""Figure 10: native residual and force histories of the under-resolved NACA 0012 realization (Section 7.4).
+"""Figure 11: native residual and force histories of the under-resolved NACA 0012 realization (Section 7.4).
 
-Usage: python fig10_native_residual_force.py [data_dir]   (default: ./data)"""
+Usage: python fig11_native_residual_force.py [data_dir]   (default: ./data)"""
 import os
 import sys
 
@@ -59,7 +59,7 @@ for P in (ax[0, 0], ax[0, 1], ax[1, 0]):
     P.set_xticklabels(["0", "5", "10", "15", "20"])
 for P, s in zip(ax.flat, "abcd"):
     panel(P, f"({s})", x=-0.20, y=1.0)
-save(fig, "fig10_native_residual_force")
+save(fig, "fig11_native_residual_force")
 r1 = np.ptp(a["Cl"][w1])
 m1, m2 = a["Cl"][w1].mean(), a["Cl"][w2].mean()
 print(f"D1 C_L range {r1:.5f}; window means {m1:.4f} {m2:.4f}; p min {a['p'].min():.2e}")

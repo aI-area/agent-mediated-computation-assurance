@@ -1,9 +1,9 @@
-"""Figure 4: reporting profiles of the 40 engineering-agent studies.
+"""Figure 5: reporting profiles of the 40 engineering-agent studies.
 
 (a) How each item is reported; (b) which items the studies report together (explicit or implicit content).
 The per-study codes are tabulated in Supplementary Table S9.3 (supp_tables/tab_S9.3.tex, written by this script).
 
-Usage: python fig04_study_evidence_profiles.py [study_matrix.csv] [reference_numbers.csv] [table_out.tex]"""
+Usage: python fig05_study_evidence_profiles.py [study_matrix.csv] [reference_numbers.csv] [table_out.tex]"""
 import csv
 import os
 import sys
@@ -92,12 +92,12 @@ m.tick_params(length=0)
 m.set_xticks([])
 for s in m.spines.values():
     s.set_visible(False)
-save(fig, "fig04_study_evidence_profiles")
+save(fig, "fig05_study_evidence_profiles")
 
 # Supplementary table: per-study codes
 sym = {"Y": "Y", "I": "I", "0": "0", "NR": "--"}
 lines = [r"\begin{longtable}{@{}llccccc@{}}",
-         r"\caption{Reporting profiles of the 40 engineering-agent studies (Fig.~4 of the article). Spec.: specification evidence as a declaration (D), a comparison procedure (C) or a fidelity observation (F). Y explicit report; I implicit content; 0 reported absence; -- not reported.}\label{tab:S9.3}\\",
+         r"\caption{Reporting profiles of the 40 engineering-agent studies (Fig.~5 of the article). Spec.: specification evidence as a declaration (D), a comparison procedure (C) or a fidelity observation (F). Y explicit report; I implicit content; 0 reported absence; -- not reported.}\label{tab:S9.3}\\",
          r"\toprule", r"Study & Ref. & Spec. & Numerical & Physical & Binding & Artifacts \\", r"\midrule", r"\endfirsthead",
          r"\toprule", r"Study & Ref. & Spec. & Numerical & Physical & Binding & Artifacts \\", r"\midrule", r"\endhead",
          r"\bottomrule", r"\endlastfoot"]
