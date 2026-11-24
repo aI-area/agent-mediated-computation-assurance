@@ -1,6 +1,6 @@
 """Figure 9: grid convergence and comparison with Ladson's data for the gated NACA 0012 execution.
 
-Usage: python make_fig09_naca0012_tmr.py [dispositions.json] [CLCD_Ladson_expdata.dat]
+Usage: python fig09_naca0012_tmr.py [dispositions.json] [CLCD_Ladson_expdata.dat]
 Defaults: the gated-execution dispositions and the Ladson file of the CFD artifacts (Online Resource 3)."""
 import json
 import os
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from figstyle import BLUE, G1, K, MM, VERM, W, panel, save
 
 here = os.path.dirname(os.path.abspath(__file__))
-disp = sys.argv[1] if len(sys.argv) > 1 else os.path.join(here, "data", "dispositions_gated.json")
+disp = sys.argv[1] if len(sys.argv) > 1 else os.path.join(here, "data", "gated_execution_dispositions.json")
 lad_f = sys.argv[2] if len(sys.argv) > 2 else os.path.join(here, "data", "CLCD_Ladson_expdata.dat")
 CELLS = {"n0012_225-65": 224 * 64, "n0012_449-129": 448 * 128, "n0012_897-257": 896 * 256, "n0012_1793-513": 1792 * 512}
 EXHIBIT = {"alpha": 2.15, "CL": 0.211161, "CD": 0.005011}  # under-resolved realization, final iteration (Section 7.4)

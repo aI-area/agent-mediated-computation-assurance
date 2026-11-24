@@ -69,7 +69,7 @@ check("dispositions identical to the first execution", all(first[k]["N"] == rec[
 if "--skip-figures" not in sys.argv:
     step("5  Figures")
     env = dict(os.environ, FIG_OUT=str(OUT / "figures"))
-    for f in sorted((ROOT / "figures").glob("make_fig*.py")):
+    for f in sorted((ROOT / "figures").glob("fig*_*.py")):
         run([f.name], cwd=ROOT / "figures", env=env)
     n = len(list((OUT / "figures").glob("*.pdf")))
     check(f"{n} figures written to out/figures", n == 11)

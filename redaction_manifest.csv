@@ -1,4 +1,4 @@
-# Personal and machine identifiers (user name, host name, home paths, agent public key) were replaced by placeholders in this public copy. Listed files differ from the originals; the original SHA-256 values are those recorded in the effect log and manifests, and the originals are retained by the authors.
+# Files in which machine-specific identifiers were replaced by placeholders, with SHA-256 checksums of the original and the published version.
 # path,original_sha256,public_sha256,replacements
 cfd/exhibit/native_evidence/A025/simpleFoam.log,9f54d07e76a9d1651f2aecc254a63a3d79bc1995885ec01d277e1ebcc738e08c,d79ed6a1431139b13d8ff23f55c03ecbead8e8962dcdfb78fa1fa43ae020a615,3
 cfd/exhibit/native_evidence/D1/simpleFoam.log,6ae9cb7886ea60366f69387da207488cbb2c1988d3cb8b3aa665be16b2e8b868,15a6cb94754d7bc9ddf6fd3ca48a9d2c4a5d2e8b0a5bff6a1b4a3e2163294bd4,4
@@ -63,4 +63,4 @@ cfd/gated_execution/logs/n0012_897-257_a15.00.mapFields.log,e457fb2bbdbf567ee65f
 cfd/gated_execution/logs/n0012_897-257_a15.00.reconstruct.log,5c5785b3f582a1e4c02e91976e1215078fc2de20e1c343921f016c9552439a6b,4292962838f8cb3abf2c4c02fb731fd51a7911a9d5347d562810bfcc3adad5d5,2
 cfd/gated_execution/results/dispositions.json,0ab8661e32c07d5718baff328109703bc0624f30a486f9459617a4e936f49a2c,311a1a136b1e80f70a5ed922e299e4c6e2d176253084117bd69b785a3b57066c,48
 cfd/logs/preregistration.sha256,ff88c142273353c3ca30366898adf7acf420bd1c7ad8b7663cc11d8fe7ee9529,c9be5bec9b1344ae3ffb3dcefb1e49d72dab0e0a5473e427fc03d6d88d13d19b,1
-figures/data/dispositions_gated.json,0ab8661e32c07d5718baff328109703bc0624f30a486f9459617a4e936f49a2c,311a1a136b1e80f70a5ed922e299e4c6e2d176253084117bd69b785a3b57066c,48
+figures/data/gated_execution_dispositions.json,0ab8661e32c07d5718baff328109703bc0624f30a486f9459617a4e936f49a2c,311a1a136b1e80f70a5ed922e299e4c6e2d176253084117bd69b785a3b57066c,48

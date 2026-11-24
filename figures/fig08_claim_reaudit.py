@@ -1,6 +1,6 @@
 """Figure 8: claim-level audit of the engineering-agent studies.
 
-Usage: python make_fig08_claim_reaudit.py [summary.json]   (default: human_reaudit_summary.json, Online Resource 2)"""
+Usage: python fig08_claim_reaudit.py [summary.json]   (default: claim_audit_summary.json, Online Resource 2)"""
 import json
 import os
 import sys
@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from figstyle import BLUE, G3, K, MM, VERM, W, panel, save
 
 here = os.path.dirname(os.path.abspath(__file__))
-src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(here, "data", "human_reaudit_summary.json")
+src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(here, "data", "claim_audit_summary.json")
 d = json.load(open(src))["all"]
 fig = plt.figure(figsize=(W * MM, 92 * MM))
 gs = fig.add_gridspec(2, 2, width_ratios=[1.0, 1.25], height_ratios=[1.0, 1.0], wspace=0.95, hspace=0.45,

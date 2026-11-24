@@ -39,7 +39,7 @@ box(rx,id_y,rw,id_h,fc=T_ORANGE,lines=[("Before screening",B),
     ("Other reasons (n = 0)",S)])
 arrow((mx+mw,id_y+id_h/2),(rx,id_y+id_h/2))
 sc_y,sc_h=115,21
-box(mx,sc_y,mw,sc_h,fc=T_BLUE,lines=[("Records screened by authors",B),("(n = 1,292)",B),("S1/S2 family 919 · targeted S3 373",S),("title, abstract and keywords",S)])
+box(mx,sc_y,mw,sc_h,fc=T_BLUE,lines=[("Records screened by authors",B),("(n = 1,292)",B),("S1/S2 family 919 · targeted S3 373",S),("title, abstract, and keywords",S)])
 box(rx,sc_y+2,rw,sc_h-4,fc=T_ORANGE,lines=[("Records excluded by authors",B),("(n = 988)",S)])
 arrow((mx+mw,sc_y+sc_h/2),(rx,sc_y+sc_h/2))
 arrow((mc,id_y),(mc,sc_y+sc_h))

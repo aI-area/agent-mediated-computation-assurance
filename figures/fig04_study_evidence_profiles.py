@@ -3,7 +3,7 @@
 (a) How each item is reported; (b) which items the studies report together (explicit or implicit content).
 The per-study codes are tabulated in Supplementary Table S9.3 (supp_tables/tab_S9.3.tex, written by this script).
 
-Usage: python make_fig04_study_evidence_profiles.py [study_matrix.csv] [reference_numbers.csv] [table_out.tex]"""
+Usage: python fig04_study_evidence_profiles.py [study_matrix.csv] [reference_numbers.csv] [table_out.tex]"""
 import csv
 import os
 import sys

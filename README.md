@@ -19,7 +19,7 @@ python reproduce.py
 |---|---|---|
 | 1 | Recomputes the screening agreement, recall estimates, release counts with Clopper–Pearson intervals, obligation dispositions, ETF and tier counts, release-rule sensitivity and the comparison with the automated coding | Sections 2 and 6, Tables 15–17 |
 | 2 | Checks the SHA-256 hashes of the frozen preregistration, reference values and data, analysis and set-up scripts and case template | Section 7.1 |
-| 3 | Verifies the links of the hash-chained authorization effect log (27 records); see *Redaction* | Section 7.2, Equation (15) |
+| 3 | Verifies the links of the hash-chained authorization effect log (27 records) | Section 7.2, Equation (15) |
 | 4 | Applies the frozen acceptance rules to the force histories of the gated execution and compares the dispositions and uncertainties with the recorded ones and with the first execution | Section 7.3, Tables 20–21 |
 | 5 | Regenerates Figures 1–10 and Supplementary Figure S1 | — |
 
@@ -74,21 +74,11 @@ python cfd/tools/analyse_runs.py <runs directory> --out results
 
 The gated execution used 6–16 cores for about eleven hours. Field directories, solver logs and residual histories of the full matrix are not in this repository because of their size; they are in the archived deposit (see below).
 
-The files under `cfd/` that are covered by `logs/preregistration.sha256` and by `gate/protected_manifest.json` are kept byte for byte as frozen, and the execution records (runners, solver and pipeline logs, dispositions with evidence hashes, effect log) as they were produced. They retain their working identifiers; machine-specific paths are replaced by placeholders (see *Redaction*).
+The files under `cfd/` that are covered by `logs/preregistration.sha256` and by `gate/protected_manifest.json` are kept byte for byte as frozen, and the execution records (runners, solver and pipeline logs, dispositions with evidence hashes, effect log) as they were produced. Machine-specific identifiers in these records are replaced by placeholders (see *Anonymization of execution records*).
 
-## Redaction
+## Anonymization of execution records
 
-Personal and machine identifiers in the execution records (user name, host name, home-directory paths and the agent's
-public SSH key) are replaced by placeholders such as `/path/to/project`, `user` and `host`. `redaction_manifest.csv` lists
-every changed file with the SHA-256 of the original and of the public copy. The 20 preregistered files contain no such
-identifiers and match their recorded hashes unchanged. In the effect log only the `host` and `user` fields changed: the
-links between records verify as published, and each record hash verifies when the two original values are supplied:
-
-```bash
-python cfd/gate/verify_effect_log.py cfd/gate/effects.jsonl --restore host=<host name> --restore user=<user name>
-```
-
-The original records are retained by the authors.
+Machine-specific identifiers in the execution records are replaced by generic placeholders such as `/path/to/project`, `user`, and `host`. The modified files are listed in `redaction_manifest.csv` with the SHA-256 checksums of the original and the published version. The preregistered files are not affected and match their recorded checksums, and the links of the authorization effect log verify as published. The original records are available from the corresponding author on reasonable request.
 
 ## Data not redistributed
 

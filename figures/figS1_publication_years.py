@@ -1,6 +1,6 @@
 """Supplementary Figure S1: publication years of the 237 included studies.
 
-Usage: python make_figS1_publication_years.py [extraction_matrix_237.csv]"""
+Usage: python figS1_publication_years.py [extraction_matrix_237.csv]"""
 import csv
 import os
 import sys

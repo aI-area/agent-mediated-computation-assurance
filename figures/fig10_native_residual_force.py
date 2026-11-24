@@ -1,6 +1,6 @@
 """Figure 10: native residual and force histories of the under-resolved NACA 0012 realization (Section 7.4).
 
-Usage: python make_fig10_native_residual_force.py [data_dir]   (default: ./data)"""
+Usage: python fig10_native_residual_force.py [data_dir]   (default: ./data)"""
 import os
 import sys
 
@@ -9,8 +9,8 @@ import numpy as np
 from figstyle import BLUE, G1, G2, K, MM, VERM, W, panel, save
 
 src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-a = np.genfromtxt(f"{src}/data_fig11_A025.csv", delimiter=",", names=True)
-d = np.genfromtxt(f"{src}/data_fig11_D1.csv", delimiter=",", names=True)
+a = np.genfromtxt(f"{src}/residual_force_history_20000_iterations.csv", delimiter=",", names=True)
+d = np.genfromtxt(f"{src}/residual_force_history_5000_iterations.csv", delimiter=",", names=True)
 assert all(np.array_equal(a[f][:5000], d[f]) for f in ("Cd", "Cl", "p"))  # D1 = first 5,000 iterations of A025
 it = a["iteration"]
 w1 = (it > 4000) & (it <= 5000)
