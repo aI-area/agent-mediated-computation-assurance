@@ -51,7 +51,7 @@ check(f"{len(manifest) - 1} frozen files match their recorded SHA-256", not bad)
 step("3  Authorization effect log")
 txt = run(["cfd/gate/verify_effect_log.py", "cfd/gate/effects.jsonl"])
 print("  " + txt.strip())
-check("hash-chain links valid (record hashes need the original host and user values; see README)", "chain links valid: True" in txt)
+check("hash-chain links valid", "chain links valid: True" in txt)
 
 step("4  CFD dispositions from the native force histories")
 run(["cfd/tools/analyse_runs.py", "cfd/gated_execution/runs", "--out", str(OUT / "cfd"), "--refs", "cfd/reference_values.csv"])

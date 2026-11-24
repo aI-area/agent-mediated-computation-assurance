@@ -74,11 +74,7 @@ python cfd/tools/analyse_runs.py <runs directory> --out results
 
 The gated execution used 6–16 cores for about eleven hours. Field directories, solver logs and residual histories of the full matrix are not in this repository because of their size; they are in the archived deposit (see below).
 
-The files under `cfd/` that are covered by `logs/preregistration.sha256` and by `gate/protected_manifest.json` are kept byte for byte as frozen, and the execution records (runners, solver and pipeline logs, dispositions with evidence hashes, effect log) as they were produced. Machine-specific identifiers in these records are replaced by placeholders (see *Anonymization of execution records*).
-
-## Anonymization of execution records
-
-Machine-specific identifiers in the execution records are replaced by generic placeholders such as `/path/to/project`, `user`, and `host`. The modified files are listed in `redaction_manifest.csv` with the SHA-256 checksums of the original and the published version. The preregistered files are not affected and match their recorded checksums, and the links of the authorization effect log verify as published. The original records are available from the corresponding author on reasonable request.
+The files under `cfd/` that are covered by `logs/preregistration.sha256` and by `gate/protected_manifest.json` are kept byte for byte as frozen, and the execution records (runners, solver and pipeline logs, dispositions with evidence hashes, effect log) as they were produced.
 
 ## Data not redistributed
 
