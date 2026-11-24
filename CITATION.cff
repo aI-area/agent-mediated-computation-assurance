@@ -33,7 +33,7 @@ keywords:
   - assurance cases
   - CFD
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Assurance of Agent-Mediated Computational-Engineering Claims: A Critical Review of Specification, Authorization, Verification, Validation, and Evidence Binding"
   authors:
     - family-names: "Hussain"
@@ -54,5 +54,5 @@ preferred-citation:
     - family-names: "Wu"
       given-names: "Hongyan"
       affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
-  journal: "Archives of Computational Methods in Engineering"
+  notes: "Manuscript submitted for publication"
   year: 2026
