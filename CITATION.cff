@@ -12,13 +12,19 @@ authors:
   - family-names: "Abbas"
     given-names: "Junaid"
     affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+  - family-names: "Bangash"
+    given-names: "Yawar Abbas"
+    affiliation: "Department of Smart Computing and Cyber Resilience (DSCCR), Sunway University, Bandar Sunway, Selangor, Malaysia"
+  - family-names: "Ma"
+    given-names: "Zhaorui"
+    affiliation: "School of Computer Science and Artificial Intelligence, Zhengzhou University of Light Industry, Zhengzhou, China"
   - family-names: "Wu"
     given-names: "Hongyan"
     affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
 version: 1.0.0
 doi: 10.5281/zenodo.24461521
 repository-code: "https://github.com/aI-area/agent-mediated-computation-assurance"
-date-released: 2026-11-23
+date-released: 2026-11-24
 license: MIT
 keywords:
   - computational engineering
@@ -39,6 +45,12 @@ preferred-citation:
     - family-names: "Abbas"
       given-names: "Junaid"
       affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
+    - family-names: "Bangash"
+      given-names: "Yawar Abbas"
+      affiliation: "Department of Smart Computing and Cyber Resilience (DSCCR), Sunway University, Bandar Sunway, Selangor, Malaysia"
+    - family-names: "Ma"
+      given-names: "Zhaorui"
+      affiliation: "School of Computer Science and Artificial Intelligence, Zhengzhou University of Light Industry, Zhengzhou, China"
     - family-names: "Wu"
       given-names: "Hongyan"
       affiliation: "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"
