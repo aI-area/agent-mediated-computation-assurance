@@ -3,12 +3,12 @@
   "upload_type": "software",
   "description": "Data, code and computational records for the article 'Assurance of Agent-Mediated Computational-Engineering Claims: A Critical Review of Specification, Authorization, Verification, Validation, and Evidence Binding' (manuscript submitted for publication). Reproduces the literature-review, recall-audit and claim-level-audit results, verifies the preregistration and the hash-chained authorization log of the NACA 0012 case, replays its frozen analysis, and regenerates all figures.",
   "creators": [
-    {"name": "Hussain, Musarat", "affiliation": "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"},
+    {"name": "Hussain, Musarat", "affiliation": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"},
     {"name": "Hussain, Jamil", "affiliation": "Department of Artificial Intelligence and Data Science, Sejong University, Seoul, South Korea"},
-    {"name": "Abbas, Junaid", "affiliation": "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"},
+    {"name": "Abbas, Junaid", "affiliation": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"},
     {"name": "Bangash, Yawar Abbas", "affiliation": "Department of Smart Computing and Cyber Resilience (DSCCR), Sunway University, Bandar Sunway, Selangor, Malaysia"},
     {"name": "Ma, Zhaorui", "affiliation": "School of Computer Science and Artificial Intelligence, Zhengzhou University of Light Industry, Zhengzhou, China"},
-    {"name": "Wu, Hongyan", "affiliation": "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China"}
+    {"name": "Wu, Hongyan", "affiliation": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China"}
   ],
   "license": "MIT",
   "keywords": ["computational engineering", "verification and validation", "LLM agents", "assurance cases", "CFD", "reproducibility"],
