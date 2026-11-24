@@ -1,4 +1,4 @@
-"""Figure 6: workflow of an agent-mediated computation, the five assurance obligations and the release decision (schematic)."""
+"""Figure 7: workflow of an agent-mediated computation, the five assurance obligations and the release decision (schematic)."""
 from figstyle import BLUE, G1, K, T_BLUE, T_GREEN, T_GREY, T_ORANGE, arrow, box, canvas, save, text
 
 H = 86
@@ -49,4 +49,4 @@ box(ax, L, yd, R - L, hd, fc=T_GREEN, lw=0.9)
 text(ax, (L + R) / 2, yd + hd - 4.2, "Release decision (non-compensatory)", size=8, weight="bold", ha="center")
 text(ax, (L + R) / 2, yd + hd - 9.0, "RELEASED only if every required obligation is SUPPORTED", size=7, ha="center")
 text(ax, (L + R) / 2, yd + hd - 13.0, "otherwise WITHHELD, with the reason kept as REFUTED or UNRESOLVED", size=7, ha="center")
-save(fig, "fig06_assurance_chain")
+save(fig, "fig07_assurance_chain")

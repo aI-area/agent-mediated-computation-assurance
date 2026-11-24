@@ -1,4 +1,4 @@
-"""Figure 7: evidence sequence for numerical verification of a quantity of interest (schematic)."""
+"""Figure 8: evidence sequence for numerical verification of a quantity of interest (schematic)."""
 from figstyle import G1, K, T_BLUE, T_GREEN, T_GREY, T_ORANGE, arrow, box, canvas, save, text
 
 H = 113
@@ -44,4 +44,4 @@ arrow(ax, (X + DW / 2, prev), (X + DW / 2, yS + NH))
 text(ax, X + DW / 2 - 1.5, (prev + yS + NH) / 2, "yes", size=6.5, ha="right")
 box(ax, X + DW / 2 - 18, yS, 36, NH, lw=1.0, fc=T_GREEN)
 text(ax, X + DW / 2, yS + NH / 2, "N SUPPORTED", size=7.5, weight="bold", ha="center")
-save(fig, "fig07_numerical_evidence_sequence")
+save(fig, "fig08_numerical_evidence_sequence")

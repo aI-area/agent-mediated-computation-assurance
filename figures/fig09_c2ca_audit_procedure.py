@@ -1,4 +1,4 @@
-"""Figure 8: Claim-to-Computation Audit procedure (schematic)."""
+"""Figure 9: Claim-to-Computation Audit procedure (schematic)."""
 from figstyle import G1, K, T_BLUE, T_GREEN, T_GREY, T_ORANGE, arrow, box, canvas, save, text
 
 H = 92
@@ -51,4 +51,4 @@ for x0, rows in ((L, rows5), (L + HW + GAP, rows6)):
         text(ax, x0 + 21, yy, b)
 for x in (L + HW / 2, L + HW + GAP + HW / 2):
     arrow(ax, (x, y3), (x, y4 + h4))
-save(fig, "fig08_c2ca_audit_procedure")
+save(fig, "fig09_c2ca_audit_procedure")

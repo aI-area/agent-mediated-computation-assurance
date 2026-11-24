@@ -1,6 +1,6 @@
-"""Figure 10: grid convergence and comparison with Ladson's data for the gated NACA 0012 execution.
+"""Figure 11: grid convergence and comparison with Ladson's data for the gated NACA 0012 execution.
 
-Usage: python fig10_naca0012_tmr.py [dispositions.json] [CLCD_Ladson_expdata.dat]
+Usage: python fig11_naca0012_tmr.py [dispositions.json] [CLCD_Ladson_expdata.dat]
 Defaults: the gated-execution dispositions and the Ladson file of the CFD artifacts (Online Resource 3)."""
 import json
 import os
@@ -56,4 +56,4 @@ h_, l_ = ax[1].get_legend_handles_labels()
 fig.legend(h_, l_, loc="upper center", bbox_to_anchor=(0.66, -0.10), ncol=3, fontsize=6.5, handletextpad=0.3, columnspacing=1.2)
 for P, s in zip(ax, "abc"):
     panel(P, f"({s})", x=-0.30, y=1.0)
-save(fig, "fig10_naca0012_tmr")
+save(fig, "fig11_naca0012_tmr")

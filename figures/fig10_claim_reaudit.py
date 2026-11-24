@@ -1,6 +1,6 @@
-"""Figure 9: claim-level audit of the engineering-agent studies.
+"""Figure 10: claim-level audit of the engineering-agent studies.
 
-Usage: python fig09_claim_reaudit.py [summary.json]   (default: claim_audit_summary.json, Online Resource 2)"""
+Usage: python fig10_claim_reaudit.py [summary.json]   (default: claim_audit_summary.json, Online Resource 2)"""
 import json
 import os
 import sys
@@ -74,4 +74,4 @@ b.set_xticks([0, 25, 50, 75, 100])
 b.set_xlabel("Studies reporting the item (%)")
 b.tick_params(axis="y", length=0)
 panel(b, "(b)", x=-0.06, y=1.005)
-save(fig, "fig09_claim_reaudit")
+save(fig, "fig10_claim_reaudit")

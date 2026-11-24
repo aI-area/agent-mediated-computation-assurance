@@ -1,4 +1,4 @@
-"""Figure 4: representative computational-assurance workflows (Section 3.3, schematic)."""
+"""Figure 5: representative computational-assurance workflows (Section 3.3, schematic)."""
 from figstyle import K, T_BLUE, T_GREEN, T_GREY, W, arrow, box, canvas, save, text
 
 H = 66
@@ -56,4 +56,4 @@ for s in (1, -1):
     arrow(ax, (cols[1] + CW, yc + s * off), (cols[2], yc + s * 1.8))
 arrow(ax, (cols[2] + CW, yc), (cols[3], yc))
 
-save(fig, "fig04_assurance_workflows")
+save(fig, "fig05_assurance_workflows")

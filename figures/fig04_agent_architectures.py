@@ -1,4 +1,4 @@
-"""Figure 3: representative engineering-agent architectures, the object each agent changes, and its feedback (Section 3.1, schematic)."""
+"""Figure 4: representative engineering-agent architectures, the object each agent changes, and its feedback (Section 3.1, schematic)."""
 from figstyle import BLUE, K, T_BLUE, T_GREY, T_ORANGE, W, arrow, box, canvas, save, text
 
 H = 84
@@ -52,4 +52,4 @@ text(ax, 48, 72.7, "feedback that guides the next action", size=6.4, ha="left", 
 box(ax, 91, 71.2, 4, 3, fc="white", ls="--")
 text(ax, 96.1, 72.7, "not tested by that feedback", size=6.4, ha="left")
 
-save(fig, "fig03_agent_architectures")
+save(fig, "fig04_agent_architectures")
