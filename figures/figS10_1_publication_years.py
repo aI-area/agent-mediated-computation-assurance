@@ -1,6 +1,6 @@
-"""Supplementary Figure S1: publication years of the 237 included studies.
+"""Supplementary Figure S10.1: publication years of the 237 included studies.
 
-Usage: python figS1_publication_years.py [extraction_matrix_237.csv]"""
+Usage: python figS10_1_publication_years.py [extraction_matrix_237.csv]"""
 import csv
 import os
 import sys
@@ -33,4 +33,4 @@ b.set(xticks=x, xticklabels=["2024", "2025", "2026*", "2027†"], ylim=(0, 150),
 b.legend(loc="upper left", handlelength=1.0, fontsize=6.5)
 for ax_, p in ((a, "(a)"), (b, "(b)")):
     panel(ax_, p, x=-0.06, y=1.02)
-save(fig, "figS1_publication_years")
+save(fig, "figS10_1_publication_years")

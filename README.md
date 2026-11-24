@@ -17,11 +17,11 @@ python reproduce.py
 
 | Step | What it does | Article |
 |---|---|---|
-| 1 | Recomputes the screening agreement, recall estimates, release counts with Clopper–Pearson intervals, obligation dispositions, ETF and tier counts, release-rule sensitivity and the comparison with the automated coding | Sections 2 and 6, Tables 15–17 |
+| 1 | Recomputes the screening agreement, recall estimates, release counts with Clopper–Pearson intervals, obligation dispositions, ETF and tier counts, release-rule sensitivity and the comparison with the automated coding | Sections 2 and 6, Tables 14–16; Supplementary Section S15 |
 | 2 | Checks the SHA-256 hashes of the frozen preregistration, reference values and data, analysis and set-up scripts and case template | Section 7.1 |
-| 3 | Verifies the links of the hash-chained authorization effect log (27 records) | Section 7.2, Equation (15) |
-| 4 | Applies the frozen acceptance rules to the force histories of the gated execution and compares the dispositions and uncertainties with the recorded ones and with the first execution | Section 7.3, Tables 20–21 |
-| 5 | Regenerates Figures 1–10 and Supplementary Figure S1 | — |
+| 3 | Verifies the links of the hash-chained authorization effect log (27 records) | Section 7.2, Equation (14) |
+| 4 | Applies the frozen acceptance rules to the force histories of the gated execution and compares the dispositions and uncertainties with the recorded ones and with the first execution | Section 7.3, Tables 19–20 |
+| 5 | Regenerates Figures 1–10 and Supplementary Figures S1.1 and S10.1 | — |
 
 Python 3.9 or later. Step 5 uses Arial or Liberation Sans; with another font, line breaks in the schematic figures may shift.
 

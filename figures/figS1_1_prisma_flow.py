@@ -1,3 +1,4 @@
+"""Supplementary Figure S1.1: PRISMA 2020 flow diagram of the literature selection."""
 import os
 OUT=os.environ.get("FIG_OUT",os.path.join(os.path.dirname(os.path.abspath(__file__)),"output"))
 os.makedirs(OUT,exist_ok=True)
@@ -73,4 +74,4 @@ for patch,text in contained:
     outer,inner=patch.get_window_extent(renderer),text.get_window_extent(renderer)
     assert inner.x0>=outer.x0 and inner.x1<=outer.x1 and inner.y0>=outer.y0 and inner.y1<=outer.y1,text.get_text()
 for ext,kw in (("pdf",{}),("png",{"dpi":220})):
-    fig.savefig(f"{os.environ.get('FIG_PREVIEW',OUT) if ext=='png' else OUT}/fig02_prisma_flow.{ext}",facecolor="white",bbox_inches="tight",pad_inches=0.02,**kw)
+    fig.savefig(f"{os.environ.get('FIG_PREVIEW',OUT) if ext=='png' else OUT}/figS1_1_prisma_flow.{ext}",facecolor="white",bbox_inches="tight",pad_inches=0.02,**kw)

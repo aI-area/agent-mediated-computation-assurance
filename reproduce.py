@@ -72,7 +72,7 @@ if "--skip-figures" not in sys.argv:
     for f in sorted((ROOT / "figures").glob("fig*_*.py")):
         run([f.name], cwd=ROOT / "figures", env=env)
     n = len(list((OUT / "figures").glob("*.pdf")))
-    check(f"{n} figures written to out/figures", n == 11)
+    check(f"{n} figures written to out/figures", n == 12)
 
 print("\nSummary: " + ("all checks passed" if all(c for _, c in ok) else "FAILED: " + ", ".join(n for n, c in ok if not c)))
 sys.exit(0 if all(c for _, c in ok) else 1)

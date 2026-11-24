@@ -1,4 +1,4 @@
-"""Figure 3: obligation relevance by literature stream (counts from the extraction matrix, Online Resource 2)."""
+"""Figure 2: obligation relevance by literature stream (counts from the extraction matrix, Online Resource 2)."""
 import matplotlib.pyplot as plt
 import numpy as np
 from figstyle import MM, W, K, save
@@ -44,4 +44,4 @@ cb = fig.colorbar(sm, cax=cax)
 cb.set_label("Explicit share (%)", fontsize=7)
 cb.ax.tick_params(labelsize=6.5, width=0.6, length=2)
 cb.outline.set_linewidth(0.6)
-save(fig, "fig03_stream_obligation_coverage")
+save(fig, "fig02_stream_obligation_coverage")
