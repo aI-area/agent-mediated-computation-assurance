@@ -49,7 +49,20 @@ cfd/
                    of the frozen procedure, without the gate (3 Nov 2026)
   exhibit/         native logs and force histories of the under-resolved realization of Section 7.4
 figures/           figure programs (shared style in figstyle.py) and their input data
+supplement/        Online Resource 1 of the article (supplementary text, tables and figures, PDF)
 ```
+
+## Online Resources of the article
+
+The electronic supplementary material submitted with the article corresponds to this repository as follows.
+
+| Online Resource | Content | Location in this repository |
+|---|---|---|
+| 1 | Supplementary text, tables and figures | `supplement/Online_Resource_1_supplement.pdf` |
+| 2 | Data of the literature review, the recall audit and the claim-level audit | `review/` |
+| 3 | Code and records of the NACA 0012 case, and the figure programs | `cfd/`, `figures/` |
+
+The supplementary PDF is the version submitted for peer review and may be revised during review.
 
 ## Running the CFD case
 
