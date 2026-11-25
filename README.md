@@ -2,7 +2,7 @@
 
 This repository contains the data, code and computational records behind the article
 
-> M. Hussain, J. Hussain, J. Abbas, Y. A. Bangash, Z. Ma, H. Wu, *Assurance of Agent-Mediated Computational-Engineering Claims: A Critical Review of Specification, Authorization, Verification, Validation, and Evidence Binding*, manuscript submitted for publication.
+> M. Hussain, J. Hussain, Y. A. Bangash, J. Abbas, Z. Ma, H. Wu, *Assurance of Agent-Mediated Computational-Engineering Claims: A Critical Review of Specification, Authorization, Verification, Validation, and Evidence Binding*, manuscript submitted for publication.
 
 It reproduces every number reported for the literature review, the recall audit and the claim-level audit; it verifies the preregistration and the authorization record of the NACA 0012 case; it replays the frozen analysis of that case from its native force histories; and it regenerates all figures.
 
